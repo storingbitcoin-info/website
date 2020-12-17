@@ -16,21 +16,21 @@
     <div class="reveal">
       <div class="slides">
         <section id="havebtc"><!-- HAVEBTC -->
-          <section id="firstslide"> <!-- INDEX -->
-            <h2 data-i18n="header">StoringBitcoin.info</h1>
+          <section id="start"> <!-- START -->
+            <h2 data-i18n="header">StoringBitcoin.info</h2>
             <p data-i18n="sub">This site will help you decide how to store your bitcoin.</p>
             <p class="question" data-i18n="havebtc">Do you have bitcoin?</p>
             <p class="button">
               <a href="#/nobtc" data-i18n="no">No, not yet</a>
-              <a href="#/havebtc" data-i18n="yes">Yeah!</a>
+              <a href="#/ihavebtc" data-i18n="yes">Yeah!</a>
             </p>
             <div class="langchooser flags">
               <label> <input type="radio" name="langradios" value="en" checked><img src="assets/img/en.png"> </label>
               <label> <input type="radio" name="langradios" value="nl"><img src="assets/img/fr.png" style="transform: rotate(-90deg)"> </label>
             </div>
-          </section>                 <!-- /INDEX -->
+          </section>            <!-- /START -->
 
-          <section id="havebtc">
+          <section id="ihavebtc">
             <p class="intro"      data-i18n="intro">That is great! Welcome fellow bitcoiner! </p>
             <p class="question"   data-i18n="question">How do you store your bitcoin now?</p>
             <ul class="button">
@@ -63,8 +63,8 @@
             <p class="warning"    data-i18n="warn" >Exchanges can get hacked. Your account can get hacked. Exchanges can go bankrupt and disappear.</p>
             <p class="question"   data-i18n="question">Do you accept this risk?</p>
             <ul class="button">
-              <li><a href="#/store-exchange" data-i18n="yes">Yes I accept this risk</a></li>
-              <li><a href="#/amount"         data-i18n="no" >That does not sound good, tell me what to do!</a></li>
+              <li><a href="#/storeexchange" data-i18n="yes">Yes I accept this risk</a></li>
+              <li><a href="#/amount"        data-i18n="no" >That does not sound good, tell me what to do!</a></li>
             </ul>
           </section>
 
@@ -78,7 +78,7 @@
             </ul>
           </section>
 
-
+         <!--
           <section id="XXX">
             <p class="intro"      data-i18n="intro">XXX</p>
             <p class="warning"    data-i18n="warn" >YYY</p>
@@ -88,10 +88,22 @@
               <li><a href="#/XXX" data-i18n="no" >YYY</a></li>
             </ul>
           </section>
-
-
+          -->
 
         </section><!-- /HAVEBTC -->
+
+
+        <section id="storeexchange"><!-- STOREEXCHANGE -->
+          <p class="intro"      data-i18n="intro">You will keep your bitcoin on an exchange</p>
+          <p class="warning"    data-i18n="warn" >Accounts without 2FA are insecure. Enable 2FA!</p>
+          <p class="question"   data-i18n="question">That's it! You will keep your bitcoin at a third party</p>
+          <ul class="button">
+            <li><a href="#/amount" data-i18n="reconsider">Actually. I might not like that after all</a></li>
+            <li><a href="#/start" data-i18n="start">Great! (start again)</a></li>
+          </ul>
+        </section><!-- /STOREEXCHANGE -->
+
+
       </div>
     </div>
 
