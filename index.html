@@ -1,66 +1,123 @@
 <!doctype html>
 <html>
-        <head>
-                <meta charset="utf-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-                <title>Storing Bitcoin</title>
+    <title>Storing Bitcoin</title>
 
-                <link rel="stylesheet" href="assets/reset.css">
-                <link rel="stylesheet" href="assets/reveal.css">
-                <link rel="stylesheet" href="assets/theme/bitcoin.css" id="theme">
-                <link rel="stylesheet" href="assets/site.css">
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/reveal.css">
+    <link rel="stylesheet" href="assets/theme/bitcoin.css" id="theme">
+    <link rel="stylesheet" href="assets/site.css">
 
-                <!-- Theme used for syntax highlighted code -->
-                <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
-        </head>
-        <body>
-                <div class="reveal">
-                        <div class="slides">
-                                <section id="havebtc">
-                                        <section id="firstslide"> <!-- INDEX -->
-                                                <h1 data-i18n="welcome">Welcome</h1>
-                                                <p data-i18n="sub">This site will help you decide how to store your bitcoin</p>
-                                                <p class="question" data-i18n="havebtc">Do you have bitcoin?</p>
-                                                <p class="button">
-                                                        <a href="#/s2" data-i18n="yes">Yes</a>
-                                                        <a href="#/s3" data-i18n="no">No</a>
-                                                </p>
-                                                <div class="langchooser flags">
-                                                        <label> <input type="radio" name="langradios" value="en" checked><img src="assets/img/en.png"> </label>
-                                                        <label> <input type="radio" name="langradios" value="nl"><img src="assets/img/fr.png" style="transform: rotate(-90deg)"> </label>
-                                                    </div>
-                                        </section>
-                                        <section id="s2">Cool</section>
-                                        <section id="s3">Buy</section>
-                                </section>
-                        </div>
-                </div>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section id="havebtc"><!-- HAVEBTC -->
+          <section id="firstslide"> <!-- INDEX -->
+            <h2 data-i18n="header">StoringBitcoin.info</h1>
+            <p data-i18n="sub">This site will help you decide how to store your bitcoin.</p>
+            <p class="question" data-i18n="havebtc">Do you have bitcoin?</p>
+            <p class="button">
+              <a href="#/nobtc" data-i18n="no">No, not yet</a>
+              <a href="#/havebtc" data-i18n="yes">Yeah!</a>
+            </p>
+            <div class="langchooser flags">
+              <label> <input type="radio" name="langradios" value="en" checked><img src="assets/img/en.png"> </label>
+              <label> <input type="radio" name="langradios" value="nl"><img src="assets/img/fr.png" style="transform: rotate(-90deg)"> </label>
+            </div>
+          </section>                 <!-- /INDEX -->
 
-                <script src="assets/reveal.js"></script>
-                <script src="assets/plugin/notes/notes.js"></script>
-                <script src="assets/plugin/markdown/markdown.js"></script>
-                <script src="assets/plugin/highlight/highlight.js"></script>
-                <script src="assets/plugin/Internation/internation.js"></script>
-                <script>
+          <section id="havebtc">
+            <p class="intro"      data-i18n="intro">That is great! Welcome fellow bitcoiner! </p>
+            <p class="question"   data-i18n="question">How do you store your bitcoin now?</p>
+            <ul class="button">
+              <li><a href="#/exchange" data-i18n="exchange">At the exchange where I bought them</a></li>
+              <li><a href="#/hardwarewallet" data-i18n="hardwarewallet">I use a hardware wallet</a></li>
+              <li><a href="#/softwarewallet" data-i18n="softwarewallet">I use software to store them (on phone or computer)</a></li>
+            </ul>
+          </section>
 
-                        Reveal.initialize({
-                                controls: false,
-                                hash: true,
-                                progress: false,
-                                controlsBackArrows: 'visible',
+
+          <section id="nobtc">
+            <p class="intro"      data-i18n="intro">Ah, a precoiner! Before you buy any bitcoin, make sure you understand bitcoin. And never buy for more money than you can lose.</p>
+            <p class="question"   data-i18n="question">How do you want to buy bitcoin?</p>
+            <ul class="button">
+              <li><a href="#/spot"     data-i18n="spot">Simple using a spot site</a></li>
+              <li><a href="#/exchange" data-i18n="exchange">Advanced using an exchange</a></li>
+            </ul>
+          </section>
+
+          <section id="spot">
+            <p class="intro"      data-i18n="intro">Spot sites allow you to simply buy bitcoin. You say how many you want (or how much you want to spend).</p>
+            <p class="question"   data-i18n="question">After buying you need to put the bitcoin on a wallet</p>
+            <p class="button">
+              <a href="#/amount"  data-i18n="next">Start choosing a wallet</a>
+            </p>
+          </section>
+
+          <section id="exchange">
+            <p class="intro"      data-i18n="intro">Exchanges are a great way to buy bitcoin. You can use market orders, or do more advanced orders there. After buying, your bitcoin remain on the exchange.</p>
+            <p class="warning"    data-i18n="warn" >Exchanges can get hacked. Your account can get hacked. Exchanges can go bankrupt and disappear.</p>
+            <p class="question"   data-i18n="question">Do you accept this risk?</p>
+            <ul class="button">
+              <li><a href="#/store-exchange" data-i18n="yes">Yes I accept this risk</a></li>
+              <li><a href="#/amount"         data-i18n="no" >That does not sound good, tell me what to do!</a></li>
+            </ul>
+          </section>
+
+
+          <section id="amount">
+            <p class="intro"      data-i18n="intro">You should store bitcoin yourself. This is nice. We call this the self-custody model.</p>
+            <p class="question"   data-i18n="question">Is this a large amount? (or: is it a terrible loss if you lose this money?)</p>
+            <ul class="button">
+              <li><a href="#/softwarewallet" data-i18n="low" >No, it's a low amount. I do need the highest level of security.</a></li>
+              <li><a href="#/hardwarewallet" data-i18n="high">Yes / I want a secure solution</a></li>
+            </ul>
+          </section>
+
+
+          <section id="XXX">
+            <p class="intro"      data-i18n="intro">XXX</p>
+            <p class="warning"    data-i18n="warn" >YYY</p>
+            <p class="question"   data-i18n="question">XXX?</p>
+            <ul class="button">
+              <li><a href="#/XXX" data-i18n="yes">XXX</a></li>
+              <li><a href="#/XXX" data-i18n="no" >YYY</a></li>
+            </ul>
+          </section>
+
+
+
+        </section><!-- /HAVEBTC -->
+      </div>
+    </div>
+
+    <script src="assets/reveal.js"></script>
+    <script src="assets/plugin/notes/notes.js"></script>
+    <script src="assets/plugin/markdown/markdown.js"></script>
+    <script src="assets/plugin/Internation/internation.js"></script>
+    <script>
+
+      Reveal.initialize({
+        controls: false,
+        hash: true,
+        progress: false,
+        controlsBackArrows: 'visible',
 internation: {
-                switchselector: ".langchooser",
-                languages: {
-                    nl: {
-                        name: "Nederlands",
-                        dictionary: "languages/nl.json"
-                    },
-                }
-            },
+    switchselector: ".langchooser",
+    languages: {
+      nl: {
+      name: "Nederlands",
+      dictionary: "languages/nl.json"
+      },
+    }
+    },
 
-                                plugins: [ RevealMarkdown, RevealNotes, Internation ]
-                        });
-                </script>
-        </body>
+        plugins: [ RevealMarkdown, RevealNotes, Internation ]
+      });
+    </script>
+  </body>
 </html>
