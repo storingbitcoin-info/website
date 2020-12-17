@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Storing Bitcoin</title>
+
+		<link rel="stylesheet" href="assets/reset.css">
+		<link rel="stylesheet" href="assets/reveal.css">
+		<link rel="stylesheet" href="assets/theme/bitcoin.css" id="theme">
+		<link rel="stylesheet" href="assets/site.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section id="havebtc">
+					<section id="firstslide"> <!-- INDEX -->
+						<h1 data-i18n="welcome">Welcome</h1>
+						<p data-i18n="sub">This site will help you decide how to store your bitcoin</p>
+						<p class="question" data-i18n="havebtc">Do you have bitcoin?</p>
+						<p class="button">
+							<a href="#/s2" data-i18n="yes">Yes</a>
+							<a href="#/s3" data-i18n="no">No</a>
+						</p>
+                                                <div class="langchooser flags">
+                                                        <label> <input type="radio" name="langradios" value="en" checked><img src="assets/img/en.png"> </label>
+                                                        <!--<label> <input type="radio" name="langradios" value="fr"><img src="img/fr.png"> </label>-->
+                                                        <!--<label> <input type="radio" name="langradios" value="se"><img src="img/se.png"> </label>-->
+                                                        <!--<label> <input type="radio" name="langradios" value="cn"><img src="img/cn.png"> </label>-->
+                                                        <label> <input type="radio" name="langradios" value="nl"><img src="assets/img/fr.png" style="transform: rotate(-90deg)"> </label>
+                                                    </div>
+					</section>
+					<section id="s2">Cool</section>
+					<section id="s3">Buy</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="assets/reveal.js"></script>
+		<script src="assets/plugin/notes/notes.js"></script>
+		<script src="assets/plugin/markdown/markdown.js"></script>
+		<script src="assets/plugin/highlight/highlight.js"></script>
+		<script src="assets/plugin/Internation/internation.js"></script>
+		<script>
+
+			Reveal.initialize({
+				controls: false,
+				hash: true,
+				progress: false,
+				controlsBackArrows: 'visible',
+internation: {
+                switchselector: ".langchooser",
+                languages: {
+                    nl: {
+                        name: "Nederlands",
+                        dictionary: "languages/nl.json"
+                    },
+                }
+            },
+
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, Internation ]
+			});
+		</script>
+	</body>
+</html>
