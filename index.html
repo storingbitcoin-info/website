@@ -20,10 +20,10 @@
             <h2 data-i18n="header">StoringBitcoin.info</h2>
             <p data-i18n="sub">This site will help you decide how to store your bitcoin.</p>
             <p class="question" data-i18n="havebtc">Do you have bitcoin?</p>
-            <p class="button">
-              <a href="#/nobtc" data-i18n="no">No, not yet</a>
-              <a href="#/ihavebtc" data-i18n="yes">Yeah!</a>
-            </p>
+            <ul class="button">
+              <li><a href="#/nobtc" data-i18n="no">No, not yet</a></li>
+              <li><a href="#/ihavebtc" data-i18n="yes">Yeah!</a></li>
+            </ul>
             <div class="langchooser flags">
               <label> <input type="radio" name="langradios" value="en" checked><img src="assets/img/en.png"> </label>
               <label> <input type="radio" name="langradios" value="nl"><img src="assets/img/fr.png" style="transform: rotate(-90deg)"> </label>
@@ -42,10 +42,12 @@
 
 
           <section id="nobtc">
-            <p class="intro"      data-i18n="intro">Ah, a precoiner! Before you buy any bitcoin, make sure you understand bitcoin. And never buy for more money than you can lose.</p>
+            <p class="intro"      data-i18n="intro">Ah, a precoiner! Before you buy any bitcoin, make sure you understand bitcoin.</p>
+            <p class="warning"    data-i18n="warning">Never buy for more money than you can lose.</p>
             <p class="question"   data-i18n="question">How do you want to buy bitcoin?</p>
             <ul class="button">
               <li><a href="#/spot"     data-i18n="spot">Simple using a spot site</a></li>
+              <li><a href="#/amount"   data-i18n="friends">I will buy from friends or using a peer to peer platform</a></li>
               <li><a href="#/exchange" data-i18n="exchange">Advanced using an exchange</a></li>
             </ul>
           </section>
@@ -54,7 +56,9 @@
             <p class="intro"      data-i18n="intro">Spot sites allow you to simply buy bitcoin. You say how many you want (or how much you want to spend).</p>
             <p class="question"   data-i18n="question">After buying you need to put the bitcoin on a wallet</p>
             <p class="button">
-              <a href="#/amount"  data-i18n="next">Start choosing a wallet</a>
+            <ul class="button">
+              <li><a href="#/amount"  data-i18n="next">Start choosing a wallet</a></li>
+            </ul>
             </p>
           </section>
 
@@ -94,9 +98,9 @@
 
         <section id="software"><!-- SOFTWARE -->
           <section id="softwarewallet">
-            <p class="intro"      data-i18n="intro">It's okay to store low amounts of bitcoin on mobile wallets. They allow you to spend quickly and on the road, which is cool.</p>
-            <p class="warning"    data-i18n="warning" >Be aware mobile wallets can get hacked</p>
-            <p class="question"   data-i18n="question">Are you OK with the risk of hacking (and possibly losing these low amount of bitcoin)?</p>
+            <p class="intro"      data-i18n="intro">It's okay to store low amounts of bitcoin on software wallets, on your phone or computer. They allow you to spend quickly and on the road, which is cool.</p>
+            <p class="warning"    data-i18n="warning" >Be aware software wallets can get hacked</p>
+            <p class="question"   data-i18n="question">Are you OK with the risk of hacking, and possibly losing the amount you have on this software wallet?</p>
             <ul class="button">
               <li><a href="#/softwarewallet2" data-i18n="yes">Yes, this is an acceptable risk to me</a></li>
               <li><a href="#/hardwarewallet" data-i18n="no" >No, I want more security</a></li>
@@ -117,7 +121,7 @@
         <section id="hardware"><!-- HARDWARE -->
           <section id="hardwarewallet">
             <p class="intro"      data-i18n="intro">Hardwarewallets are a great way to store secrets! Also there are a lot of choices to be made, and we will help you.</p>
-            <p class="question"   data-i18n="question">Some wallets require you to get transaction info from a 3rd party. Information will probably be right, but you need to trust them. Do you accept this risk?</p>
+            <p class="question"   data-i18n="question">Some wallets require you to get transaction info from a 3rd party. Information will probably be right, but you need to trust them. Also they will get information about your funds. Do you accept this risk?</p>
             <ul class="button">
               <li><a href="#/robbery" data-i18n="yes">That is OK with me, I take the easier option</a></li>
               <li><a href="#/node" data-i18n="no" >That does not sound good at all! I do not want to trust a 3rd party.</a></li>
