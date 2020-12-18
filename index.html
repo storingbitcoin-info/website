@@ -74,11 +74,12 @@
 
 
           <section id="amount">
-            <p class="intro"      data-i18n="intro">You should store bitcoin yourself. This is nice. We call this the self-custody model.</p>
-            <p class="question"   data-i18n="question">Is this a large amount? (or: is it a terrible loss if you lose this money?)</p>
+            <p class="intro"      data-i18n="intro">You need to decide how to store your bitcoin</p>
+            <p class="question"   data-i18n="question">Is this a large amount?</p>
             <ul class="button">
-              <li><a href="#/softwarewallet" data-i18n="low" >No, it's a low amount. I do need the highest level of security.</a></li>
-              <li><a href="#/hardwarewallet" data-i18n="high">Yes / I want a secure solution</a></li>
+              <li><a href="#/softwarewallet" data-i18n="softwarewallet">No, it's a low amount. I do need the highest level of security. Tell me about software wallets.</a></li>
+              <li><a href="#/hardwarewallet" data-i18n="hardwarewallet">Yes, I do not want to lose this bitcoin. Tell me how I can keep these bitcoins secure myself.</a></li>
+              <li><a href="#/custodialparty" data-i18n="custodialparty">Yes, I do not want to lose this bitcoin. Tell me how 3rd parties can help me keeping these bitcoin secure.</a></li>
             </ul>
           </section>
 
@@ -98,11 +99,11 @@
 
         <section id="software"><!-- SOFTWARE -->
           <section id="softwarewallet">
-            <p class="intro"      data-i18n="intro">It's okay to store low amounts of bitcoin on software wallets, on your phone or computer. They allow you to spend quickly and on the road, which is cool.</p>
-            <p class="warning"    data-i18n="warning" >Be aware software wallets can get hacked</p>
-            <p class="question"   data-i18n="question">Are you OK with the risk of hacking, and possibly losing the amount you have on this software wallet?</p>
+            <p class="intro"      data-i18n="intro">Let's look at Software Wallets, which are wallets on your phone or computer.. They are often the easiest way to store (low amounts) of bitcoin. They allow you to spend quickly and on the road, which is cool. Most often 3rd parties are informed of balances belonging to your IP address.</p>
+            <p class="warning"    data-i18n="warning" >Be aware software wallets can get hacked and your info is not always private</p>
+            <p class="question"   data-i18n="question">Are you OK with the risk of losing the amount you have on this software wallet because of hacking, and your data not necessarily being private?</p>
             <ul class="button">
-              <li><a href="#/softwarewallet2" data-i18n="yes">Yes, this is an acceptable risk to me</a></li>
+              <li><a href="#/softwarewallet2" data-i18n="yes">Yes, this is acceptable to me</a></li>
               <li><a href="#/hardwarewallet" data-i18n="no" >No, I want more security</a></li>
             </ul>
           </section>
@@ -120,7 +121,7 @@
 
         <section id="hardware"><!-- HARDWARE -->
           <section id="hardwarewallet">
-            <p class="intro"      data-i18n="intro">Hardwarewallets are a great way to store secrets! Also there are a lot of choices to be made, and we will help you.</p>
+            <p class="intro"      data-i18n="intro">Hardware wallets are a great way to store secrets! Also there are a lot of choices to be made, and we will help you.</p>
             <p class="question"   data-i18n="question">Some wallets require you to get transaction info from a 3rd party. Information will probably be right, but you need to trust them. Also they will get information about your funds. Do you accept this risk?</p>
             <ul class="button">
               <li><a href="#/robbery" data-i18n="yes">That is OK with me, I take the easier option</a></li>

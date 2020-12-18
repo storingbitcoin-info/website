@@ -12,6 +12,18 @@
   
 }
 
+/* Buttons */
+ul.button{
+  text-align: center;
+  margin-top: 0.5em;
+}
+ul.button li{
+  list-style-type: none;
+  display: block;
+  margin-bottom: 0.4em;
+  text-decoration: underline;
+}
+
 
 /* EXAMPLE MENUBAR */
 .menubar {
