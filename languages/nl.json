@@ -1,18 +1,18 @@
 {
   "slides": {
       "start":{
-         "header":"TRANSLATEME:StoringBitcoin.info</h2>",
-         "sub":"TRANSLATEME:This site will help you decide how to store your bitcoin.",
-         "havebtc":"TRANSLATEME:Do you have bitcoin?",
-         "no":"TRANSLATEME:No, not yet",
-         "yes":"TRANSLATEME:Yeah!"
+         "header":"StoringBitcoin.info</h2>",
+         "sub":"Deze website helpt je een goede manier te vinden om je bitcoins op te slaan.",
+         "havebtc":"Heb je Bitcoin?",
+         "no":"Nee, nog niet",
+         "yes":"Yeah!"
       },
       "ihavebtc":{
-         "intro":"TRANSLATEME:That is great! Welcome fellow bitcoiner! ",
-         "question":"TRANSLATEME:How do you store your bitcoin now?",
-         "exchange":"TRANSLATEME:At the exchange where I bought them",
-         "hardwarewallet":"TRANSLATEME:I use a hardware wallet",
-         "softwarewallet":"TRANSLATEME:I use software to store them (on phone or computer)"
+         "intro":"Super! Welkom mede-bitcoiner!",
+         "question":"Hoe sla je je bitcoins nu op?",
+         "exchange":"Op de exchange waar ik ze kocht",
+         "hardwarewallet":"Ik gebruik een hardware-wallet",
+         "softwarewallet":"Ik gebruik een software-wallet om ze op te slaan (op telefoon of computer)"
       },
       "nobtc":{
          "intro":"TRANSLATEME:Ah, a precoiner! Before you buy any bitcoin, make sure you understand bitcoin.",
