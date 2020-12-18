@@ -1,12 +1,4 @@
-p.button a {
-  margin: 0 1em 0 1em;
-}
-
-p.smaller ul li{
-  font-size:0.5em;
-}
-
-
+/* Different kinds of text blocks */
 .intro{
   font-weight: bold;
 }
