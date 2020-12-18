@@ -33,6 +33,7 @@ ul.button li{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: space-between;
   /*-webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -98,11 +99,19 @@ body:not(.hide-menubar) .reveal.ready .menubar {
     border: 4px solid white; }
 
 /* EXAMPLE DROPDOWN WITH LANGUAGE CHOOSER */
+
+
+.left{
+  line-height: 50px;
+}
 .menubar .dropdown {
   position: relative;
   display: inline-block;
   font-size: 16px;
-  color: #333: }
+  color: #333;
+  line-height: 50px;
+  
+}
 
 .menubar input[type=checkbox] {
   display: none; }
@@ -111,7 +120,6 @@ body:not(.hide-menubar) .reveal.ready .menubar {
   background: none;
   border: 1px solid white;
   border-radius: 6px;
-  padding: .4em 1em;
   cursor: pointer;
   opacity: 0.5; }
   .menubar input[type=checkbox] + label:hover {
