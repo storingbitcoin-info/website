@@ -33,12 +33,12 @@ ul.button li{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
+  /*-webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
+          align-items: center;*/
   background: none;
   padding: 0 3vmin;
   z-index: 2;
