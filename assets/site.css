@@ -1,6 +1,9 @@
 p.button a{
-  margin: 0 1em 0 1em;
-  text-decoration: underline;
+  color: red; 
+}
+
+p.smaller ul li{
+  font-size:0.5em;
 }
 
 
