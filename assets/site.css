@@ -104,6 +104,7 @@ body:not(.hide-menubar) .reveal.ready .menubar {
 .left{
   line-height: 50px;
 }
+
 .menubar .dropdown {
   position: relative;
   display: inline-block;
@@ -188,3 +189,8 @@ body:not(.hide-menubar) .reveal.ready .menubar {
     position: absolute;
     left: 1em; }
 
+
+
+.btc-color{
+  color: #f2a900;
+}
