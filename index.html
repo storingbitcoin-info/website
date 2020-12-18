@@ -14,6 +14,24 @@
   </head>
   <body>
     <div class="reveal">
+      <div class="menubar" id="menubar">
+        <div class="left">
+          <a href="#/start">Start over</a>&nbsp;&nbsp;&nbsp;
+          <a class="navigate-prev">Back 1 step</a>&nbsp;&nbsp;
+        </div>
+        <div class="dropdown right">
+	  <input id="checkbox_toggle" type="checkbox">
+	  <label for="checkbox_toggle" data-i18n="chooselanguage">Choose language</label>
+	  <div class="langchooser">
+	    <label>
+	      <input type="radio" name="menulangradios" value="en" checked><span>English</span>
+	    </label>
+	    <label>
+	      <input type="radio" name="menulangradios" value="nl"><span>Nederlands</span>
+	    </label>
+          </div>
+	</div>
+      </div>
       <div class="slides">
         <section id="havebtc"><!-- HAVEBTC -->
           <section id="start"> <!-- START -->

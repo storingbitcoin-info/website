@@ -33,16 +33,16 @@ ul.button li{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
+  /*-webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
+          align-items: center;*/
   background: none;
   padding: 0 3vmin;
   z-index: 2;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   height: 50px;
   min-height: 50px;
   top: -55px;
@@ -102,7 +102,7 @@ body:not(.hide-menubar) .reveal.ready .menubar {
   position: relative;
   display: inline-block;
   font-size: 16px;
-  color: #FFF; }
+  color: #333: }
 
 .menubar input[type=checkbox] {
   display: none; }
@@ -151,7 +151,7 @@ body:not(.hide-menubar) .reveal.ready .menubar {
   -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
   display: none;
-  background: #1a1626;
+  background: #ddd;
   border: 1px solid white;
   border-radius: 0 0 6px 6px;
   overflow: hidden; }
@@ -170,7 +170,7 @@ body:not(.hide-menubar) .reveal.ready .menubar {
 
 .menubar .langchooser [type=radio]:checked + span {
   pointer-events: none;
-  color: white;
+  color: #222;
   font-weight: bold;
   opacity: 1;
   position: relative; }
