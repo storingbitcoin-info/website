@@ -43,7 +43,7 @@ cat $INPUT | while read line; do
   if echo $line | grep -qE "data-i18n"; then
     # There is something here to be translated
     DATANAME=$( echo $line | grep -oE 'data-i18n="[a-zA-Z0-9]*"' | cut -d '"' -f2 )
-    ENGLISH=$( echo $line | grep -oP 'data-i18n="[a-zA-Z0-9]*"\s*>.*?</[a-z]*>$' | cut -d '>' -f2- | sed 's#</p>##g;s#</a></li>##g;s#"#\\"#g' )
+    ENGLISH=$( echo $line | grep -oP 'data-i18n="[a-zA-Z0-9]*"\s*>.*?</[a-z0-9]*>$' | cut -d '>' -f2- | sed 's#</p>##g;s#</a></li>##g;s#"#\\"#g' )
     if [[ -n "$HEADER" ]]; then 
       echo "$HEADER" >> $OUTPUT
       PRINTEDHEADER=1
