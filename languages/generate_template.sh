@@ -2,9 +2,13 @@
 
 # Takes in $1
 if [[ -n "$1" ]]; then
-  INPUT=$i
+  INPUT=$1
 else
   INPUT=../index.html
+fi
+
+if [[ -n "$2" ]]; then
+  HINT=$2
 fi
 
 OUTPUT=en.json
@@ -51,7 +55,7 @@ cat $INPUT | while read line; do
     else
       echo , >> $OUTPUT
     fi
-    echo -n "         \"$DATANAME\":\"$ENGLISH\"" >> $OUTPUT
+    echo -n "         \"$DATANAME\":\"${HINT}$ENGLISH\"" >> $OUTPUT
   fi
   
   PREVSECTION=$SECTION
