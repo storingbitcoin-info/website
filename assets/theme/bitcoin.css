@@ -142,7 +142,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 
 .reveal {
   font-family: "Lato", sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: normal;
   color: #000; }
 
@@ -393,3 +393,5 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 @media print {
   .backgrounds {
     background-color: #fff; } }
+
+
