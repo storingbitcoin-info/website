@@ -1,209 +1,209 @@
 {
   "slides": {
       "start":{
-         "header":"TRANSLATEME:StoringBitcoin.info</h2>",
-         "sub":"TRANSLATEME:This site will help you decide how to store your bitcoin.",
-         "havebtc":"TRANSLATEME:Do you have bitcoin?",
-         "no":"TRANSLATEME:No, not yet",
-         "yes":"TRANSLATEME:Yeah!"
+         "header":"StoringBitcoin.info</h2>",
+         "sub":"Deze website helpt je een goede manier te vinden om je bitcoins op te slaan.",
+         "havebtc":"Heb je bitcoin?",
+         "no":"Nee, nog niet",
+         "yes":"Yeah!"
       },
       "ihavebtc":{
-         "intro":"TRANSLATEME:That is great! Welcome fellow bitcoiner! ",
-         "question":"TRANSLATEME:How do you store your bitcoin now?",
-         "exchange":"TRANSLATEME:At the exchange where I bought them",
-         "hardwarewallet":"TRANSLATEME:I use a hardware wallet",
-         "softwarewallet":"TRANSLATEME:I use software to store them (on phone or computer)"
+         "intro":"Welkom mede-bitcoiner!",
+         "question":"Hoe sla je je bitcoins nu op?",
+         "exchange":"Op de exchange waar ik ze kocht",
+         "hardwarewallet":"Ik gebruik een hardware-wallet",
+         "softwarewallet":"Ik gebruik een software-wallet om ze op te slaan (op telefoon of computer)"
       },
       "nobtc":{
-         "intro":"TRANSLATEME:Ah, a precoiner! Before you buy any bitcoin, make sure you understand bitcoin.",
-         "warning":"TRANSLATEME:Never buy for more money than you can lose.",
-         "question":"TRANSLATEME:How do you want to buy bitcoin?",
-         "spot":"TRANSLATEME:Simple using a spot site",
-         "friends":"TRANSLATEME:I will buy from friends or using a peer to peer platform",
-         "exchange":"TRANSLATEME:Advanced using an exchange"
+         "intro":"Ah, een precoiner! Voordat je bitcoins koopt, zorg ervoor dat je bitcoin begrijpt.",
+         "warning":"Koop nooit voor meer geld dan je kunt verliezen.",
+         "question":"Hoe wil je bitcoin kopen?",
+         "spot":"Simpel, door een spot-site te gebruiken",
+         "friends":"Ik koop van vrienden of gebruik een peer-to-peer-platform",
+         "exchange":"Geavanceerd door een <em>exchange</em> of handelshuis te gebruiken"
       },
       "spot":{
-         "intro":"TRANSLATEME:Spot sites allow you to simply buy bitcoin. You say how many you want (or how much you want to spend).",
-         "question":"TRANSLATEME:After buying you need to put the bitcoin on a wallet",
-         "next":"TRANSLATEME:Start choosing a wallet"
+         "intro":"Zogenaamde <em>spot</em>-sites laten je simpelweg bitcoin kopen. Je zegt hoeveel bitcoins je wilt of hoeveel euro's je uit wil geven.",
+         "question":"Na het kopen, moet je de bitcoins naar een <em>wallet</em> sturen",
+         "next":"Begin met het kiezen van een wallet."
       },
       "exchange":{
-         "intro":"TRANSLATEME:Exchanges are a great way to buy bitcoin. You can use market orders, or do more advanced orders there. After buying, your bitcoin remain on the exchange.",
-         "warning":"TRANSLATEME:Exchanges can get hacked. Your account can get hacked. Exchanges can go bankrupt and disappear.",
-         "question":"TRANSLATEME:Do you accept this risk?",
-         "yes":"TRANSLATEME:Yes I accept this risk",
-         "no":"TRANSLATEME:That does not sound good, tell me what to do!"
+         "intro":"Exchanges zijn een goede manier om bitcoin te kopen. Je kunt gebruikmaken van marktorders of van meer geavanceerde orders. Na het kopen, blijven je bitcoins op de exchange staan.",
+         "warning":"Exchanges kunnen worden gehackt. Je account kan worden gehackt. Exchanges kunnen failliet gaan en verdwijnen.",
+         "question":"Accepteer je die risico's?",
+         "yes":"Ja, ik accepteer de risico's",
+         "no":"Dat klinkt niet goed, wat moet ik doen!"
       },
       "amount":{
-         "intro":"TRANSLATEME:You need to decide how to store your bitcoin",
-         "question":"TRANSLATEME:Is this a large amount?",
-         "softwarewallet":"TRANSLATEME:No, it's a low amount. I don't need the highest level of security. Tell me about software wallets.",
-         "hardwarewallet":"TRANSLATEME:Yes, I do not want to lose this bitcoin. Tell me how I can keep these bitcoins secure myself.",
-         "custodialparty":"TRANSLATEME:Yes, I do not want to lose this bitcoin. Tell me how 3rd parties can help me keeping these bitcoin secure."
+         "intro":"Je moet besluiten hoe je je bitcoins op wil slaan.",
+         "question":"Is het een grote hoeveelheid?",
+         "softwarewallet":"Nee, het is niet veel. Ik heb geen hoge mate van beveiliging nodig. Vertel me alles over software-wallets.",
+         "hardwarewallet":"Ja, ik wil dit niet verliezen. Vertel me hoe ik zelf deze bitcoins veilig kan opslaan.",
+         "custodialparty":"Ja, ik wil dit niet verliezen. Vertel me hoe een derde partij mij kan helpen mijn bitcoins veilig te houden."
       },
       "storeexchange":{
-         "intro":"TRANSLATEME:You will keep your bitcoin on an exchange",
-         "warning":"TRANSLATEME:Accounts without 2FA are insecure. Enable 2FA!",
-         "question":"TRANSLATEME:That's it! You will keep your bitcoin at a third party",
-         "reconsider":"TRANSLATEME:Actually. I might not like that after all",
-         "theend":"TRANSLATEME:Sure!"
+         "intro":"Je houdt je bitcoins op een exchange",
+         "warning":"Accounts zonder 2FA zijn onveilig. Activeer 2FA.",
+         "question":"Je bent klaar! Een derde partij bewaart je bitcoins.",
+         "reconsider":"Eigenlijk vind ik dat maar niks.",
+         "theend":"Sure!"
       },
       "softwarewallet":{
-         "intro":"TRANSLATEME:Let's look at Software Wallets, which are wallets on your phone or computer.. They are often the easiest way to store (low amounts) of bitcoin. They allow you to spend quickly and on the road, which is cool. Most often 3rd parties are informed of balances belonging to your IP address.",
-         "warning":"TRANSLATEME:Be aware software wallets can get hacked and your info is not always private",
-         "question":"TRANSLATEME:Are you OK with the risk of losing the amount you have on this software wallet because of hacking, and your data not necessarily being private?",
-         "yes":"TRANSLATEME:Yes, this is acceptable to me",
-         "no":"TRANSLATEME:No, I want more security"
+         "intro":"Laten we softwarewallets eens onder de loep nemen. Dat zijn wallets op je telefoon of computer. Dit is vaak de simpelste manier om (kleine hoeveelheden) bitcoin op te slaan. Je kunt snel en makkelijk bitcoins uitgeven, en dat is cool. Vaak geven wallets van derde partijen je balans door die behoren bij je IP-adres.",
+         "warning":"Wees je er bewust van dat softwarewallets gehackt kunnen worden en dat je gegevens niet altijd privé zijn.",
+         "question":"Ben je er oké mee dat je het bedrag wat op de softwarewallet staat, kwijt kunt raken door hacks? En ook dat je data mogelijk niet privé gehouden worden?",
+         "yes":"Ja, dat is acceptabel.",
+         "no":"Nee, ik wil meer veiligheid!"
       },
       "softwarewallet2":{
-         "intro":"TRANSLATEME:Via bitcoin.org, choose a wallet that meets your needs. Choose a non-custodial wallet. Install it on your phone/computer",
-         "warning":"TRANSLATEME:Be aware that you will get a backup phrase. If your phone is broken/stolen you cannot recover the coins without this backup phrase. So store it well, on paper (never digitally), possibly in a safe?",
-         "question":"TRANSLATEME:That's it! You are ready for the future.",
-         "theend":"TRANSLATEME:Final step"
+         "intro":"Via bitcoin.org, kies een wallet die voldoet aan je eisen. Kies een <em>non-custodial wallet</em> ofwel een wallet die je zelf in beheer hebt. Installeer de wallet op je telefoon/computer",
+         "warning":"Let op: je krijgt een backup-zin, meestal 12 of 24 woorden. Als je telefoon kapot gaat of gestolen wordt, dan kun je je munten niet terugkrijgen zonder die zin. Sla die zin goed op! Het liefst op papier of metaal en nooit digitaal (dus ook geen digitale foto), wellicht in een kluis?",
+         "question":"That's it! Je bent klaar voor de toekomst.",
+         "theend":"De laatste stap"
       },
       "hardwarewallet":{
-         "intro":"TRANSLATEME:Hardware wallets are a great way to store secrets! Also there are a lot of choices to be made, and we will help you.",
-         "question":"TRANSLATEME:Some wallets require you to get transaction info from a 3rd party. Information will probably be right, but you need to trust them. Also they will get information about your funds. Do you accept this risk?",
-         "yes":"TRANSLATEME:That is OK with me, I take the easier option",
-         "no":"TRANSLATEME:That does not sound good at all! I do not want to trust a 3rd party."
+         "intro":"Hardwarewallets zijn een heel goede manier om geheimen op te slaan! Ook daar krijg je veel verschillende keuzes voor je kiezen. Ook daar helpen we je mee.",
+         "question":"Sommige wallets hebben transactiedata nodig van derde partijen. Die informatie is over het algemeen juist, maar je moet ze alsnog vertrouwen. Ook kunnen ze informatie over je fondsen verkrijgen. Ben je bereid dat risico te lopen?",
+         "yes":"Dat vind ik prima, ik ga voor de makkelijke weg.",
+         "no":"Dat klinkt helemaal niet goed! Ik vertrouw geen derde partij."
       },
       "node":{
-         "intro":"TRANSLATEME:Having your own Bitcoin node will let you keep track of transactions yourself. No need to trust a 3rd party, yay!",
-         "requirement":"TRANSLATEME:Keep in mind you want the ability to connect your node when choosing a wallet, not all wallets support that.",
-         "next":"TRANSLATEME:I understand that having a node is the only way to not have to rely on 3rd parties and will install one"
+         "intro":"Als je je eigen Bitcoin-node hebt, kun je zelf de transacties bijhouden. Geen noodzaak om een derde partije te vertrouwen. :)",
+         "requirement":"Onthoud dat je de mogelijkheid wil om met je eigen node te verbinden, niet alle wallets ondersteunen dat.",
+         "next":"Ik begrijp dat het hebben van een eigen node de enige manier is om niet te hoeven vertrouwen op derde partijen en ik ga er een installeren."
       },
       "robbery":{
-         "intro":"TRANSLATEME:Okay, so you will have your hardware wallet, you will hold your own bitcoin. That's very cool. Now something to consider:...",
-         "warning":"TRANSLATEME:There is a chance you get robbed (at home?) and are forced to give up your bitcoin...",
-         "question":"TRANSLATEME:Do you want to keep this into account?",
-         "yes":"TRANSLATEME:Yeah what can I do?",
-         "no":"TRANSLATEME:Does not sound too plausible, skip this risk please!"
+         "intro":"Zo, dus je hebt je eigen hardwarewallet, je houdt je eigen bitcoin. Heel tof. Nu nog iets om te overwegen...",
+         "warning":"Er is een kans dat je overvallen wordt (thuis?) en je gedwongen wordt je bitcoins op te geven...",
+         "question":"Wil je hier rekening mee houden?",
+         "yes":"Ja! Wat moet ik doen?",
+         "no":"Klinkt niet heel plausibel. Sla maar over!"
       },
       "robberysolutions":{
-         "intro":"TRANSLATEME:A robbery might happen but there are some tricks/solutions:",
-         "info":"TRANSLATEME:<ul><li>You could buy a hardware wallet that gives you the option to set a timeout for unlocking. You then need to wait 1/2/4/8/24/... hours to be able to send.</li><li>You can consider buying a (2nd) distraction-wallet.</li><li>You can consider a wallet that allows for setting a 2nd (distraction) amount. This will be a lower amount that shows as \"everything there is to steal\"</li></ul>",
-         "warning":"TRANSLATEME:If possible do not send your wallet to your home address. If your wallet vendor's database gets hacked, the hackers know at what home addresses to look for bitcoin.",
-         "next":"TRANSLATEME:I'll consider this. Let's continue!"
+         "intro":"Een overval kan altijd gebeuren, gelukkig zijn er wat oplossingen:",
+         "info":"<ul><li>Je kunt een hardwarewallet kopen waarbij de mogelijkheid is een timeout voor ontgrendelen in te stellen is. Dan moet je 1/2/4/8/24/... uur wachten voordat je kunt versturen.</li><li>Je kunt een tweede wallet kopen, een <i>distraction wallet</i>.</li><li>Je kunt een wallet kopen waarbij het mogelijk is een tweede balans op te zetten, een soort van afledingsmanoeuvre. Dit lagere bedrag ziet er dan uit als \"alles wat er te stelen is\"</li></ul>",
+         "warning":"Als het mogelijk is, stuur je wallet niet naar je huisadres. Als de verkoopdatabase van de verkopende partij gehackt wordt, dan weten de dieven waar je woont.",
+         "next":"Ik neem het mee, ga door!"
       },
       "buywallet":{
-         "intro":"TRANSLATEME:All right! Time to buy a wallet.",
-         "info":"TRANSLATEME:<a href=\"https://github.com/storingbitcoin-info/website/issues/10\" target=\"_blank\"><em>This site is a work in progress. We do not yet offer a list of wallets based on your choices.</em></a>",
-         "question":"TRANSLATEME:Did you buy a wallet?",
-         "yes":"TRANSLATEME:Yes. And I have my own node.",
-         "yes":"TRANSLATEME:Yes. And I do not want to have a node of my own.",
-         "yes":"TRANSLATEME:Yes. But why would I want my own node?"
+         "intro":"Tijd om een wallet te kopen.",
+         "info":"<a href=\"https://github.com/storingbitcoin-info/website/issues/10\" target=\"_blank\"><em>Deze site is <em>work in progress</em> We hebben nog geen lijst van wallets gebaseerd op je keuzes.</em></a>",
+         "question":"Heb je een wallet gekocht?",
+         "yes":"Ja, en mijn eigen node!",
+         "yes":"Ja, en ik wil geen eigen node.",
+         "yes":"Ja, maar waarom wil ik een eigen node?"
       },
       "linknode":{
-         "intro":"TRANSLATEME:You are taking the hard core route, that is cool. You will be your own bank!",
-         "question":"TRANSLATEME:Now is the time to link the wallet software to your own node",
-         "next":"TRANSLATEME:Cool, done!"
+         "intro":"Je neemt de moeilijke weg. Gaaf. Wees je eigen bank!",
+         "question":"Nu is het tijd je wallet-software te verbinden met je node",
+         "next":"Cool, gedaan!"
       },
       "boughtwallet":{
-         "intro":"TRANSLATEME:Congrats on your wallet. It's a great step towards security for your bitcoin.",
-         "warning":"TRANSLATEME:Tip: Now you have received it, ask the store where you bought it to delete your data. Non existing data cannot be stolen! At installation your wallet will give you seed words. You most store these safely offline (this means to NEVER put this into a computer/phone/cloud!)",
-         "question":"TRANSLATEME:Do you want to protect these words (the seed) against fire?",
-         "yes":"TRANSLATEME:Yes, a fire should not destroy my bitcoin!",
-         "no":"TRANSLATEME:No, I am not worried about that. I will put my seed in a safe place."
+         "intro":"Gefeliciteerd met je wallet! Een belangrijke stap in het veilig houden van je eigen bitcoin.",
+         "warning":"Nu je je hardwarewallet hebt, vraag de winkel je data te vernietigen. Niet-bestaande data kunnen niet gestolen worden! Bij de installatie van je wallet krijg je je zogenaamde 'seed', een set woorden. Die woorden moet je veilig offline opslaan. Dus niet, nooit opslaan op een computer, in de cloud (Dropbox en dergelijke) of op een foto. Je seed MOET offline blijven.",
+         "question":"Wil je de seed tegen vuur beschermen?",
+         "yes":"Ja, mijn bitcoins moeten tegen vuur bestand zijn!",
+         "no":"Nee joh, ik stop mijn seed in een brandkast of ergens anders waar het veilig is."
       },
       "fireprotection":{
-         "intro":"TRANSLATEME:There are some solutions to protect your seed against fire",
-         "info":"TRANSLATEME:<ul><li>You can buy a steel plate and hammer the words in</li><li>You can put the seed in a fireproof safe</li></ul>",
-         "next":"TRANSLATEME:Cool, let's continue"
+         "intro":"Er bestaan verschillende opties om je seed tegen vuur te beschermen.",
+         "info":"<ul><li>Je kunt een stalen plaatje kopen en de woorden daarin graveren</li><li>Je kunt de seed in een brandkast stoppen</li></ul>",
+         "next":"Ga door."
       },
       "otheraccess":{
-         "intro":"TRANSLATEME:Your bitcoin is now stored at one location (your home presumably). You might not want your house to be a single point of failure.",
-         "warning":"TRANSLATEME:Also consider if you die, others might want access to your bitcoin!",
-         "question":"TRANSLATEME:Do you think others might need access to your bitcoin?",
-         "yes":"TRANSLATEME:Yeah others might need access / I do not want my house to be a single point of failure / I want to put restrictions on spending my bitcoin.",
-         "no":"TRANSLATEME:Nah, I'm good, let's not consider this"
+         "intro":"Je bitcoins zijn nu op één locatie opgeslagen (waarschijnlijk je huis). Wellicht is dat net iets te spannend dat je huis je <em>single point of failure</em> is.",
+         "warning":"Bedenk ook dat als je komt te overlijden, dat anderen (misschien) bij je bitcoins moeten kunnen!",
+         "question":"Denk je dat anderen bij je bitcoins moeten kunnen?",
+         "yes":"Ja, anderen hebben mogelijk toegang nodig / Ik wil niet dat mijn huis de enige plek is waar mijn bitcoins bestaan / Ik wil restricties instellen voor het uitgeven van mijn bitcoins.",
+         "no":"Nee, ik vind het allemaal best. Laten we hier aan voorbijgaan."
       },
       "trustpeople":{
-         "intro":"TRANSLATEME:You will want to spread your backup over multiple locations",
-         "question":"TRANSLATEME:Do you have some people you 100% trust?",
-         "yes":"TRANSLATEME:Yes, I trust some people completely with my money, and they live at different locations",
-         "no":"TRANSLATEME:I'd rather not put complete trust at these people"
+         "intro":"Je wilt een backup over meerdere locaties verspreiden.",
+         "question":"Vertrouw je bepaalde mensen 100%?",
+         "yes":"Ja, ik vertrouw bepaalde mensen met mijn geld, en ze wonen op andere plekken.",
+         "no":"Ik vertouw niemand helemaal honderd procent."
       },
       "havetrustedpeople":{
-         "intro":"TRANSLATEME:That's good, there are people you trust. You could put a copy of your seed at their houses.",
-         "warning":"TRANSLATEME:Be aware! There are now multiple locations that enable stealing of your whole bitcoin fortune.",
-         "question":"TRANSLATEME:Is that OK?",
-         "yes":"TRANSLATEME:Yes, I will give these people a copy of my seed words",
-         "no":"TRANSLATEME:No, tell me about better options"
+         "intro":"Fijn dat er mensen zijn die je vertrouwt. Je kunt bij deze mensen in huis een kopie van je seed opslaan.",
+         "warning":"Wees gewaarschuwd! Er zijn nu meerdere plekken waar je seed, en dus je bitcoins, gestolen kunnen worden!",
+         "question":"Is dat ok?",
+         "yes":"Ja, ik geef deze mensen een kopie van mijn seed.",
+         "no":"Nee, vertel me over betere opties."
       },
       "spendmoney":{
-         "intro":"TRANSLATEME:Okay, we will not put complete trust in others. That makes sense.",
-         "question":"TRANSLATEME:Are you OK with spending some extra money for security?",
-         "yes":"TRANSLATEME:That's fine",
-         "no":"TRANSLATEME:No, I have already spent money on my wallet, let's go for a technical solution",
-         "no":"TRANSLATEME:No, I have already spent money on my wallet, let's go for a simple solution"
+         "intro":"We vertrouwen anderen niet volledig. Dat is helemaal te begrijpen.",
+         "question":"Wil je wat extra geld uitgeven voor veiligheid?",
+         "yes":"Dat is goed.",
+         "no":"Nee, ik heb al geld aan een hardwarewallet uitgegeven, laten we gaan voor een technische oplossing.",
+         "no":"Nee, ik heb al geld aan een hardwarewallet uitgegeven, laten we voor een simpele oplossing gaan."
       },
       "willspendmoney":{
-         "intro":"TRANSLATEME:Security is worth money! We agree!",
-         "info":"TRANSLATEME:<ul><li>You could go to a notary</li><li>You could put your secrets (or a 2nd backup wallet) at a (bank) safe</li><li>You could trust a custodial company specialized in storing bitcoin</li></ul>",
-         "question":"TRANSLATEME:How does that sound?",
-         "yes":"TRANSLATEME:I like (one of) those. Will put my seed (or a 2nd backup wallet) at one of those parties.",
-         "no":"TRANSLATEME:I'd rather have a technical solution where I need less trust in 3rd parties"
+         "intro":"Veiligheid is geld waard!",
+         "info":"<ul><li>Je kunt naar de notaris</li><li>Je kunt je seed (of een tweede backup-wallet) in een (bank) kluis opslaan</li><li>Je kunt een derde partij gespecialiseerd in het opslaan van bitcoins vertrouwen</li></ul>",
+         "question":"Hoe klinkt dat?",
+         "yes":"Ik vind (een van) de oplossingen prettig klinken. Ik sla mijn seed (of 2de backup-wallet) op bij een van deze partijen.",
+         "no":"Ik heb liever een andere oplossing waar ik geen derde partij hoef te vertrouwen."
       },
       "ssss":{
-         "intro":"TRANSLATEME:Technology can do interesting things!",
-         "info":"TRANSLATEME:Shamir's Secret Sharing is an algorithm that let's you cut your seed into multiple parts in a safe way. You can cut it into a 3-of-5 for example. This means you cut it in 5 parts, and 3 parts are needed to access your bitcoin. You can pick all the X-of-N numbers you want.",
-         "warning":"TRANSLATEME:This solution is quite technical. Be sure you make good documentation, so you will still know how to work with the parts in 10 years.",
-         "question":"TRANSLATEME:Like this?",
-         "yes":"TRANSLATEME:Very cool. I will cut up my seed into some parts using Shamir's Secret Sharing.",
-         "simple":"TRANSLATEME:That sounds (too) hard. Can we go for a simpler solution?"
+         "intro":"Technologie kan interessante dingen doen!",
+         "info":"<em>Shamir's Secret Sharing</em> is een algoritme dat je de seed in stukjes laat knippen op een veilige manier. Je kunt de seed in een 3-van-5-systeem stoppen bijvoorbeeld. Dit betekent dat je de seed in 5 delen kniopt, en 3 delen zijn nodig om bij je bitcoins te komen. Je kunt alle getallen kiezen (lees: x-van-n).",
+         "warning":"Dit is een zeer technische oplossing. Weet je zeker dat je deze manier nog weet te ontcijferen over 10 jaar?",
+         "question":"Zoals dit?",
+         "yes":"Cool. Ik knip mijn seed met Shamir's Secret Sharing in stukjes!",
+         "simple":"Dat klinkt (te) lastig. Is er niet iets simpelers?"
       },
       "cutseed":{
-         "intro":"TRANSLATEME:Your seed is usually 24 words. You could cut these up into 2 parts of 12 words, or 3 parts of 8 words for example, and put these parts at different friends' locations",
-         "warning":"TRANSLATEME:You need ALL the parts to get access to your bitcoin. Losing ANY of these parts means you will forever lose access to your bitcoin!",
-         "question":"TRANSLATEME:Does that sound OK?",
-         "yes":"TRANSLATEME:Yeah that is fine (it's a backup anyway)",
-         "ssss":"TRANSLATEME:Hmm, please tell me about a technical solution (Sharing's Secret Sharing)",
-         "custodialparty":"TRANSLATEME:Maybe I'd like a 3rd party after all to arrange this for me"
+         "intro":"Je seed bestaat meestal uit 12 of 24 woorden. Die kun je opknippen in twee delen. Stel, je hebt een seed van 24 woorden, dan knip je die in twee delen van 12 woorden. of 3 delen van 8 woorden. Al die woorden leg je op verschillende locaties bij verschillende vrienden of familie.",
+         "warning":"Je hebt wel ALLE delen nodig om de seed samen te kunnen stellen!",
+         "question":"Klinkt dat goed?",
+         "yes":"Jaja, het is toch een backup?",
+         "ssss":"Hmmm. Leg toch maar uit hoe Shamir's Secret Sharing werkt.",
+         "custodialparty":"Misschien wil ik toch een derde partij die het voor me regelt."
       },
       "custodialparty":{
-         "intro":"TRANSLATEME:Third party could be a good solution",
-         "warning":"TRANSLATEME:Remember you do often need some trust in these parties. Make sure you are well informed about risks.",
-         "question":"TRANSLATEME:What do you want to do?",
-         "backupwalletcustodial":"TRANSLATEME:I will put a 2nd wallet at a safe, notary or custodial, tell me how",
-         "backupwalletcustodial":"TRANSLATEME:I will put a copy of my seed at a custodial, tell me how",
-         "ssss":"TRANSLATEME:Maybe I do not like the idea of a custodial after all, what's the technical option?"
+         "intro":"Een derde partij kan een goede optie zijn.",
+         "warning":"Onthoud wel: je moet wel enig vertrouwen hebben in deze partijen. Informeer je van te voren goed.",
+         "question":"Wat wil je doen?",
+         "backupwalletcustodial":"Ik stop een tweede wallet in een safe, bij een notaris of een custodial. Vertel me hoe.",
+         "backupwalletcustodial":"Ik plaats een kopie van de seed bij een custodial. Vertel me hoe.",
+         "ssss":"Misschien vind ik de optie van een custodial toch niet zo fijn, wat is de technische optie?"
       },
       "multisig":{
-         "intro":"TRANSLATEME:A multisig consists of multiple (hardware) wallets and X-of-N transactions. You could have 5 wallets for example, and need 3 of them to sign your transaction (= send your bitcoin). You can pick any numbers you'd like. Higher numbers means more action is needed. Multisig is often considered the holy grail of self-custody security. It's also used within big custodial companies and exchanges to make sure not 1 single person can access the bitcoin, for example 3 wallets are needed (maybe the CEO, CFO and a dude named Ben always need to sign)",
-         "warning":"TRANSLATEME:For all actions you do with your multisig-secured bitcoin you need collaboration of multiple parties. This means more work is needed.",
-         "question":"TRANSLATEME:Does that sound good?",
-         "yes":"TRANSLATEME:Yes. Tell me how to achieve this high level of security!",
-         "custodialparty":"TRANSLATEME:Maybe I want a custodial party after all to arrange these things",
-         "ssss":"TRANSLATEME:Tell me about other technical solutions to solve this"
+         "intro":"Een multisig bestaat uit verschillende (hardware)-wallets en X-van-N transacties. Je kunt bijvoorbeeld 5 wallets hebben, waarvan je er drie nodig hebt om je transactie te ondertekenen (met andere woorden: om je bitcoin te versturen heb je minimaal 3 wallets nodig) Het aantal maakt niet uit. Hoe  hoger het aantal, hoe meer acties er nodig zijn. Multisig wordt vaak gezien als de heilige graal van zelfbewaring. Het wordt ook gebruikt door grote bedrijven en exchanges om ervoor te zorgen dat niet één enkel persoon toegang heeft tot de bitcoins. Bijvoorbeeld drie wallets zijn nodig, de CEO, DFO en iemand genaamd Ben (ze heten altijd Ben, nooit Bob).",
+         "warning":"Je hebt meer partijen nodig voor het succesvol uitvoeren van een multisig-transactie. Dat kost meer tijd en moeite!",
+         "question":"Klinkt dat goed?",
+         "yes":"Ja, vertel me hoe ik deze hoge graad van beveiliging bereik!",
+         "custodialparty":"Misschien wil ik toch een derde partij om de boel veilig te houden.",
+         "ssss":"Vertel me over de technische oplossingen om dit op te lossen."
       },
       "distributeparts":{
-         "intro":"TRANSLATEME:So you have your seed in multiple parts now, great! You can place these parts at your friends' houses, or put (some of) them at a trusted third party",
-         "warning":"TRANSLATEME:Forgetting how to use the parts is one of bigger risks here. Make sure you have instructions on how to access your coins (use the parts) 10 years from now. Also consider scheduling a yearly verification, checking everyone still has your secrets.",
-         "physicalsecurity":"TRANSLATEME:I will distribute these parts to houses of my friends",
-         "seedcopycustodial":"TRANSLATEME:I want tu put these copies at a (trusted) custodial party"
+         "intro":"Je hebt je seed opgedeeld in meerdere stukjes. Heel goed! Nu kukn je die stukjes in de huizen van vrienden opslaan of (een deel) bij een vertrouwde derde partij opslaan.",
+         "warning":"Vergeten hoe je de losse stukken te gebruiken, is een van de grotere risico's. Verzeker jezelf ervan dat je duidelijke instructies hebt hoe je bitcoins te bereiken (gebruik de delen) over tien jaar. Overweeg ook een jaarlijkse test te doen om te checken dat iedereen de stukken van de seed nog heeft.",
+         "physicalsecurity":"Ik verdeel de seed-delen over huizen van vrienden.",
+         "seedcopycustodial":"Ik plaats de kopieën bij een (vertrouwde) derde partij."
       },
       "backupwalletcustodial":{
-         "intro":"TRANSLATEME:You can have multiple hardware wallets using the same secrets. You are considering putting a backup wallet at a custodial",
-         "info":"TRANSLATEME:To do this, buy a second hardware wallet and initialize it using the same seed words. Now both wallets can be used to access the same bitcoin",
-         "theend":"TRANSLATEME:Nice!"
+         "intro":"Je kunt meerdere hardwarewallets hebben die dezelfde seed gebruiken. Je overweegt een backuphardwarewallet bij een derde partij te plaatsen.",
+         "info":"Koop een tweede hardwarewallet en stel deze in met dezelfde seed als bij de andere. Nu kunnen beide wallets gebruikt worden om bij dezelfde bitcoins te komen.",
+         "theend":"Gaaf!"
       },
       "seedcopycustodial":{
-         "intro":"TRANSLATEME:You can put your secrets at a custodial party. Depending on the choices you made, more or less trust is needed. For a multisig or Shamir's Secret Sharing-scheme, less trust is needed than putting a copy of your seed at a 3rd party",
-         "warning":"TRANSLATEME:A copy of your seed will give full access to the 3rd party, make sure you trust them",
-         "theend":"TRANSLATEME:I understand and I am OK with the risks / I will use multisig or Shamir's Secret Sharing",
-         "ssss":"TRANSLATEME:Tell me about multisig",
-         "ssss":"TRANSLATEME:Tell me about Shamir's Secret Sharing"
+         "intro":"Je kunt je seed bij een derde partij opslaan. Afhankelijk van je keuzes kun je die meer of minder vertrouwen. Voor een multisig of Shamir's Sectret Sharing-schema heb je minder vertrouwen nodig in de derde partij dan als je je volledige seed daar achter laat.",
+         "warning":"Een kopie van je seed geeft een derde partij volledig toegang tot je bitcoins. Je moet de partij echt vertrouwen.",
+         "theend":"Ik begrijp de risico's en ik ben er oké mee / Ik ga multisig of Shamir's Secret gebruiken",
+         "ssss":"Vertel meer over multisig.",
+         "ssss":"Vertel meer over Shamir's Secret Sharing."
       },
       "multisighow":{
-         "intro":"TRANSLATEME:Multisigs are very cool",
-         "info":"TRANSLATEME:<ol><li>Decide how many parties (people) you want to involve in total. This is your variable <em>N</em></li><li>Decide how many of these parties you want to have at minimum to sign transactions (send bitcoin) this is variable <em>X</em></li><li>Find a hardware wallet that supports multisig schemes, buy <em>N</em> of these wallets</li><li>Set up your X-of-N multisig using the wallets</li><li>Distribute the wallets over multiple parties</li><li>Make sure you document the needed steps well, so in 10 years you still know how to use the multisig</li>",
-         "warning":"TRANSLATEME:Losing too many parts or forgetting how multisig works are the bigger risks. Make sure people understand what their part is/means. Document this well. Consider scheduling a yearly check to make sure everyone is still in posession of their wallets and understands.",
-         "question":"TRANSLATEME:Is that all good?",
-         "next":"TRANSLATEME:Nice. Show me the last steps."
+         "intro":"Multisigs zijn cool",
+         "info":"<ol><li>Besluit hoeveel partijen (mensen) je in totaal mee wilt laten doen. Dit is je variabele <em>N</em></li><li>Besluit met hoeveel van deze partijen je minimaal een transactie wil kunnen ondertekenen (bitcoins versturen). Dit is variabele <em>X</em></li><li>Zoek een hardwarewallet die multisig-schema's ondersteunt. Koop bijvorbeeld <em>N</em> een van deze wallets</li><li> Stel je X-van-N multisig in met de wallets</li><li>Distribueer de wallets over meerdere partijen</li><li>Documenteer de benodigde stappen goed! Over 10 jaar moet je nog steeds begrijpen hoe je multisig te gebruiken.</li>",
+         "warning":"Als je te veel delen van je multisig verliest of vergeet hoe je multisig te gebruiken, dan kun je nooit meer bij je bitcoins. Dat is een groot risico! Verzeker de mensen die je hier deelgenoot van maakt dat ze begrijpen hoe belangrijk hun deelname is en wat het betekent. Leg dit goed vast. Check elk jaar of iedereen nog in bezit is van hun wallets en begrijpt waarom je dat doet.",
+         "question":"Is dat allemaal klaar?",
+         "next":"Toon me de laatste stappen."
       },
       "physicalsecurity":{
-         "intro":"TRANSLATEME:One of the last things you might want to consider is phisical security. Think about a safe, weapons (if legal). This applies to all locations you (might have) put (parts of) your secrets.",
-         "theend":"TRANSLATEME:Sure!"
+         "intro":"Het laatste dat je kunt overwegen, is fysieke beveiliging. Denk aan een kluis, wapens (alleen legaal). Dit geldt voor alle plekken waar je (delen van) je seeds of geheimen bewaart.",
+         "theend":"Check!"
       },
       "XXX":{
          "intro":"TRANSLATEME:XXX",
@@ -213,10 +213,10 @@
          "no":"TRANSLATEME:YYY"
       },
       "opsec":{
-         "intro":"TRANSLATEME:That's it. Hope this website was useful to you. If it was, please share it.",
-         "warning":"TRANSLATEME:Keep in mind that talking about how you did your own security, might not be safe and might make you a target.",
-         "question":"TRANSLATEME:That's it! You are ready for the future.",
-         "start":"TRANSLATEME:Great! (start again)"
+         "intro":"Dat was het! We hopen dat deze website nuttig voor je was. Zo ja, deel!",
+         "warning":"Onthoud dat praten over hoe je je eigen veiligheid geregeld hebt, mogelijk niet veilig is en je mogelijk een doel (voor diefstal) maakt.",
+         "question":"Dat is het! Je bent klaar voor de toekomst!",
+         "start":"Begin opnieuw."
     }
   }
 }
