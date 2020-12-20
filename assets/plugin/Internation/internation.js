@@ -229,7 +229,6 @@
 
       var langSwitcher = function langSwitcher() {
         var selects = document.querySelectorAll(options.switchselector);
-        console.log(document.querySelectorAll(options.switchselector));
         if (sessionStorage['InternationSettingsStorage']) {
           var langPref = sessionStorage['InternationSettingsStorage'];
           switchSetter(selects, langPref);
@@ -237,8 +236,6 @@
         }
 
         selects.forEach(function (thisselect) {
-          console.log(thisselect);
-          console.log("test");
           thisselect.addEventListener('change', function (event) {
             switchSetter(selects, event.target.value);
             setText(event.target.value);
@@ -288,7 +285,6 @@
             counter++;
           }
         });
-        console.log();
         debugLog("Loaded languages:");
         debugLog(langs);
       } else {
