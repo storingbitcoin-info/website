@@ -87,7 +87,7 @@
       },
       "buywallet":{
          "intro":"All right! Time to buy a wallet.",
-         "info":"<a href=\"https://github.com/storingbitcoin-info/website/issues/10\" target=\"_blank\"><em>This site is a work in progress. We do not yet offer a list of wallets based on your choices.</em></a>",
+         "info":"<a href=\"https://github.com/storingbitcoin-info/website/issues/10\" target=\"_blank\" rel=\"noopener noreferrer\"><em>This site is a work in progress. We do not yet offer a list of wallets based on your choices.</em></a>",
          "question":"Did you buy a wallet?",
          "yes":"Yes. And I have my own node.",
          "yes":"Yes. And I do not want to have a node of my own.",
