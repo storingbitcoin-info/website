@@ -17,7 +17,13 @@
 .reveal-viewport {
   background-color: #E5E5E5;
 }
-
+.slide{
+  height: 90vh;
+}
+.progress{
+  top: 0;
+  color: #FF7A00!important;
+}
 nav {
   background-color: #fff;
   display: flex;
