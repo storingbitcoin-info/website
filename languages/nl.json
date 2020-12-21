@@ -11,8 +11,8 @@
          "intro":"Welkom mede-bitcoiner!",
          "question":"Hoe sla je je bitcoins nu op?",
          "exchange":"Op de exchange waar ik ze kocht",
-         "hardwarewallet":"Ik gebruik een hardware-wallet",
-         "softwarewallet":"Ik gebruik een software-wallet om ze op te slaan (op telefoon of computer)"
+         "hardwarewallet":"Ik gebruik een hardwarewallet",
+         "softwarewallet":"Ik gebruik een softwarewallet om ze op te slaan (op telefoon of computer)"
       },
       "nobtc":{
          "intro":"Ah, een precoiner! Voordat je bitcoins koopt, zorg ervoor dat je bitcoin begrijpt.",
