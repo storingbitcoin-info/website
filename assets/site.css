@@ -278,23 +278,14 @@ nav .langchooser [type=radio]:checked+span:before {
 .button li {
   border: 1px solid black;
   color: #fff;
-  border: 1px solid #FF7A00;
+  border: 1px solid #BF5C00;
   box-sizing: border-box;
   border-radius: 8px;
   text-align: center;
-  background-color: #fff;
+  background-color: #FF7A00;
   padding: 10px;
   margin: 10px;
 }
 .button li a{
-  color: #FF7A00;
-}
-
-.button li:nth-child(odd) {
-  background-color: #FF7A00;
-  border-color: #BF5C00;
-  
-}
-.button li:nth-child(odd) a{
   color: #fff;
 }
