@@ -81,7 +81,7 @@ nav .langchooser {
 }
 
 .info {
-  color: blue;
+  text-decoration: underline blue solid;
 }
 
 .warning {
