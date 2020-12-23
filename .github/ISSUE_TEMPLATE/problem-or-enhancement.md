@@ -1,5 +1,5 @@
 ---
-name: Problem or enhanvement
+name: Problem or enhancement
 about: Something is wrong or could be improved
 title: ''
 labels: bug

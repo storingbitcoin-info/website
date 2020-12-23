@@ -347,12 +347,12 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  * LINKS
  *********************************************/
 .reveal a {
-  color: #00008B;
+  /* color: #00008B; */
   text-decoration: none;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #0000f1;
+  /* color: #0000f1; */
   text-shadow: none;
   border: none; }
 

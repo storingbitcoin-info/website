@@ -1,40 +1,53 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <title>Storing Bitcoin</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>Storing Bitcoin</title>
 
-    <link rel="stylesheet" href="assets/reset.css">
-    <link rel="stylesheet" href="assets/reveal.css">
-    <link rel="stylesheet" href="assets/theme/bitcoin.css" id="theme">
-    <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="assets/reset.css">
+  <link rel="stylesheet" href="assets/reveal.css">
+  <link rel="stylesheet" href="assets/theme/bitcoin.css" id="theme">
+  <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="assets/plugin/icons/css/fontawesome.min.css">
+
+
 
   </head>
+
   <body>
-    <div class="reveal">
-      <div class="menubar" id="menubar">
-        <div class="left">
-          <a href="#/start">Start over</a>&nbsp;&nbsp;&nbsp;
-          <a class="navigate-prev">Back 1 step</a>&nbsp;&nbsp;
+    <nav class="menubar" id="menubar" style="z-index: 1;">
+      <a href="" class="back-container navigate-prev" id="back-button"><i class="fas fa-chevron-left back-icon"></i></a>
+      <a href="#" class="brand-container"><img class="brand" src="assets/img/logo.svg" alt=""></a>
+      <div class="dropdown">
+        <input id="checkbox_toggle" type="checkbox">
+        <label for="checkbox_toggle" class="language-label" data-i18n="chooselanguage">language <i
+            class="fas fa-chevron-down fa-xs"></i></label>
+        <div class="langchooser">
+          <label>
+            <input type="radio" name="menulangradios" value="en" checked><span>English</span>
+          </label>
+          <label>
+            <input type="radio" name="menulangradios" value="nl"><span>Nederlands</span>
+          </label>
         </div>
-        <div class="dropdown right">
-	  <input id="checkbox_toggle" type="checkbox">
-	  <label for="checkbox_toggle" data-i18n="chooselanguage">Choose language</label>
-	  <div class="langchooser">
-	    <label>
-	      <input type="radio" name="menulangradios" value="en" checked><span>English</span>
-	    </label>
-	    <label>
-	      <input type="radio" name="menulangradios" value="nl"><span>Nederlands</span>
-	    </label>
-          </div>
-	</div>
       </div>
+    </nav>
+
+    <div class="reveal">
       <div class="slides">
-        <section id="havebtc"><!-- HAVEBTC -->
-          <section id="start"> <!-- START -->
+        <section id="havebtc" class="mastersection">
+          <!-- HAVEBTC -->
+          <section id="start">
+            <!-- START -->
             <h2 data-i18n="header">StoringBitcoin.info</h2>
             <p data-i18n="sub">This site will help you decide how to store your bitcoin.</p>
             <p class="question" data-i18n="havebtc">Do you have bitcoin?</p>
@@ -44,70 +57,79 @@
             </ul>
             <div class="langchooser flags">
               <label> <input type="radio" name="langradios" value="en" checked><img src="assets/img/en.png"> </label>
-              <label> <input type="radio" name="langradios" value="nl"><img src="assets/img/fr.png" style="transform: rotate(-90deg)"> </label>
+              <label> <input type="radio" name="langradios" value="nl"><img src="assets/img/fr.png"
+                  style="transform: rotate(-90deg)"> </label>
             </div>
-          </section>            <!-- /START -->
+          </section> <!-- /START -->
 
           <section id="ihavebtc">
-            <p class="intro"      data-i18n="intro">That is great! Welcome fellow bitcoiner! </p>
-            <p class="question"   data-i18n="question">How do you store your bitcoin now?</p>
+            <p class="intro" data-i18n="intro">That is great! Welcome fellow bitcoiner! </p>
+            <p class="question" data-i18n="question">How do you store your bitcoin now?</p>
             <ul class="button">
               <li><a href="#/exchange" data-i18n="exchange">At the exchange where I bought them</a></li>
               <li><a href="#/hardwarewallet" data-i18n="hardwarewallet">I use a hardware wallet</a></li>
-              <li><a href="#/softwarewallet" data-i18n="softwarewallet">I use software to store them (on phone or computer)</a></li>
+              <li><a href="#/softwarewallet" data-i18n="softwarewallet">I use software to store them (on phone or
+                  computer)</a></li>
+              <li><a href="#/fundlike" data-i18n="fundlike">Tell me about (exchange traded) funds.</a></li>
             </ul>
           </section>
 
 
           <section id="nobtc">
-            <p class="intro"      data-i18n="intro">Ah, a precoiner! Before you buy any bitcoin, make sure you understand bitcoin.</p>
-            <p class="warning"    data-i18n="warning">Never buy for more money than you can lose.</p>
-            <p class="question"   data-i18n="question">How do you want to buy bitcoin?</p>
+            <p class="intro" data-i18n="intro">Ah, a precoiner! Before you buy any bitcoin, make sure you understand
+              bitcoin.</p>
+            <p class="warning" data-i18n="warning">Never buy for more money than you can lose.</p>
+            <p class="question" data-i18n="question">How do you want to buy bitcoin?</p>
             <ul class="button">
-              <li><a href="#/spot"     data-i18n="spot">Simple using a spot site</a></li>
-              <li><a href="#/amount"   data-i18n="friends">I will buy from friends or using a peer to peer platform</a></li>
-              <li><a href="#/exchange" data-i18n="exchange">Advanced using an exchange</a></li>
+              <li><a href="#/spot" data-i18n="spot">Simple using a broker</a></li>
+              <li><a href="#/exchange" data-i18n="exchange">Advanced using a bitcoin exchange</a></li>
+              <li><a href="#/amount" data-i18n="friends">I will buy from friends or using a peer to peer platform</a> </li>
+              <li><a href="#/fundlike" data-i18n="fundlike">I want to but on a regular stock exchange</a></li>
             </ul>
           </section>
 
           <section id="spot">
-            <p class="intro"      data-i18n="intro">Spot sites allow you to simply buy bitcoin. You say how many you want (or how much you want to spend).</p>
-            <p class="question"   data-i18n="question">After buying you need to put the bitcoin on a wallet</p>
+            <p class="intro" data-i18n="intro">Spot sites allow you to simply buy bitcoin. You say how many you want (or
+              how much you want to spend).</p>
+            <p class="question" data-i18n="question">After buying you need to put the bitcoin on a wallet</p>
             <p class="button">
             <ul class="button">
-              <li><a href="#/amount"  data-i18n="next">Start choosing a wallet</a></li>
+              <li><a href="#/amount" data-i18n="next">Start choosing a wallet</a></li>
             </ul>
             </p>
           </section>
 
           <section id="exchange">
-            <p class="intro"      data-i18n="intro">Exchanges are a great way to buy bitcoin. You can use market orders, or do more advanced orders there. After buying, your bitcoin remain on the exchange.</p>
-            <p class="warning"    data-i18n="warning" >Exchanges can get hacked. Your account can get hacked. Exchanges can go bankrupt and disappear.</p>
-            <p class="question"   data-i18n="question">Do you accept this risk?</p>
+            <p class="intro" data-i18n="intro">Exchanges are a great way to buy bitcoin. You can use market orders, or
+              do more advanced orders there. After buying, your bitcoin remain on the exchange.</p>
+            <p class="warning" data-i18n="warning">Exchanges can get hacked. Your account can get hacked. Exchanges can
+              go bankrupt and disappear.</p>
+            <p class="question" data-i18n="question">Do you accept this risk?</p>
             <ul class="button">
-              <li><a href="#/storeexchange" data-i18n="yes">Yes I accept this risk</a></li>
-              <li><a href="#/amount"        data-i18n="no" >That does not sound good, tell me what to do!</a></li>
+              <li><a href="#/storeexchange" data-i18n="yes">Yes I accept this risk (for now)</a></li>
+              <li><a href="#/amount" data-i18n="no">That does not sound good, tell me what to do!</a></li>
             </ul>
           </section>
 
 
           <section id="amount">
-            <p class="intro"      data-i18n="intro">You need to decide how to store your bitcoin</p>
-            <p class="question"   data-i18n="question">Is this a large amount? Small amount would be a few cappucinno's or a fancy diner. But it's up to you to decide what a "large amount" is...</p>
+            <p class="intro" data-i18n="intro">You need to decide how to store your bitcoin</p>
+            <p class="question" data-i18n="question">Is this a large amount? It's up to you to decide what a <em>large amount</em> is...</p>
             <ul class="button">
-              <li><a href="#/softwarewallet" data-i18n="softwarewallet">No, it's a small amount. I don't need the highest level of security. Tell me about software wallets.</a></li>
-              <li><a href="#/hardwarewallet" data-i18n="hardwarewallet">Yes, I do not want to lose this bitcoin. Tell me how I can keep these bitcoins secure myself.</a></li>
-              <li><a href="#/custodialparty" data-i18n="custodialparty">Yes, I do not want to lose this bitcoin. Tell me how 3rd parties can help me keeping these bitcoin secure.</a></li>
+              <li><a href="#/softwarewallet" data-i18n="softwarewallet">Small amount, low security. Tell me about software wallets.</a></li>
+              <li><a href="#/hardwarewallet" data-i18n="hardwarewallet">Large amount, high security. Tell me how I can keep these bitcoins secure myself.</a></li>
+              <li><a href="#/custodialparty" data-i18n="custodialparty">Tell me how 3rd parties can help me keeping these bitcoin secure.</a></li>
             </ul>
           </section>
 
         </section><!-- /HAVEBTC -->
 
 
-        <section id="storeexchange"><!-- STOREEXCHANGE -->
-          <p class="intro"      data-i18n="intro">You will keep your bitcoin on an exchange</p>
-          <p class="warning"    data-i18n="warning" >Accounts without 2FA are insecure. Enable 2FA!</p>
-          <p class="question"   data-i18n="question">That's it! You will keep your bitcoin at a third party</p>
+        <section id="storeexchange">
+          <!-- STOREEXCHANGE -->
+          <p class="intro" data-i18n="intro">You will keep your bitcoin on an exchange</p>
+          <p class="warning" data-i18n="warning">Accounts without 2FA are insecure. Enable 2FA!</p>
+          <p class="question" data-i18n="question">That's it! You will keep your bitcoin at a third party</p>
           <ul class="button">
             <li><a href="#/amount" data-i18n="reconsider">Actually. I might not like that after all</a></li>
             <li><a href="#/opsec" data-i18n="theend">Sure!</a></li>
@@ -115,21 +137,54 @@
         </section><!-- /STOREEXCHANGE -->
 
 
-        <section id="software"><!-- SOFTWARE -->
+        <section id="fundlike">
+          <!-- FUNDLIKE -->
+          <p class="intro" data-i18n="intro">There are funds (ETNs) you can buy on regular exchanges, the same type of exchange you can but stocks.</p>
+          <p class="warning" data-i18n="warning">If you use these products, you can never be technically sure the fund really holds your bitcoin.</p>
+          <p class="question" data-i18n="question">How does that sound?</p>
+          <ul class="button">
+            <li><a href="#/amount" data-i18n="reconsider">Don't like that. I want to self-custody.</a></li>
+            <li><a href="#/opsec" data-i18n="theend">Sure! I will buy fund-like products on a regular exchange.</a></li>
+          </ul>
+        </section><!-- /FUNDLIKE -->
+
+
+        <section id="multisigparty">
+          <!-- MULTISIGPARTY -->
+          <p class="intro" data-i18n="intro">There are parties who help you set up a multisig solution. They are one of the parties in your multisig setup.</p>
+          <p class="info" data-i18n="info">These companiers are often focused on cryptocurrencies. They can provide a good layer of security to your bitcoin storage, protecting you against hacking, seizure, in person attacks.</p>
+          <p class="question" data-i18n="question">How does that sound?</p>
+          <ul class="button">
+            <li><a href="#/amount" data-i18n="reconsider">Don't like that. I want to self-custody.</a></li>
+            <li><a href="#/opsec" data-i18n="theend">Sure! I will look into this.</a></li>
+          </ul>
+        </section><!-- /MULTISIGPARTY -->
+
+
+        <section id="software" class="mastersection">
+          <!-- SOFTWARE -->
           <section id="softwarewallet">
-            <p class="intro"      data-i18n="intro">Let's look at Software Wallets, which are wallets on your phone or computer.. They are often the easiest way to store (small amounts) of bitcoin. They allow you to spend quickly and on the road, which is cool. Most often 3rd parties are informed of balances belonging to your IP address.</p>
-            <p class="warning"    data-i18n="warning" >Be aware software wallets can get hacked and your info is not always private</p>
-            <p class="question"   data-i18n="question">Are you OK with the risk of losing the amount you have on this software wallet because of hacking, and your data not necessarily being private?</p>
+            <p class="intro" data-i18n="intro">Let's look at Software Wallets, which are wallets on your phone or
+              computer.. They are often the easiest way to store (small amounts) of bitcoin. They allow you to spend
+              quickly and on the road, which is cool. Most often 3rd parties are informed of balances belonging to your
+              IP address.</p>
+            <p class="warning" data-i18n="warning">Be aware software wallets can get hacked and your info is not always
+              private</p>
+            <p class="question" data-i18n="question">Are you OK with the risk of losing the amount you have on this
+              software wallet because of hacking, and your data not necessarily being private?</p>
             <ul class="button">
-              <li><a href="#/softwarewallet2" data-i18n="yes">Yes, this is acceptable to me</a></li>
-              <li><a href="#/hardwarewallet" data-i18n="no" >No, I want more security</a></li>
+              <li><a href="#/softwarewallet2" data-i18n="yes">Yes, this is acceptable to me (for now)</a></li>
+              <li><a href="#/hardwarewallet" data-i18n="no">No, I want more security</a></li>
             </ul>
           </section>
 
           <section id="softwarewallet2">
-            <p class="intro"      data-i18n="intro">Via bitcoin.org, choose a wallet that meets your needs. Choose a non-custodial wallet. Install it on your phone/computer</p>
-            <p class="warning"    data-i18n="warning" >Be aware that you will get a backup phrase. If your phone is broken/stolen you cannot recover the coins without this backup phrase. So store it well, on paper (never digitally), possibly in a safe?</p>
-            <p class="question"   data-i18n="question">That's it! You are ready for the future.</p>
+            <p class="intro" data-i18n="intro">Via bitcoin.org, choose a wallet that meets your needs. Choose a
+              non-custodial wallet. Install it on your phone/computer</p>
+            <p class="warning" data-i18n="warning">Be aware that you will get a backup phrase. If your phone is
+              broken/stolen you cannot recover the coins without this backup phrase. So store it well, on paper (never
+              digitally), possibly in a safe?</p>
+            <p class="question" data-i18n="question">That's it! You are ready for the future.</p>
             <ul class="button">
               <li><a href="#/opsec" data-i18n="theend">Final step</a></li>
             </ul>
@@ -137,28 +192,38 @@
         </section><!-- /SOFTWARE -->
 
 
-        <section id="hardware"><!-- HARDWARE -->
+        <section id="hardware" class="mastersection">
+          <!-- HARDWARE -->
           <section id="hardwarewallet">
-            <p class="intro"      data-i18n="intro">Hardware wallets are a great way to store secrets! Also there are a lot of choices to be made, and we will help you.</p>
-            <p class="question"   data-i18n="question">Some wallets require you to get transaction info from a 3rd party. Information will probably be right, but you need to trust them. Also they will get information about your funds. Do you accept this risk?</p>
+            <p class="intro" data-i18n="intro">Hardware wallets are a great way to store secrets! Also there are a lot
+              of choices to be made, and we will help you.</p>
+            <p class="question" data-i18n="question">Some wallets require you to get transaction info from a 3rd party.
+              Information will probably be right, but you need to trust them. Also they will get information about your
+              funds. Do you accept this risk?</p>
             <ul class="button">
-              <li><a href="#/robbery" data-i18n="yes">That is OK with me, I take the easier option</a></li>
-              <li><a href="#/node" data-i18n="no" >That does not sound good at all! I do not want to trust a 3rd party.</a></li>
+              <li><a href="#/robbery" data-i18n="yes">That is OK with me, I take the easier option (for now)</a></li>
+              <li><a href="#/node" data-i18n="no">That does not sound good at all! I do not want to trust a 3rd
+                  party.</a></li>
             </ul>
           </section>
 
           <section id="node">
-            <p class="intro"      data-i18n="intro">Having your own Bitcoin node will let you keep track of transactions yourself. No need to trust a 3rd party, yay!</p>
-            <p class="warning"    data-i18n="requirement">Keep in mind you want the ability to connect your node when choosing a wallet, not all wallets support that.</p>
+            <p class="intro" data-i18n="intro">Having your own Bitcoin node will let you keep track of transactions
+              yourself. No need to trust a 3rd party, yay!</p>
+            <p class="warning" data-i18n="requirement">Keep in mind you want the ability to connect your node when
+              choosing a wallet, not all wallets support that.</p>
             <ul class="button">
-              <li><a href="#/robbery" data-i18n="next">I understand that having a node is the only way to not have to rely on 3rd parties and will install one</a></li>
+              <li><a href="#/robbery" data-i18n="next">I understand that having a node is the only way to not have to
+                  rely on 3rd parties and will install one</a></li>
             </ul>
           </section>
 
           <section id="robbery">
-            <p class="intro"      data-i18n="intro">Okay, so you will have your hardware wallet, you will hold your own bitcoin. That's very cool. Now something to consider:...</p>
-            <p class="warning"    data-i18n="warning" >There is a chance you get robbed (at home?) and are forced to give up your bitcoin...</p>
-            <p class="question"   data-i18n="question">Do you want to keep this into account?</p>
+            <p class="intro" data-i18n="intro">Okay, so you will have your hardware wallet, you will hold your own
+              bitcoin. That's very cool. Now something to consider:...</p>
+            <p class="warning" data-i18n="warning">There is a chance you get robbed (at home?) and are forced to give up
+              your bitcoin...</p>
+            <p class="question" data-i18n="question">Do you want to keep this into account?</p>
             <ul class="button">
               <li><a href="#/robberysolutions" data-i18n="yes">Yeah what can I do?</a></li>
               <li><a href="#/buywallet" data-i18n="no">Does not sound too plausible, skip this risk please!</a></li>
@@ -166,209 +231,281 @@
           </section>
 
           <section id="robberysolutions">
-            <p class="intro"      data-i18n="intro">A robbery might happen but there are some tricks/solutions:</p>
-            <p class="info smaller" data-i18n="info"><ul><li>You could buy a hardware wallet that gives you the option to set a timeout for unlocking. You then need to wait 1/2/4/8/24/... hours to be able to send.</li><li>You can consider buying a (2nd) distraction-wallet.</li><li>You can consider a wallet that allows for setting a 2nd (distraction) amount. This will be a lower amount that shows as "everything there is to steal"</li></ul></p>
-            <p class="warning"    data-i18n="warning" >If possible do not send your wallet to your home address. If your wallet vendor's database gets hacked, the hackers know at what home addresses to look for bitcoin.</p>
+            <p class="intro" data-i18n="intro">A robbery might happen but there are some tricks/solutions:</p>
+            <ul>
+              <li data-i18n="unlocktimeout">You could buy a hardware wallet that gives you the option to set a timeout for unlocking. You then
+                need to wait 1/2/4/8/24/... hours to be able to send.</li>
+              <li data-i18n="distractionwallet">You can consider buying a (2nd) distraction-wallet.</li>
+              <li data-i18n="secondaccount">You can consider a wallet that allows for setting a 2nd (distraction) amount. This will be a lower
+                amount that shows as "everything there is to steal"</li>
+            </ul>
+            <p class="warning" data-i18n="warning">If possible do not send your wallet to your home address. If your
+              wallet vendor's database gets hacked, the hackers know at what home addresses to look for bitcoin.</p>
             <ul class="button">
               <li><a href="#/buywallet" data-i18n="next">I'll consider this. Let's continue!</a></li>
             </ul>
           </section>
 
           <section id="buywallet">
-            <p class="intro"      data-i18n="intro">All right! Time to buy a wallet.</p>
-            <p class="info"       data-i18n="info"><a href="https://github.com/storingbitcoin-info/website/issues/10" rel="noopener noreferrer" target="_blank"><em>This site is a work in progress. We do not yet offer a list of wallets based on your choices.</em></a></p>
-            <p class="question"   data-i18n="question">Did you buy a wallet?</p>
+            <p class="intro" data-i18n="intro">All right! Time to buy a wallet.</p>
+            <p class="info" data-i18n="info"><a href="https://github.com/storingbitcoin-info/website/issues/10"
+                rel="noopener noreferrer" target="_blank"><em>This site is a work in progress. We do not yet offer a
+                  list of wallets based on your choices.</em></a></p>
+            <p class="question" data-i18n="question">Did you buy a wallet?</p>
             <ul class="button">
-              <li><a href="#/linknode" data-i18n="yes">Yes. And I have my own node.</a></li>
-              <li><a href="#/boughtwallet" data-i18n="yes">Yes. And I do not want to have a node of my own.</a></li>
-              <li><a href="#/node" data-i18n="yes">Yes. But why would I want my own node?</a></li>
+              <li><a href="#/linknode" data-i18n="linknode">Yes. And I have my own node.</a></li>
+              <li><a href="#/boughtwallet" data-i18n="boughtwallet">Yes. And I do not want to have a node of my own.</a></li>
+              <li><a href="#/node" data-i18n="node">Yes. But why would I want my own node?</a></li>
             </ul>
           </section>
 
           <section id="linknode">
-            <p class="intro"      data-i18n="intro">You are taking the hard core route, that is cool. You will be your own bank!</p>
-            <p class="question"   data-i18n="question">Now is the time to link the wallet software to your own node</p>
+            <p class="intro" data-i18n="intro">You are taking the hard core route, that is cool. You will be your own
+              bank!</p>
+            <p class="question" data-i18n="question">Now is the time to link the wallet software to your own node</p>
             <ul class="button">
               <li><a href="#/boughtwallet" data-i18n="next">Cool, done!</a></li>
             </ul>
           </section>
 
           <section id="boughtwallet">
-            <p class="intro"      data-i18n="intro">Congrats on your wallet. It's a great step towards security for your bitcoin.</p>
-            <p class="warning"    data-i18n="warning" >Tip: Now you have received it, ask the store where you bought it to delete your data. Non existing data cannot be stolen! At installation your wallet will give you seed words. You most store these safely offline (this means to NEVER put this into a computer/phone/cloud!)</p>
-            <p class="question"   data-i18n="question">Do you want to protect these words (the seed) against fire?</p>
+            <p class="intro" data-i18n="intro">Congrats on your wallet. It's a great step towards security for your
+              bitcoin.</p>
+            <p class="warning" data-i18n="warning">Tip: Now you have received it, ask the store where you bought it to
+              delete your data. Non existing data cannot be stolen! At installation your wallet will give you seed
+              words. You most store these safely offline (this means to NEVER put this into a computer/phone/cloud!)</p>
+            <p class="question" data-i18n="question">Do you want to protect these words (the seed) against fire?</p>
             <ul class="button">
               <li><a href="#/fireprotection" data-i18n="yes">Yes, a fire should not destroy my bitcoin!</a></li>
-              <li><a href="#/otheraccess" data-i18n="no" >No, I am not worried about that. I will put my seed in a safe place.</a></li>
+              <li><a href="#/otheraccess" data-i18n="no">No, I am not worried about that. I will put my seed in a safe
+                  place.</a></li>
             </ul>
           </section>
 
           <section id="fireprotection">
-            <p class="intro"      data-i18n="intro">There are some solutions to protect your seed against fire</p>
-            <p class="info"    data-i18n="info" ><ul><li>You can buy a steel plate and hammer the words in</li><li>You can put the seed in a fireproof safe</li></ul></p>
+            <p class="intro" data-i18n="intro">There are some solutions to protect your seed against fire</p>
+            <ul>
+              <li data-i18n="steelplate">You can buy a steel plate and hammer the words in</li>
+              <li data-i18n="safe">You can put the seed in a fireproof safe</li>
+            </ul>
             <ul class="button">
               <li><a href="#/otheraccess" data-i18n="next">Cool, let's continue</a></li>
             </ul>
           </section>
 
           <section id="otheraccess">
-            <p class="intro"      data-i18n="intro">Your bitcoin is now stored at one location (your home presumably). You might not want your house to be a single point of failure.</p>
-            <p class="warning"    data-i18n="warning" >Also consider if you die, others might want access to your bitcoin!</p>
-            <p class="question"   data-i18n="question">Do you think others might need access to your bitcoin?</p>
+            <p class="intro" data-i18n="intro">Your bitcoin is now stored at one location (your home presumably). You
+              might not want your house to be a single point of failure.</p>
+            <p class="warning" data-i18n="warning">Also consider if you die, others might want access to your bitcoin!
+            </p>
+            <p class="question" data-i18n="question">Do you think others might need access to your bitcoin?</p>
             <ul class="button">
-              <li><a href="#/trustpeople" data-i18n="yes">Yeah others might need access / I do not want my house to be a single point of failure / I want to put restrictions on spending my bitcoin.</a></li>
+              <li><a href="#/trustpeople" data-i18n="yes">Yeah others might need access / I do not want my house to be a
+                  single point of failure / I want to put restrictions on spending my bitcoin.</a></li>
               <li><a href="#/opsec" data-i18n="no">Nah, I'm good, let's not consider this</a></li>
             </ul>
           </section>
 
           <section id="trustpeople">
-            <p class="intro"      data-i18n="intro">You will want to spread your backup over multiple locations</p>
-            <p class="question"   data-i18n="question">Do you have some people you 100% trust?</p>
+            <p class="intro" data-i18n="intro">You will want to spread your backup over multiple locations</p>
+            <p class="question" data-i18n="question">Do you have some people you 100% trust?</p>
             <ul class="button">
-              <li><a href="#/havetrustedpeople" data-i18n="yes">Yes, I trust some people completely with my money, and they live at different locations</a></li>
-              <li><a href="#/spendextra" data-i18n="no" >I'd rather not put complete trust at these people</a></li>
+              <li><a href="#/havetrustedpeople" data-i18n="yes">Yes, I trust some people completely with my money, and
+                  they live at different locations</a></li>
+              <li><a href="#/spendmoney" data-i18n="no">I'd rather not put complete trust at these people</a></li>
             </ul>
           </section>
 
           <section id="havetrustedpeople">
-            <p class="intro"      data-i18n="intro">That's good, there are people you trust. You could put a copy of your seed at their houses.</p>
-            <p class="warning"    data-i18n="warning" >Be aware! There are now multiple locations that enable stealing of your whole bitcoin fortune.</p>
-            <p class="question"   data-i18n="question">Is that OK?</p>
+            <p class="intro" data-i18n="intro">That's good, there are people you trust. You could put a copy of your
+              seed at their houses.</p>
+            <p class="warning" data-i18n="warning">Be aware! There are now multiple locations that enable stealing of
+              your whole bitcoin fortune.</p>
+            <p class="question" data-i18n="question">Is that OK?</p>
             <ul class="button">
               <li><a href="#/opsec" data-i18n="yes">Yes, I will give these people a copy of my seed words</a></li>
-              <li><a href="#/spendmoney" data-i18n="no" >No, tell me about better options</a></li>
+              <li><a href="#/spendmoney" data-i18n="no">No, tell me about better options</a></li>
             </ul>
           </section>
 
           <section id="spendmoney">
-            <p class="intro"      data-i18n="intro">Okay, we will not put complete trust in others. That makes sense.</p>
-            <p class="question"   data-i18n="question">Are you OK with spending some extra money for security?</p>
+            <p class="intro" data-i18n="intro">Okay, we will not put complete trust in others. That makes sense.</p>
+            <p class="question" data-i18n="question">Are you OK with spending some extra money for security?</p>
             <ul class="button">
               <li><a href="#/willspendmoney" data-i18n="yes">That's fine</a></li>
-              <li><a href="#/ssss" data-i18n="no" >No, I have already spent money on my wallet, let's go for a technical solution</a></li>
-              <li><a href="#/cutseed" data-i18n="no" >No, I have already spent money on my wallet, let's go for a simple solution</a></li>
+              <li><a href="#/ssss" data-i18n="no">No, I have already spent money on my wallet, let's go for a technical
+                  solution</a></li>
+              <li><a href="#/cutseed" data-i18n="no">No, I have already spent money on my wallet, let's go for a simple
+                  solution</a></li>
             </ul>
           </section>
 
           <section id="willspendmoney">
-            <p class="intro"      data-i18n="intro">Security is worth money! We agree!</p>
-            <p class="info"    data-i18n="info" ><ul><li>You could go to a notary</li><li>You could put your secrets (or a 2nd backup wallet) at a (bank) safe</li><li>You could trust a custodial company specialized in storing bitcoin</li></ul></p>
-            <p class="question"   data-i18n="question">How does that sound?</p>
+            <p class="intro" data-i18n="intro">Security is worth money! We agree!</p>
+            <p class="info" data-i18n="info">
+            <ul>
+              <li>You could go to a notary</li>
+              <li>You could put your secrets (or a 2nd backup wallet) at a (bank) safe</li>
+              <li>You could trust a custodial company specialized in storing bitcoin</li>
+            </ul>
+            </p>
+            <p class="question" data-i18n="question">How does that sound?</p>
             <ul class="button">
-              <li><a href="#/custodialparty" data-i18n="yes">I like (one of) those. Will put my seed (or a 2nd backup wallet) at one of those parties.</a></li>
-              <li><a href="#/multisig" data-i18n="no">I'd rather have a technical solution where I need less trust in 3rd parties</a></li>
+              <li><a href="#/custodialparty" data-i18n="yes">I like (one of) those. Will put my seed (or a 2nd backup
+                  wallet) at one of those parties.</a></li>
+              <li><a href="#/multisig" data-i18n="no">I'd rather have a technical solution where I need less trust in
+                  3rd parties</a></li>
             </ul>
           </section>
 
           <section id="ssss">
-            <p class="intro"      data-i18n="intro">Technology can do interesting things!</p>
-            <p class="info"       data-i18n="info" >Shamir's Secret Sharing is an algorithm that let's you cut your seed into multiple parts in a safe way. You can cut it into a 3-of-5 for example. This means you cut it in 5 parts, and 3 parts are needed to access your bitcoin. You can pick all the X-of-N numbers you want.</p>
-            <p class="warning"    data-i18n="warning" >This solution is quite technical. Be sure you make good documentation, so you will still know how to work with the parts in 10 years.</p>
-            <p class="question"   data-i18n="question">Like this?</p>
+            <p class="intro" data-i18n="intro">Technology can do interesting things!</p>
+            <p class="info" data-i18n="info">Shamir's Secret Sharing is an algorithm that let's you cut your seed into
+              multiple parts in a safe way. You can cut it into a 3-of-5 for example. This means you cut it in 5 parts,
+              and 3 parts are needed to access your bitcoin. You can pick all the X-of-N numbers you want.</p>
+            <p class="warning" data-i18n="warning">This solution is quite technical. Be sure you make good
+              documentation, so you will still know how to work with the parts in 10 years.</p>
+            <p class="question" data-i18n="question">Like this?</p>
             <ul class="button">
-              <li><a href="#/distributeparts" data-i18n="yes">Very cool. I will cut up my seed into some parts using Shamir's Secret Sharing.</a></li>
-              <li><a href="#/cutseed" data-i18n="simple">That sounds (too) hard. Can we go for a simpler solution?</a></li>
+              <li><a href="#/distributeparts" data-i18n="yes">Very cool. I will cut up my seed into some parts using
+                  Shamir's Secret Sharing.</a></li>
+              <li><a href="#/cutseed" data-i18n="simple">That sounds (too) hard. Can we go for a simpler solution?</a>
+              </li>
             </ul>
           </section>
 
           <section id="cutseed">
-            <p class="intro"      data-i18n="intro">Your seed is usually 24 words. You could cut these up into 2 parts of 12 words, or 3 parts of 8 words for example, and put these parts at different friends' locations</p>
-            <p class="warning"    data-i18n="warning" >You need ALL the parts to get access to your bitcoin. Losing ANY of these parts means you will forever lose access to your bitcoin!</p>
-            <p class="question"   data-i18n="question">Does that sound OK?</p>
+            <p class="intro" data-i18n="intro">Your seed is usually 24 words. You could cut these up into 2 parts of 12
+              words, or 3 parts of 8 words for example, and put these parts at different friends' locations</p>
+            <p class="warning" data-i18n="warning">You need ALL the parts to get access to your bitcoin. Losing ANY of
+              these parts means you will forever lose access to your bitcoin!</p>
+            <p class="question" data-i18n="question">Does that sound OK?</p>
             <ul class="button">
               <li><a href="#/distributeparts" data-i18n="yes">Yeah that is fine (it's a backup anyway)</a></li>
-              <li><a href="#/ssss" data-i18n="ssss">Hmm, please tell me about a technical solution (Sharing's Secret Sharing)</a></li>
-              <li><a href="#/custodialparty" data-i18n="custodialparty">Maybe I'd like a 3rd party after all to arrange this for me</a></li>
+              <li><a href="#/ssss" data-i18n="ssss">Hmm, please tell me about a technical solution (Sharing's Secret
+                  Sharing)</a></li>
+              <li><a href="#/custodialparty" data-i18n="custodialparty">Maybe I'd like a 3rd party after all to arrange
+                  this for me</a></li>
             </ul>
           </section>
 
           <section id="custodialparty">
-            <p class="intro"      data-i18n="intro">Third party could be a good solution</p>
-            <p class="warning"    data-i18n="warning">Remember you do often need some trust in these parties. Make sure you are well informed about risks.</p>
-            <p class="question"   data-i18n="question">What do you want to do?</p>
+            <p class="intro" data-i18n="intro">Third party could be a good solution. A notary or bank safe can act as your custodial, to store secrets. Or you can go to a party dedicated to buying/storing bitcoin.</p>
             <ul class="button">
-              <li><a href="#/backupwalletcustodial" data-i18n="backupwalletcustodial">I will put a 2nd wallet at a safe, notary or custodial, tell me how</a></li>
-              <li><a href="#/seedcopycustodial" data-i18n="backupwalletcustodial">I will put a copy of my seed at a custodial, tell me how</a></li>
-              <li><a href="#/ssss" data-i18n="ssss" >Maybe I do not like the idea of a custodial after all, what's the technical option?</a></li>
+              <li><a href="#/backupwalletcustodial" data-i18n="backupwalletcustodial">I will put a 2nd wallet at a safe,
+                  notary or custodial, tell me how</a></li>
+              <li><a href="#/seedcopycustodial" data-i18n="backupwalletcustodial">I will put a copy of my seed at a
+                  custodial, tell me how</a></li>
+              <li><a href="#/multisigparty" data-i18n="multisigparty">Tell me about parties providing multisig solutions.</a></li>
+              <li><a href="#/fundlike" data-i18n="fundlike">Tell me about (exchange traded) funds I can buy on regular exchanges.</a></li>
+              <li><a href="#/ssss" data-i18n="ssss">Maybe I do not like the idea of a custodial after all, what's the
+                  technical option?</a></li>
             </ul>
           </section>
 
           <section id="multisig">
-            <p class="intro"      data-i18n="intro">A multisig consists of multiple (hardware) wallets and X-of-N transactions. You could have 5 wallets for example, and need 3 of them to sign your transaction (= send your bitcoin). You can pick any numbers you'd like. Higher numbers means more action is needed. Multisig is often considered the holy grail of self-custody security. It's also used within big custodial companies and exchanges to make sure not 1 single person can access the bitcoin, for example 3 wallets are needed (maybe the CEO, CFO and a dude named Ben always need to sign)</p>
-            <p class="warning"    data-i18n="warning" >For all actions you do with your multisig-secured bitcoin you need collaboration of multiple parties. This means more work is needed.</p>
-            <p class="question"   data-i18n="question">Does that sound good?</p>
+            <p class="intro" data-i18n="intro">A multisig consists of multiple (hardware) wallets and X-of-N
+              transactions. You could have 5 wallets for example, and need 3 of them to sign your transaction (= send
+              your bitcoin). You can pick any numbers you'd like. Higher numbers means more action is needed. Multisig
+              is often considered the holy grail of self-custody security. It's also used within big custodial companies
+              and exchanges to make sure not 1 single person can access the bitcoin, for example 3 wallets are needed
+              (maybe the CEO, CFO and a dude named Ben always need to sign)</p>
+            <p class="warning" data-i18n="warning">For all actions you do with your multisig-secured bitcoin you need
+              collaboration of multiple parties. This means more work is needed.</p>
+            <p class="question" data-i18n="question">Does that sound good?</p>
             <ul class="button">
-              <li><a href="#/multisighow" data-i18n="yes">Yes. Tell me how to achieve this high level of security!</a></li>
-              <li><a href="#/custodialparty" data-i18n="custodialparty" >Maybe I want a custodial party after all to arrange these things</a></li>
-              <li><a href="#/ssss" data-i18n="ssss" >Tell me about other technical solutions to solve this</a></li>
+              <li><a href="#/multisighow" data-i18n="yes">Yes. Tell me how to achieve this high level of security!</a>
+              </li>
+              <li><a href="#/custodialparty" data-i18n="custodialparty">Maybe I want a custodial party after all to
+                  arrange these things</a></li>
+              <li><a href="#/ssss" data-i18n="ssss">Tell me about other technical solutions to solve this</a></li>
+              <li><a href="#/multisigparty" data-i18n="multisigparty">Tell me about parties providing multisig solutions.</a></li>
             </ul>
           </section>
 
           <section id="distributeparts">
-            <p class="intro"      data-i18n="intro">So you have your seed in multiple parts now, great! You can place these parts at your friends' houses, or put (some of) them at a trusted third party</p>
-            <p class="warning"    data-i18n="warning" >Forgetting how to use the parts is one of bigger risks here. Make sure you have instructions on how to access your coins (use the parts) 10 years from now. Also consider scheduling a yearly verification, checking everyone still has your secrets.</p>
+            <p class="intro" data-i18n="intro">So you have your seed in multiple parts now, great! You can place these
+              parts at your friends' houses, or put (some of) them at a trusted third party</p>
+            <p class="warning" data-i18n="warning">Forgetting how to use the parts is one of bigger risks here. Make
+              sure you have instructions on how to access your coins (use the parts) 10 years from now. Also consider
+              scheduling a yearly verification, checking everyone still has your secrets.</p>
             <ul class="button">
-              <li><a href="#/physicalsecurity" data-i18n="physicalsecurity">I will distribute these parts to houses of my friends</a></li>
-              <li><a href="#/seedcopycustodial" data-i18n="seedcopycustodial">I want tu put these copies at a (trusted) custodial party</a></li>
+              <li><a href="#/physicalsecurity" data-i18n="physicalsecurity">I will distribute these parts to houses of
+                  my friends</a></li>
+              <li><a href="#/seedcopycustodial" data-i18n="seedcopycustodial">I want tu put these copies at a (trusted)
+                  custodial party</a></li>
             </ul>
           </section>
 
           <section id="backupwalletcustodial">
-            <p class="intro"      data-i18n="intro">You can have multiple hardware wallets using the same secrets. You are considering putting a backup wallet at a custodial</p>
-            <p class="info"    data-i18n="info" >To do this, buy a second hardware wallet and initialize it using the same seed words. Now both wallets can be used to access the same bitcoin</p>
+            <p class="intro" data-i18n="intro">You can have multiple hardware wallets using the same secrets. You are
+              considering putting a backup wallet at a custodial</p>
+            <p class="info" data-i18n="info">To do this, buy a second hardware wallet and initialize it using the same
+              seed words. Now both wallets can be used to access the same bitcoin</p>
             <ul class="button">
               <li><a href="#/opsec" data-i18n="theend">Nice!</a></li>
             </ul>
           </section>
 
           <section id="seedcopycustodial">
-            <p class="intro"      data-i18n="intro">You can put your secrets at a custodial party. Depending on the choices you made, more or less trust is needed. For a multisig or Shamir's Secret Sharing-scheme, less trust is needed than putting a copy of your seed at a 3rd party</p>
-            <p class="warning"    data-i18n="warning" >A copy of your seed will give full access to the 3rd party, make sure you trust them</p>
+            <p class="intro" data-i18n="intro">You can put your secrets at a custodial party. Depending on the choices
+              you made, more or less trust is needed. For a multisig or Shamir's Secret Sharing-scheme, less trust is
+              needed than putting a copy of your seed at a 3rd party</p>
+            <p class="warning" data-i18n="warning">A copy of your seed will give full access to the 3rd party, make sure
+              you trust them</p>
             <ul class="button">
-              <li><a href="#/opsec" data-i18n="theend">I understand and I am OK with the risks / I will use multisig or Shamir's Secret Sharing</a></li>
+              <li><a href="#/opsec" data-i18n="theend">I understand and I am OK with the risks / I will use multisig or
+                  Shamir's Secret Sharing</a></li>
               <li><a href="#/multisig" data-i18n="ssss">Tell me about multisig</a></li>
               <li><a href="#/ssss" data-i18n="ssss">Tell me about Shamir's Secret Sharing</a></li>
             </ul>
           </section>
 
           <section id="multisighow">
-            <p class="intro"      data-i18n="intro">Multisigs are very cool</p>
-            <p class="info"    data-i18n="info" ><ol><li>Decide how many parties (people) you want to involve in total. This is your variable <em>N</em></li><li>Decide how many of these parties you want to have at minimum to sign transactions (send bitcoin) this is variable <em>X</em></li><li>Find a hardware wallet that supports multisig schemes, buy <em>N</em> of these wallets</li><li>Set up your X-of-N multisig using the wallets</li><li>Distribute the wallets over multiple parties</li><li>Make sure you document the needed steps well, so in 10 years you still know how to use the multisig</li></p>
-            <p class="warning"   data-i18n="warning">Losing too many parts or forgetting how multisig works are the bigger risks. Make sure people understand what their part is/means. Document this well. Consider scheduling a yearly check to make sure everyone is still in posession of their wallets and understands.</p>
-            <p class="question"   data-i18n="question">Is that all good?</p>
+            <p class="intro" data-i18n="intro">Multisigs are very cool</p>
+            <ol>
+              <li data-i18n="step1">Decide how many parties (people) you want to involve in total. This is your variable <em>N</em></li>
+              <li data-i18n="step2">Decide how many of these parties you want to have at minimum to sign transactions (send bitcoin) this
+                is variable <em>X</em></li>
+              <li data-i18n="step3">Find a hardware wallet that supports multisig schemes, buy <em>N</em> of these wallets</li>
+              <li data-i18n="step4">Set up your X-of-N multisig using the wallets</li>
+              <li data-i18n="step5">Distribute the wallets over multiple parties</li>
+              <li data-i18n="step6">Make sure you document the needed steps well, so in 10 years you still know how to use the multisig
+              </li>
+            </ol>
+            <p class="warning" data-i18n="warning">Losing too many parts or forgetting how multisig works are the bigger risks. Make sure people understand what their part is/means. Document this well. Consider scheduling a yearly check to make sure everyone is still in possession of their wallets and understands.</p>
+            <p class="question" data-i18n="question">Is that all good?</p>
             <ul class="button">
               <li><a href="#/physicalsecurity" data-i18n="next">Nice. Show me the last steps.</a></li>
             </ul>
           </section>
 
           <section id="physicalsecurity">
-            <p class="intro"      data-i18n="intro">One of the last things you might want to consider is phisical security. Think about a safe, weapons (if legal). This applies to all locations you (might have) put (parts of) your secrets.</p>
+            <p class="intro" data-i18n="intro">One of the last things you might want to consider is physical security.
+              Think about a safe, weapons (if legal). This applies to all locations you (might have) put (parts of) your
+              secrets.</p>
             <ul class="button">
               <li><a href="#/opsec" data-i18n="theend">Sure!</a></li>
             </ul>
           </section>
 
-          <!--
-          <section id="XXX">
-            <p class="intro"      data-i18n="intro">XXX</p>
-            <p class="warning"    data-i18n="warning" >YYY</p>
-            <p class="question"   data-i18n="question">XXX?</p>
-            <ul class="button">
-              <li><a href="#/XXX" data-i18n="yes">XXX</a></li>
-              <li><a href="#/XXX" data-i18n="no" >YYY</a></li>
-            </ul>
-          </section> -->
-
         </section><!-- /HARDWARE -->
 
 
-        <section id="theend"><!-- END -->
+        <section id="theend" class="mastersection">
+          <!-- END -->
           <section id="opsec">
-            <p class="intro"      data-i18n="intro">That's it. Hope this website was useful to you. If it was, please share it.</p>
-            <p class="warning"    data-i18n="warning" >Keep in mind that talking about how you did your own security, might not be safe and might make you a target.</p>
-            <p class="question"   data-i18n="question">That's it! You are ready for the future.</p>
+            <p class="intro" data-i18n="intro">That's it. Hope this website was useful to you. If it was, please share
+              it.</p>
+            <p class="info" data-i18n="info">You can always change your strategy later, if amounts or risks change!
+            </p>
+            <p class="warning" data-i18n="warning">Keep in mind that talking about how you did your own security, might
+              not be safe and might make you a target.</p>
+            <p class="question" data-i18n="question">That's it! You are ready for the future.</p>
             <ul class="button">
               <li><a href="#/start" data-i18n="start">Great! (start again)</a></li>
+              <li class="external"><a href="https://github.com/storingbitcoin-info/website" data-i18n="github" rel="noopener noreferrer" target="_blank">Make suggestions on GitHub</a></li>
+              <li class="external"><a href="https://t.me/joinchat/AIww6hl0RpaGrLEO6EVWCQ" data-i18n="telegram" rel="noopener noreferrer" target="_blank">Join the conversation on Telegram</a></li>
             </ul>
           </section>
         </section><!-- /END -->
@@ -379,26 +516,28 @@
 
     <script src="assets/reveal.js"></script>
     <script src="assets/plugin/Internation/internation.js"></script>
+    <script src="assets/site.js"></script>
     <script>
 
       Reveal.initialize({
         controls: false,
         hash: true,
-        progress: false,
+        progress: true,
         controlsBackArrows: 'visible',
         internation: {
-          //switchselector: ".langchooser",
+          switchselector: ".langchooser",
           makejson: true,
           languages: {
-          nl: {
-            name: "Nederlands",
-            dictionary: "languages/nl.json"
-          },
-        }
-    },
+            nl: {
+              name: "Nederlands",
+              dictionary: "languages/nl.json"
+            },
+          }
+        },
 
-        plugins: [ Internation ]
+        plugins: [Internation]
       });
     </script>
   </body>
+
 </html>

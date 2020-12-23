@@ -175,6 +175,7 @@
               });
             }
           });
+          
           langs[options.locale].name = options.localename;
           langs[options.locale].dictionary = newdict;
         }
@@ -227,8 +228,7 @@
       };
 
       var langSwitcher = function langSwitcher() {
-        var selects = deck.getRevealElement().querySelectorAll(options.switchselector);
-
+        var selects = document.querySelectorAll(options.switchselector);
         if (sessionStorage['InternationSettingsStorage']) {
           var langPref = sessionStorage['InternationSettingsStorage'];
           switchSetter(selects, langPref);

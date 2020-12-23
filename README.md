@@ -1,7 +1,5 @@
 [StoringBitcoin.info](https://storingbitcoin.info) will use questions to get you to a good strategy for storing your bitcoin.
 
-% WORK IN PROGRESS!!
-
 # Helping out
 Help is very welcome
 
@@ -10,3 +8,6 @@ If you find a problem, or feel something has to change, open an issue (menubar a
 
 ## Developing
 Know html+css? Look at the issue list and help out. PRs welcome!
+
+# Overview
+![Graph showing steps](https://raw.githubusercontent.com/storingbitcoin-info/website/main/graph.png "Graph")

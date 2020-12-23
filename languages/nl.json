@@ -81,17 +81,19 @@
       },
       "robberysolutions":{
          "intro":"Een overval kan altijd gebeuren, gelukkig zijn er wat oplossingen:",
-         "info":"<ul><li>Je kunt een hardwarewallet kopen waarbij de mogelijkheid is een timeout voor ontgrendelen in te stellen is. Dan moet je 1/2/4/8/24/... uur wachten voordat je kunt versturen.</li><li>Je kunt een tweede wallet kopen, een <i>distraction wallet</i>.</li><li>Je kunt een wallet kopen waarbij het mogelijk is een tweede balans op te zetten, een soort van afledingsmanoeuvre. Dit lagere bedrag ziet er dan uit als \"alles wat er te stelen is\"</li></ul>",
+         "unlocktimeout":"Je kunt een hardwarewallet kopen waarbij de mogelijkheid is een timeout voor ontgrendelen in te stellen is. Dan moet je 1/2/4/8/24/... uur wachten voordat je kunt versturen.",
+         "distractionwallet":"Je kunt een tweede wallet kopen, een <i>distraction wallet</i>",
+         "secondaccount":"Je kunt een wallet kopen waarbij het mogelijk is een tweede balans op te zetten, een soort van afledingsmanoeuvre. Dit lagere bedrag ziet er dan uit als \"alles wat er te stelen is\"",
          "warning":"Als het mogelijk is, stuur je wallet niet naar je huisadres. Als de verkoopdatabase van de verkopende partij gehackt wordt, dan weten de dieven waar je woont.",
          "next":"Ik neem het mee, ga door!"
       },
       "buywallet":{
          "intro":"Tijd om een wallet te kopen.",
-         "info":"<a href=\"https://github.com/storingbitcoin-info/website/issues/10\" target=\"_blank\"><em>Deze site is <em>work in progress</em> We hebben nog geen lijst van wallets gebaseerd op je keuzes.</em></a>",
+         "info":"<a href=\"https://github.com/storingbitcoin-info/website/issues/10\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Deze site is <em>work in progress</em> We hebben nog geen lijst van wallets gebaseerd op je keuzes.</em></a>",
          "question":"Heb je een wallet gekocht?",
-         "yes":"Ja, en mijn eigen node!",
-         "yes":"Ja, en ik wil geen eigen node.",
-         "yes":"Ja, maar waarom wil ik een eigen node?"
+         "linknode":"Ja, en mijn eigen node!",
+         "boughtwallet":"Ja, en ik wil geen eigen node.",
+         "node":"Ja, maar waarom wil ik een eigen node?"
       },
       "linknode":{
          "intro":"Je neemt de moeilijke weg. Gaaf. Wees je eigen bank!",
@@ -107,7 +109,8 @@
       },
       "fireprotection":{
          "intro":"Er bestaan verschillende opties om je seed tegen vuur te beschermen.",
-         "info":"<ul><li>Je kunt een stalen plaatje kopen en de woorden daarin graveren</li><li>Je kunt de seed in een brandkast stoppen</li></ul>",
+         "steelplate":"Je kunt een stalen plaatje kopen en de woorden daarin graveren",
+         "safe":"Je kunt de seed in een brandkast stoppen",
          "next":"Ga door."
       },
       "otheraccess":{
@@ -196,7 +199,12 @@
       },
       "multisighow":{
          "intro":"Multisigs zijn cool",
-         "info":"<ol><li>Besluit hoeveel partijen (mensen) je in totaal mee wilt laten doen. Dit is je variabele <em>N</em></li><li>Besluit met hoeveel van deze partijen je minimaal een transactie wil kunnen ondertekenen (bitcoins versturen). Dit is variabele <em>X</em></li><li>Zoek een hardwarewallet die multisig-schema's ondersteunt. Koop bijvorbeeld <em>N</em> een van deze wallets</li><li> Stel je X-van-N multisig in met de wallets</li><li>Distribueer de wallets over meerdere partijen</li><li>Documenteer de benodigde stappen goed! Over 10 jaar moet je nog steeds begrijpen hoe je multisig te gebruiken.</li>",
+         "step1":"Besluit hoeveel partijen (mensen) je in totaal mee wilt laten doen. Dit is je variabele <em>N</em>",
+         "step2":"Besluit met hoeveel van deze partijen je minimaal een transactie wil kunnen ondertekenen (bitcoins versturen). Dit is variabele <em>X</em>",
+         "step3":"Zoek een hardwarewallet die multisig-schema's ondersteunt. Koop bijvorbeeld <em>N</em> een van deze wallets",
+         "step4":"Stel je X-van-N multisig in met de wallets",
+         "step5":"Distribueer de wallets over meerdere partijen",
+         "step6":"Documenteer de benodigde stappen goed! Over 10 jaar moet je nog steeds begrijpen hoe je multisig te gebruiken.",
          "warning":"Als je te veel delen van je multisig verliest of vergeet hoe je multisig te gebruiken, dan kun je nooit meer bij je bitcoins. Dat is een groot risico! Verzeker de mensen die je hier deelgenoot van maakt dat ze begrijpen hoe belangrijk hun deelname is en wat het betekent. Leg dit goed vast. Check elk jaar of iedereen nog in bezit is van hun wallets en begrijpt waarom je dat doet.",
          "question":"Is dat allemaal klaar?",
          "next":"Toon me de laatste stappen."
@@ -214,6 +222,7 @@
       },
       "opsec":{
          "intro":"Dat was het! We hopen dat deze website nuttig voor je was. Zo ja, deel!",
+         "info":"Je kan je strategie natuurlijk altijd aanpassen, als de bedragen of je risico's veranderen",
          "warning":"Onthoud dat praten over hoe je je eigen veiligheid geregeld hebt, mogelijk niet veilig is en je mogelijk een doel (voor diefstal) maakt.",
          "question":"Dat is het! Je bent klaar voor de toekomst!",
          "start":"Begin opnieuw."
