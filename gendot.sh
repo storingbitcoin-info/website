@@ -11,7 +11,7 @@ digraph G {
   headclip=false
 EOF
 
-cat $INPUT| while read line; do
+cat $INPUT| grep -v "mastersection"| while read line; do
   if echo $line | grep -q "section id="; then
     # Page = Node
     SECTION=$(echo $line | cut -d'"' -f2)

@@ -4,7 +4,6 @@ digraph G {
   splines=true
   tailclip=false
   headclip=false
-_havebtc [label="havebtc"]
 _start [label="start"]
 _start -> _nobtc
 _start -> _ihavebtc
@@ -28,13 +27,11 @@ _amount -> _custodialparty
 _storeexchange [label="storeexchange"]
 _storeexchange -> _amount
 _storeexchange -> _opsec
-_software [label="software"]
 _softwarewallet [label="softwarewallet"]
 _softwarewallet -> _softwarewallet2
 _softwarewallet -> _hardwarewallet
 _softwarewallet2 [label="softwarewallet2"]
 _softwarewallet2 -> _opsec
-_hardware [label="hardware"]
 _hardwarewallet [label="hardwarewallet"]
 _hardwarewallet -> _robbery
 _hardwarewallet -> _node
@@ -100,10 +97,6 @@ _multisighow [label="multisighow"]
 _multisighow -> _physicalsecurity
 _physicalsecurity [label="physicalsecurity"]
 _physicalsecurity -> _opsec
-_XXX [label="XXX"]
-_XXX -> _XXX
-_XXX -> _XXX
-_theend [label="theend"]
 _opsec [label="opsec"]
 _opsec -> _start
 }
