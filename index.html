@@ -70,6 +70,7 @@
               <li><a href="#/hardwarewallet" data-i18n="hardwarewallet">I use a hardware wallet</a></li>
               <li><a href="#/softwarewallet" data-i18n="softwarewallet">I use software to store them (on phone or
                   computer)</a></li>
+              <li><a href="#/fundlike" data-i18n="fundlike">Tell me about (exchange traded) funds.</a></li>
             </ul>
           </section>
 
@@ -113,15 +114,11 @@
 
           <section id="amount">
             <p class="intro" data-i18n="intro">You need to decide how to store your bitcoin</p>
-            <p class="question" data-i18n="question">Is this a large amount? Small amount would be a few cappucinno's or
-              a fancy diner. But it's up to you to decide what a "large amount" is...</p>
+            <p class="question" data-i18n="question">Is this a large amount? It's up to you to decide what a <em>large amount</em> is...</p>
             <ul class="button">
-              <li><a href="#/softwarewallet" data-i18n="softwarewallet">No, it's a small amount. I don't need the
-                  highest level of security. Tell me about software wallets.</a></li>
-              <li><a href="#/hardwarewallet" data-i18n="hardwarewallet">Yes, I do not want to lose this bitcoin. Tell me
-                  how I can keep these bitcoins secure myself.</a></li>
-              <li><a href="#/custodialparty" data-i18n="custodialparty">Yes, I do not want to lose this bitcoin. Tell me
-                  how 3rd parties can help me keeping these bitcoin secure.</a></li>
+              <li><a href="#/softwarewallet" data-i18n="softwarewallet">Small amount, low security. Tell me about software wallets.</a></li>
+              <li><a href="#/hardwarewallet" data-i18n="hardwarewallet">Large amount, high security. Tell me how I can keep these bitcoins secure myself.</a></li>
+              <li><a href="#/custodialparty" data-i18n="custodialparty">Tell me how 3rd parties can help me keeping these bitcoin secure.</a></li>
             </ul>
           </section>
 
@@ -138,6 +135,30 @@
             <li><a href="#/opsec" data-i18n="theend">Sure!</a></li>
           </ul>
         </section><!-- /STOREEXCHANGE -->
+
+
+        <section id="fundlike">
+          <!-- FUNDLIKE -->
+          <p class="intro" data-i18n="intro">There are tunds (ETNs) you can buy on regular exchanges, the same type of exchange you can but stocks.</p>
+          <p class="warning" data-i18n="warning">If you use these products, you can never be technically sure the fund really holds your bitcoin.</p>
+          <p class="question" data-i18n="question">How does that sound?</p>
+          <ul class="button">
+            <li><a href="#/amount" data-i18n="reconsider">Don't like that. I want to self-custody.</a></li>
+            <li><a href="#/opsec" data-i18n="theend">Sure! I will but ETNs on an exchange.</a></li>
+          </ul>
+        </section><!-- /FUNDLIKE -->
+
+
+        <section id="multisigparty">
+          <!-- MULTISIGPARTY -->
+          <p class="intro" data-i18n="intro">There are parties who help you set up a multisig solution. They are one of the parties in your multisig setup.</p>
+          <p class="info" data-i18n="info">These companiers are often focused on cryptocurrencies. They can provide a good layer of security to your bitcoin storage, protecting you against hacking, seizure, in person attacks.</p>
+          <p class="question" data-i18n="question">How does that sound?</p>
+          <ul class="button">
+            <li><a href="#/amount" data-i18n="reconsider">Don't like that. I want to self-custody.</a></li>
+            <li><a href="#/opsec" data-i18n="theend">Sure! I will look into this.</a></li>
+          </ul>
+        </section><!-- /MULTISIGPARTY -->
 
 
         <section id="software" class="mastersection">
@@ -380,6 +401,8 @@
                   custodial, tell me how</a></li>
               <li><a href="#/ssss" data-i18n="ssss">Maybe I do not like the idea of a custodial after all, what's the
                   technical option?</a></li>
+              <li><a href="#/multisigparty" data-i18n="multisigparty">Tell me about parties providing multisig solutions.</a></li>
+              <li><a href="#/fundlike" data-i18n="fundlike">Tell me about (exchange traded) funds I can buy on regular exchanges.</a></li>
             </ul>
           </section>
 
@@ -399,6 +422,7 @@
               <li><a href="#/custodialparty" data-i18n="custodialparty">Maybe I want a custodial party after all to
                   arrange these things</a></li>
               <li><a href="#/ssss" data-i18n="ssss">Tell me about other technical solutions to solve this</a></li>
+              <li><a href="#/multisigparty" data-i18n="multisigparty">Tell me about parties providing multisig solutions.</a></li>
             </ul>
           </section>
 

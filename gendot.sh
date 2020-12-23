@@ -32,3 +32,5 @@ cat >> $OUTPUT <<EOF
 EOF
 
 dot -Tpng $OUTPUT > graph.png
+git add graph.gv graph.png
+git status

@@ -290,7 +290,7 @@ nav .langchooser [type=radio]:checked+span:before {
   text-align: center;
   background-color: #FF7A00;
   padding: 10px;
-  margin: 10px;
+  margin: 0 10px 10px 10px;
 }
 .button li a{
   color: #fff;
