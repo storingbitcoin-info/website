@@ -12,15 +12,17 @@
          "question":"Hoe sla je je bitcoins nu op?",
          "exchange":"Op de exchange waar ik ze kocht",
          "hardwarewallet":"Ik gebruik een hardwarewallet",
-         "softwarewallet":"Ik gebruik een softwarewallet om ze op te slaan (op telefoon of computer)"
+         "softwarewallet":"Ik gebruik een softwarewallet om ze op te slaan (op telefoon of computer)",
+         "fundlike": "Vertel me over (exchange traded) fondsen of ETF's."
       },
       "nobtc":{
          "intro":"Ah, een precoiner! Voordat je bitcoins koopt, zorg ervoor dat je bitcoin begrijpt.",
          "warning":"Koop nooit voor meer geld dan je kunt verliezen.",
          "question":"Hoe wil je bitcoin kopen?",
          "spot":"Simpel, door een spot-site te gebruiken",
+         "exchange":"Geavanceerd door een <em>exchange</em> of handelshuis te gebruiken",
          "friends":"Ik koop van vrienden of gebruik een peer-to-peer-platform",
-         "exchange":"Geavanceerd door een <em>exchange</em> of handelshuis te gebruiken"
+         "fundlike": "Ik wil dat wel, maar op een gewone beurs"         
       },
       "spot":{
          "intro":"Zogenaamde <em>spot</em>-sites laten je simpelweg bitcoin kopen. Je zegt hoeveel bitcoins je wilt of hoeveel euro's je uit wil geven.",
