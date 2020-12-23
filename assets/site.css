@@ -292,6 +292,10 @@ nav .langchooser [type=radio]:checked+span:before {
   padding: 10px;
   margin: 0 10px 10px 10px;
 }
+.button li.external {
+  background-color: #00BFA4;
+  border: 1px solid #017B6A;
+}
 .button li a{
   color: #fff;
 }
