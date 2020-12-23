@@ -21,7 +21,8 @@ cat $INPUT| grep -v "mastersection"| while read line; do
   if echo $line | grep -qE "a href=\"#/"; then
     # Page = Node
     AHREF=$(echo $line | cut -d'"' -f2 | sed 's#\#/##g' )
-    echo "_$SECTION -> _$AHREF" >> $OUTPUT
+    DESC=$(echo $line | cut -d'"' -f4 )
+    echo "_$SECTION -> _$AHREF [label=\"$DESC\"]" >> $OUTPUT
   fi
 done
 
