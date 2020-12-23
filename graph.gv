@@ -61,7 +61,7 @@ _otheraccess -> _trustpeople
 _otheraccess -> _opsec
 _trustpeople [label="trustpeople"]
 _trustpeople -> _havetrustedpeople
-_trustpeople -> _spendextra
+_trustpeople -> _spendmoney
 _havetrustedpeople [label="havetrustedpeople"]
 _havetrustedpeople -> _opsec
 _havetrustedpeople -> _spendmoney
