@@ -1,0 +1,109 @@
+digraph G {
+  #rankdir=LR;
+  overlap=false
+  splines=true
+  tailclip=false
+  headclip=false
+_havebtc [label="havebtc"]
+_start [label="start"]
+_start -> _nobtc
+_start -> _ihavebtc
+_ihavebtc [label="ihavebtc"]
+_ihavebtc -> _exchange
+_ihavebtc -> _hardwarewallet
+_ihavebtc -> _softwarewallet
+_nobtc [label="nobtc"]
+_nobtc -> _spot
+_nobtc -> _amount
+_nobtc -> _exchange
+_spot [label="spot"]
+_spot -> _amount
+_exchange [label="exchange"]
+_exchange -> _storeexchange
+_exchange -> _amount
+_amount [label="amount"]
+_amount -> _softwarewallet
+_amount -> _hardwarewallet
+_amount -> _custodialparty
+_storeexchange [label="storeexchange"]
+_storeexchange -> _amount
+_storeexchange -> _opsec
+_software [label="software"]
+_softwarewallet [label="softwarewallet"]
+_softwarewallet -> _softwarewallet2
+_softwarewallet -> _hardwarewallet
+_softwarewallet2 [label="softwarewallet2"]
+_softwarewallet2 -> _opsec
+_hardware [label="hardware"]
+_hardwarewallet [label="hardwarewallet"]
+_hardwarewallet -> _robbery
+_hardwarewallet -> _node
+_node [label="node"]
+_node -> _robbery
+_robbery [label="robbery"]
+_robbery -> _robberysolutions
+_robbery -> _buywallet
+_robberysolutions [label="robberysolutions"]
+_robberysolutions -> _buywallet
+_buywallet [label="buywallet"]
+_buywallet -> _linknode
+_buywallet -> _boughtwallet
+_buywallet -> _node
+_linknode [label="linknode"]
+_linknode -> _boughtwallet
+_boughtwallet [label="boughtwallet"]
+_boughtwallet -> _fireprotection
+_boughtwallet -> _otheraccess
+_fireprotection [label="fireprotection"]
+_fireprotection -> _otheraccess
+_otheraccess [label="otheraccess"]
+_otheraccess -> _trustpeople
+_otheraccess -> _opsec
+_trustpeople [label="trustpeople"]
+_trustpeople -> _havetrustedpeople
+_trustpeople -> _spendextra
+_havetrustedpeople [label="havetrustedpeople"]
+_havetrustedpeople -> _opsec
+_havetrustedpeople -> _spendmoney
+_spendmoney [label="spendmoney"]
+_spendmoney -> _willspendmoney
+_spendmoney -> _ssss
+_spendmoney -> _cutseed
+_willspendmoney [label="willspendmoney"]
+_willspendmoney -> _custodialparty
+_willspendmoney -> _multisig
+_ssss [label="ssss"]
+_ssss -> _distributeparts
+_ssss -> _cutseed
+_cutseed [label="cutseed"]
+_cutseed -> _distributeparts
+_cutseed -> _ssss
+_cutseed -> _custodialparty
+_custodialparty [label="custodialparty"]
+_custodialparty -> _backupwalletcustodial
+_custodialparty -> _seedcopycustodial
+_custodialparty -> _ssss
+_multisig [label="multisig"]
+_multisig -> _multisighow
+_multisig -> _custodialparty
+_multisig -> _ssss
+_distributeparts [label="distributeparts"]
+_distributeparts -> _physicalsecurity
+_distributeparts -> _seedcopycustodial
+_backupwalletcustodial [label="backupwalletcustodial"]
+_backupwalletcustodial -> _opsec
+_seedcopycustodial [label="seedcopycustodial"]
+_seedcopycustodial -> _opsec
+_seedcopycustodial -> _multisig
+_seedcopycustodial -> _ssss
+_multisighow [label="multisighow"]
+_multisighow -> _physicalsecurity
+_physicalsecurity [label="physicalsecurity"]
+_physicalsecurity -> _opsec
+_XXX [label="XXX"]
+_XXX -> _XXX
+_XXX -> _XXX
+_theend [label="theend"]
+_opsec [label="opsec"]
+_opsec -> _start
+}
