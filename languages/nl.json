@@ -13,7 +13,7 @@
          "exchange":"Op de exchange waar ik ze kocht",
          "hardwarewallet":"Ik gebruik een hardwarewallet",
          "softwarewallet":"Ik gebruik een softwarewallet om ze op te slaan (op telefoon of computer)",
-         "fundlike": "Vertel me over (exchange traded) fondsen of ETF's."
+         "fundlike": "Vertel me over (exchange traded) fondsen."
       },
       "nobtc":{
          "intro":"Ah, een precoiner! Voordat je bitcoins koopt, zorg ervoor dat je bitcoin begrijpt.",
@@ -49,6 +49,20 @@
          "question":"Je bent klaar! Een derde partij bewaart je bitcoins.",
          "reconsider":"Eigenlijk vind ik dat maar niks.",
          "theend":"Sure!"
+      },
+      "fundlike": {
+            "intro": "There are funds (ETNs) you can buy on regular exchanges, the same type of exchange you can but stocks.",
+            "warning": "If you use these products, you can never be technically sure the fund really holds your bitcoin.",
+            "question": "How does that sound?",
+            "reconsider": "Don't like that. I want to self-custody.",
+            "theend": "Sure! I will buy fund-like products on a regular exchange."
+      },
+      "multisigparty": {
+            "intro": "There are parties who help you set up a multisig solution. They are one of the parties in your multisig setup.",
+            "info": "These companiers are often focused on cryptocurrencies. They can provide a good layer of security to your bitcoin storage, protecting you against hacking, seizure, in person attacks.",
+            "question": "How does that sound?",
+            "reconsider": "Don't like that. I want to self-custody.",
+            "theend": "Sure! I will look into this."
       },
       "softwarewallet":{
          "intro":"Laten we softwarewallets eens onder de loep nemen. Dat zijn wallets op je telefoon of computer. Dit is vaak de simpelste manier om (kleine hoeveelheden) bitcoin op te slaan. Je kunt snel en makkelijk bitcoins uitgeven, en dat is cool. Vaak geven wallets van derde partijen je balans door die behoren bij je IP-adres.",
@@ -139,7 +153,6 @@
          "intro":"We vertrouwen anderen niet volledig. Dat is helemaal te begrijpen.",
          "question":"Wil je wat extra geld uitgeven voor veiligheid?",
          "yes":"Dat is goed.",
-         "no":"Nee, ik heb al geld aan een hardwarewallet uitgegeven, laten we gaan voor een technische oplossing.",
          "no":"Nee, ik heb al geld aan een hardwarewallet uitgegeven, laten we voor een simpele oplossing gaan."
       },
       "willspendmoney":{
@@ -166,11 +179,10 @@
          "custodialparty":"Misschien wil ik toch een derde partij die het voor me regelt."
       },
       "custodialparty":{
-         "intro":"Een derde partij kan een goede optie zijn.",
-         "warning":"Onthoud wel: je moet wel enig vertrouwen hebben in deze partijen. Informeer je van te voren goed.",
-         "question":"Wat wil je doen?",
+         "intro":"Een derde partij kan een goede optie zijn. Onthoud wel: je moet wel enig vertrouwen hebben in deze partijen. Informeer je van te voren goed.",
          "backupwalletcustodial":"Ik stop een tweede wallet in een safe, bij een notaris of een custodial. Vertel me hoe.",
-         "backupwalletcustodial":"Ik plaats een kopie van de seed bij een custodial. Vertel me hoe.",
+         "multisigpartij":"Vertel me over partijen die multisignature-oplossingen bieden.",
+         "fundlike": "Vertel me over (exchange traded) fondsen die ik kan kopen op gewone beurzen.",
          "ssss":"Misschien vind ik de optie van een custodial toch niet zo fijn, wat is de technische optie?"
       },
       "multisig":{
@@ -179,7 +191,8 @@
          "question":"Klinkt dat goed?",
          "yes":"Ja, vertel me hoe ik deze hoge graad van beveiliging bereik!",
          "custodialparty":"Misschien wil ik toch een derde partij om de boel veilig te houden.",
-         "ssss":"Vertel me over de technische oplossingen om dit op te lossen."
+         "ssss":"Vertel me over de technische oplossingen om dit op te lossen.",
+         "multisigparty": "Vertel me over partijen die multisignature-oplossingen bieden."
       },
       "distributeparts":{
          "intro":"Je hebt je seed opgedeeld in meerdere stukjes. Heel goed! Nu kukn je die stukjes in de huizen van vrienden opslaan of (een deel) bij een vertrouwde derde partij opslaan.",
@@ -196,7 +209,6 @@
          "intro":"Je kunt je seed bij een derde partij opslaan. Afhankelijk van je keuzes kun je die meer of minder vertrouwen. Voor een multisig of Shamir's Sectret Sharing-schema heb je minder vertrouwen nodig in de derde partij dan als je je volledige seed daar achter laat.",
          "warning":"Een kopie van je seed geeft een derde partij volledig toegang tot je bitcoins. Je moet de partij echt vertrouwen.",
          "theend":"Ik begrijp de risico's en ik ben er oké mee / Ik ga multisig of Shamir's Secret gebruiken",
-         "ssss":"Vertel meer over multisig.",
          "ssss":"Vertel meer over Shamir's Secret Sharing."
       },
       "multisighow":{
@@ -215,19 +227,14 @@
          "intro":"Het laatste dat je kunt overwegen, is fysieke beveiliging. Denk aan een kluis, wapens (alleen legaal). Dit geldt voor alle plekken waar je (delen van) je seeds of geheimen bewaart.",
          "theend":"Check!"
       },
-      "XXX":{
-         "intro":"TRANSLATEME:XXX",
-         "warning":"TRANSLATEME:YYY",
-         "question":"TRANSLATEME:XXX?",
-         "yes":"TRANSLATEME:XXX",
-         "no":"TRANSLATEME:YYY"
-      },
       "opsec":{
          "intro":"Dat was het! We hopen dat deze website nuttig voor je was. Zo ja, deel!",
          "info":"Je kan je strategie natuurlijk altijd aanpassen, als de bedragen of je risico's veranderen",
          "warning":"Onthoud dat praten over hoe je je eigen veiligheid geregeld hebt, mogelijk niet veilig is en je mogelijk een doel (voor diefstal) maakt.",
          "question":"Dat is het! Je bent klaar voor de toekomst!",
-         "start":"Begin opnieuw."
+         "start":"Begin opnieuw.",
+         "github": "Doe suggesties op GitHub",
+         "telegram": "Praat mee op Telegram"
     }
   }
 }
