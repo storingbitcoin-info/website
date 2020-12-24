@@ -223,6 +223,12 @@ nav input[type=checkbox]:checked~.langchooser {
   z-index: 2;
 }
 
+nav .nav-left {
+  display:flex;
+}
+nav .nav-left a {
+  margin: 0 1em;
+}
 nav label {
   display: inline-block;
   text-align: center;
