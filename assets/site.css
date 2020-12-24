@@ -38,6 +38,30 @@ nav {
   align-self: center;
 }
 
+.home-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #FF7A00;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 45px;
+  height: 45px;
+  text-decoration: none;
+}
+
+.home-container:hover {
+  background-color: #FF7A00;
+}
+
+.home-container:hover .home-icon {
+  color: #fff;
+}
+
+.home-container .home-icon {
+  color: #FF7A00;
+}
+
 .back-container {
   display: none;
   align-items: center;
@@ -230,7 +254,7 @@ nav .nav-left {
   width: 25%;
 }
 nav .nav-left a {
-  margin: 0 1em;
+  margin: 0 0.3em;
 }
 nav label {
   display: inline-block;
