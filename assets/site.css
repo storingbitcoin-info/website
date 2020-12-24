@@ -39,7 +39,7 @@ nav {
 }
 
 .back-container {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   border: 1px solid #FF7A00;
@@ -197,6 +197,8 @@ nav .dropdown {
   display: inline-block;
   font-size: 16px;
   line-height: 50px;
+  width: 25%;
+  text-align: right;
 }
 
 nav input[type=checkbox] {
@@ -225,6 +227,7 @@ nav input[type=checkbox]:checked~.langchooser {
 
 nav .nav-left {
   display:flex;
+  width: 25%;
 }
 nav .nav-left a {
   margin: 0 1em;
