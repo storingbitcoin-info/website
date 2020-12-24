@@ -24,8 +24,10 @@
   </head>
 
   <body>
+
     <nav class="menubar" id="menubar" style="z-index: 1;">
       <a href="" class="back-container navigate-prev" id="back-button"><i class="fas fa-chevron-left back-icon"></i></a>
+      <button id="infoboxbutton">test</button>
       <a href="#" class="brand-container"><img class="brand" src="assets/img/logo.svg" alt=""></a>
       <div class="dropdown">
         <input id="checkbox_toggle" type="checkbox">
@@ -42,7 +44,22 @@
       </div>
     </nav>
 
+      <div class="infobox modal" id="infobox">
+        <div class="modal-content" >
+          <span class="close">&times;</span>
+          <div class="modal-innerhtml" id="modalInner">
+            This should not be visible.<br/>
+            This should not be visible.<br/>
+            This should not be visible.<br/>
+            This should not be visible.<br/>
+            This should not be visible.<br/>
+          </div>
+        </div>
+      </div>
+
     <div class="reveal">
+
+      
       <div class="slides">
         <section id="havebtc" class="mastersection">
           <!-- HAVEBTC -->
@@ -63,6 +80,7 @@
           </section> <!-- /START -->
 
           <section id="ihavebtc">
+            <p class="infobox">THIS IS A TEST<br/>YES<br/>YES<br/>YES<br/>YES<br/>YES<br/>YES<br/>YES<br/>YES<br/>YES<br/>YES<br/>YES<br/>YES<br/></p>
             <p class="intro" data-i18n="intro">That is great! Welcome fellow bitcoiner! </p>
             <p class="question" data-i18n="question">How do you store your bitcoin now?</p>
             <ul class="button">
@@ -73,7 +91,6 @@
               <li><a href="#/fundlike" data-i18n="fundlike">Tell me about (exchange traded) funds.</a></li>
             </ul>
           </section>
-
 
           <section id="nobtc">
             <p class="intro" data-i18n="intro">Ah, a precoiner! Before you buy any bitcoin, make sure you understand
