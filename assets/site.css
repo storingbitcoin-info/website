@@ -62,6 +62,32 @@ nav {
   color: #FF7A00;
 }
 
+
+
+.infoboxbutton-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #FF7A00;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 45px;
+  height: 45px;
+  text-decoration: none;
+}
+
+.infoboxbutton-container:hover {
+  background-color: #FF7A00;
+}
+
+.infoboxbutton-container:hover .infoboxbutton-icon {
+  color: #fff;
+}
+
+.infoboxbutton-container .infoboxbutton-icon {
+  color: #FF7A00;
+}
+
 nav .langchooser {
   line-height: 10vh;
   color: #FF7A00;

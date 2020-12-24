@@ -19,7 +19,8 @@ var modalInner = document.getElementById("modalInner");
 var infoboxbutton = document.getElementById("infoboxbutton");
 var span = document.getElementsByClassName("close")[0];
 infoboxbutton.onclick = function() {
-  modal.style.display = "block";
+  event.preventDefault();
+  modal.style.display = "flex";
   console.log("clickie")
 }
 span.onclick = function() {
@@ -37,7 +38,7 @@ Reveal.on( 'slidechanged', event => {
   document.cs=event.currentSlide
   if ( event.currentSlide.getElementsByClassName("infobox").length  ) {
     console.log("slide has infobox")
-    infoboxbutton.style.display="block"
+    infoboxbutton.style.display="flex"
     modalInner.innerHTML=event.currentSlide.getElementsByClassName("infobox")[0].innerHTML
 
   }else{
