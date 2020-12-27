@@ -1,0 +1,244 @@
+{
+    "slides": {
+        "start": {
+            "header": "StoringBitcoin.info",
+            "sub": "This site will help you decide how to store your bitcoin.",
+            "havebtc": "Do you have bitcoin?",
+            "no": "No, not yet",
+            "yes": "Yeah!"
+        },
+        "ihavebtc": {
+            "intro": "That is great! Welcome fellow bitcoiner!",
+            "question": "How do you store your bitcoin now?",
+            "exchange": "At the exchange where I bought them",
+            "hardwarewallet": "I use a hardware wallet",
+            "softwarewallet": "I use software to store them (on phone or                  computer)",
+            "fundlike": "Tell me about (exchange traded) funds."
+        },
+        "nobtc": {
+            "intro": "Ah, a precoiner! Before you buy any bitcoin, make sure you understand              bitcoin.",
+            "warning": "Never buy for more money than you can lose.",
+            "question": "How do you want to buy bitcoin?",
+            "spot": "Simple using a broker",
+            "exchange": "Advanced using a bitcoin exchange",
+            "friends": "I will buy from friends or using a peer to peer platform",
+            "fundlike": "I want to buy on a regular stock exchange"
+        },
+        "spot": {
+            "intro": "Spot sites allow you to simply buy bitcoin. You say how many you want (or              how much you want to spend).",
+            "question": "After buying you need to put the bitcoin on a wallet",
+            "next": "Start choosing a wallet"
+        },
+        "exchange": {
+            "intro": "Exchanges are a great way to buy bitcoin. You can use market orders, or              do more advanced orders there. After buying, your bitcoin remain on the exchange.",
+            "warning": "Exchanges can get hacked. Your account can get hacked. Exchanges can              go bankrupt and disappear.",
+            "question": "Do you accept this risk?",
+            "yes": "Yes I accept this risk (for now)",
+            "no": "That does not sound good, tell me what to do!"
+        },
+        "amount": {
+            "intro": "You need to decide how to store your bitcoin",
+            "question": "Is this a large amount? It's up to you to decide what a <em>large amount</em> is...",
+            "softwarewallet": "Small amount, low security. Tell me about software wallets.",
+            "hardwarewallet": "Large amount, high security. Tell me how I can keep these bitcoins secure myself.",
+            "custodialparty": "Tell me how 3rd parties can help me keeping these bitcoin secure."
+        },
+        "storeexchange": {
+            "intro": "You will keep your bitcoin on an exchange",
+            "warning": "Accounts without 2FA are insecure. Enable 2FA!",
+            "question": "That's it! You will keep your bitcoin at a third party",
+            "reconsider": "Actually. I might not like that after all",
+            "theend": "Sure!"
+        },
+        "fundlike": {
+            "infobox-header": "Samples of funds are:",
+            "intro": "There are funds (ETNs) you can buy on regular exchanges, the same type of exchange you can but stocks. Click the i-icon above for more info.",
+            "warning": "If you use these products, you can never be technically sure the fund really holds your bitcoin.",
+            "question": "How does that sound?",
+            "reconsider": "Don't like that. I want to self-custody.",
+            "theend": "Sure! I will buy fund-like products on a regular exchange."
+        },
+        "multisigparty": {
+            "intro": "There are parties who help you set up a multisig solution. They are one of the parties in your multisig setup.",
+            "info": "These companiers are often focused on cryptocurrencies. They can provide a good layer of security to your bitcoin storage, protecting you against hacking, seizure, in person attacks.",
+            "question": "How does that sound?",
+            "reconsider": "Don't like that. I want to self-custody.",
+            "theend": "Sure! I will look into this."
+        },
+        "softwarewallet": {
+            "intro": "Let's look at Software Wallets, which are wallets on your phone or              computer.. They are often the easiest way to store (small amounts) of bitcoin. They allow you to spend              quickly and on the road, which is cool. Most often 3rd parties are informed of balances belonging to your              IP address.",
+            "warning": "Be aware software wallets can get hacked and your info is not always              private",
+            "question": "Are you OK with the risk of losing the amount you have on this              software wallet because of hacking, and your data not necessarily being private?",
+            "yes": "Yes, this is acceptable to me (for now)",
+            "no": "No, I want more security"
+        },
+        "softwarewallet2": {
+            "intro": "Via bitcoin.org, choose a wallet that meets your needs. Choose a              non-custodial wallet. Install it on your phone/computer",
+            "warning": "Be aware that you will get a backup phrase. If your phone is              broken/stolen you cannot recover the coins without this backup phrase. So store it well, on paper (never              digitally), possibly in a safe?",
+            "question": "That's it! You are ready for the future.",
+            "theend": "Final step"
+        },
+        "hardwarewallet": {
+            "intro": "Hardware wallets are a great way to store secrets! Also there are a lot              of choices to be made, and we will help you.",
+            "question": "Some wallets require you to get transaction info from a 3rd party.              Information will probably be right, but you need to trust them. Also they will get information about your              funds. Do you accept this risk?",
+            "yes": "I trust 3rd parties to give me good information",
+            "no": "I do not trust 3rd parties to give me good information"
+        },
+        "node": {
+            "infobox-header": "Below links to Node software. Before you buy a hardware wallet, make sure your wallet supports connecting to the software you have chosen. Bitcoin Core is the most widely used node software.",
+            "intro": "Having your own Bitcoin node will let you keep track of transactions              yourself. No need to trust a 3rd party, yay!",
+            "requirement": "Keep in mind you want the ability to connect your node when              choosing a wallet, not all wallets support that.",
+            "next": "I understand that having a node is the only way to not have to                  rely on 3rd parties and will install one"
+        },
+        "robbery": {
+            "intro": "Okay, let's look at hardware wallets. If you have a hardware wallet, you will hold your own              bitcoin. That's very cool. Now something to consider...",
+            "warning": "There is a chance you get robbed (at home?) and are forced to give up              your bitcoin...",
+            "question": "Do you want to keep this into account?",
+            "yes": "Yeah what can I do?",
+            "no": "Does not sound too plausible, skip this risk please!"
+        },
+        "robberysolutions": {
+            "intro": "A robbery might happen but there are some tricks/solutions:",
+            "unlocktimeout": "You could buy a hardware wallet that gives you the option to set a timeout for unlocking. You then                need to wait 1/2/4/8/24/... hours to be able to send.",
+            "distractionwallet": "You can consider buying a (2nd) distraction-wallet.",
+            "secondaccount": "You can consider a wallet that allows for setting a 2nd (distraction) amount. This will be a lower                amount that shows as \"everything there is to steal\"",
+            "warning": "If possible do not send your wallet to your home address. If your              wallet vendor's database gets hacked, the hackers know at what home addresses to look for bitcoin.",
+            "next": "I'll consider this. Let's continue!"
+        },
+        "buywallet": {
+            "infobox-header": "Some samples of well-trusted bitcoin wallets are listed below. It is up to you to find one which has the features you need.",
+            "intro": "All right! Time to buy a wallet.",
+            "info": "Click the i-icon at the top of the page for some wallet suggestions",
+            "question": "Did you buy a wallet?",
+            "linknode": "Yes. And I have my own node.",
+            "boughtwallet": "Yes. And I do not want to have a node of my own.",
+            "node": "Yes. But why would I want my own node?"
+        },
+        "linknode": {
+            "intro": "You are taking the hard core route, that is cool. You will be your own              bank!",
+            "question": "Now is the time to link the wallet software to your own node",
+            "next": "Cool, done!"
+        },
+        "boughtwallet": {
+            "intro": "Congrats on your wallet. It's a great step towards security for your              bitcoin.",
+            "warning": "Tip: Now you have received it, ask the store where you bought it to              delete your data. Non existing data cannot be stolen! At installation your wallet will give you seed              words. You most store these safely offline (this means to NEVER put this into a computer/phone/cloud!)",
+            "question": "Do you want to protect these words (the seed) against fire?",
+            "yes": "Yes, a fire should not destroy my bitcoin!",
+            "no": "No, I am not worried about that. I will put my seed in a safe                  place."
+        },
+        "fireprotection": {
+            "intro": "There are some solutions to protect your seed against fire",
+            "steelplate": "You can buy a steel plate and hammer the words in",
+            "safe": "You can put the seed in a fireproof safe",
+            "next": "Cool, let's continue"
+        },
+        "otheraccess": {
+            "intro": "Your bitcoin is now stored at one location (your home presumably). You              might not want your house to be a single point of failure.",
+            "warning": "Also consider if you die, others might want access to your bitcoin!",
+            "question": "Do you think others might need access to your bitcoin?",
+            "yes": "Yeah others might need access / I do not want my house to be a                  single point of failure / I want to put restrictions on spending my bitcoin.",
+            "no": "Nah, I'm good, let's not consider this"
+        },
+        "trustpeople": {
+            "intro": "You will want to spread your backup over multiple locations",
+            "question": "Do you have some people you 100% trust?",
+            "yes": "Yes, I trust some people completely with my money, and                  they live at different locations",
+            "no": "I'd rather not put complete trust at these people"
+        },
+        "havetrustedpeople": {
+            "intro": "That's good, there are people you trust. You could put a copy of your              seed at their houses.",
+            "warning": "Be aware! There are now multiple locations that enable stealing of              your whole bitcoin fortune.",
+            "question": "Is that OK?",
+            "yes": "Yes, I will give these people a copy of my seed words",
+            "no": "No, tell me about better options"
+        },
+        "spendmoney": {
+            "intro": "Okay, we will not put complete trust in others. That makes sense.",
+            "question": "Are you OK with spending some extra money for security?",
+            "yes": "That's fine",
+            "no": "No, I have already spent money on my wallet, let's go for a simple                  solution"
+        },
+        "willspendmoney": {
+            "intro": "Security is worth money! We agree!",
+            "info": "",
+            "question": "How does that sound?",
+            "yes": "I like (one of) those. Will put my seed (or a 2nd backup                  wallet) at one of those parties.",
+            "no": "I'd rather have a technical solution where I need less trust in                  3rd parties"
+        },
+        "ssss": {
+            "intro": "Technology can do interesting things!",
+            "info": "Shamir's Secret Sharing is an algorithm that let's you cut your seed into              multiple parts in a safe way. You can cut it into a 3-of-5 for example. This means you cut it in 5 parts,              and 3 parts are needed to access your bitcoin. You can pick all the X-of-N numbers you want.",
+            "warning": "This solution is quite technical. Be sure you make good              documentation, so you will still know how to work with the parts in 10 years.",
+            "question": "Like this?",
+            "yes": "Very cool. I will cut up my seed into some parts using                  Shamir's Secret Sharing.",
+            "simple": "That sounds (too) hard. Can we go for a simpler solution?"
+        },
+        "cutseed": {
+            "intro": "Your seed is usually 24 words. You could cut these up into 2 parts of 12              words, or 3 parts of 8 words for example, and put these parts at different friends' locations",
+            "warning": "You need ALL the parts to get access to your bitcoin. Losing ANY of              these parts means you will forever lose access to your bitcoin!",
+            "question": "Does that sound OK?",
+            "yes": "Yeah that is fine (it's a backup anyway)",
+            "ssss": "Hmm, please tell me about a technical solution (Sharing's Secret                  Sharing)",
+            "custodialparty": "Maybe I'd like a 3rd party after all to arrange                  this for me"
+        },
+        "custodialparty": {
+            "intro": "Third party could be a good solution. A notary or bank safe can act as your custodial, to store secrets. Or you can go to a party dedicated to buying/storing bitcoin.",
+            "backupwalletcustodial": "Secure: I will put a 2nd wallet (possibly part of a multisig) at a custodial",
+            "seedcopycustodial": "I will put a copy of my seed at a custodial, and understand I must trust the 3rd party",
+            "multisigparty": "Tell me about parties providing multisig solutions.",
+            "fundlike": "Tell me about (exchange traded) funds I can buy on regular exchanges.",
+            "ssss": "Maybe I do not like the idea of a custodial after all, what's the                  technical option?"
+        },
+        "multisig": {
+            "intro": "A multisig consists of multiple (hardware) wallets and X-of-N              transactions. You could have 5 wallets for example, and need 3 of them to sign your transaction (= send              your bitcoin). You can pick any numbers you'd like. Higher numbers means more action is needed. Multisig              is often considered the holy grail of self-custody security. It's also used within big custodial companies              and exchanges to make sure not 1 single person can access the bitcoin, for example 3 wallets are needed              (maybe the CEO, CFO and a dude named Ben always need to sign)",
+            "warning": "For all actions you do with your multisig-secured bitcoin you need              collaboration of multiple parties. This means more work is needed.",
+            "question": "Does that sound good?",
+            "yes": "Yes. Tell me how to achieve this high level of security!",
+            "custodialparty": "Maybe I want a custodial party after all to                  arrange these things",
+            "ssss": "Tell me about other technical solutions to solve this",
+            "multisigparty": "Tell me about parties providing multisig solutions."
+        },
+        "distributeparts": {
+            "intro": "So you have your seed in multiple parts now, great! You can place these              parts at your friends' houses, or put (some of) them at a trusted third party",
+            "warning": "Forgetting how to use the parts is one of bigger risks here. Make              sure you have instructions on how to access your coins (use the parts) 10 years from now. Also consider              scheduling a yearly verification, checking everyone still has your secrets.",
+            "physicalsecurity": "I will distribute these parts to houses of                  my friends",
+            "seedcopycustodial": "I want tu put these copies at a (trusted)                  custodial party"
+        },
+        "backupwalletcustodial": {
+            "intro": "You can have multiple hardware wallets using the same secrets. You are              considering putting a backup wallet at a custodial",
+            "info": "To do this, buy a second hardware wallet and initialize it using the same              seed words. Now both wallets can be used to access the same bitcoin",
+            "theend": "Nice!"
+        },
+        "seedcopycustodial": {
+            "intro": "You can put your secrets at a custodial party. Depending on the choices              you made, more or less trust is needed. For a multisig or Shamir's Secret Sharing-scheme, less trust is              needed than putting a copy of your seed at a 3rd party",
+            "warning": "A <em>copy</em> of your seed will give full access to the 3rd party, make sure              you trust them",
+            "theend": "I understand and I am OK with the risks / I will use multisig or                  Shamir's Secret Sharing",
+            "ssss": "Tell me about Shamir's Secret Sharing"
+        },
+        "multisighow": {
+            "intro": "Multisigs are very cool",
+            "step1": "Decide how many parties (people) you want to involve in total. This is your variable <em>N</em>",
+            "step2": "Decide how many of these parties you want to have at minimum to sign transactions (send bitcoin) this                is variable <em>X</em>",
+            "step3": "Find a hardware wallet that supports multisig schemes, buy <em>N</em> of these wallets",
+            "step4": "Set up your X-of-N multisig using the wallets",
+            "step5": "Distribute the wallets over multiple parties",
+            "step6": "Make sure you document the needed steps well, so in 10 years you still know how to use the multisig",
+            "warning": "Losing too many parts or forgetting how multisig works are the bigger risks. Make sure people understand what their part is/means. Document this well. Consider scheduling a yearly check to make sure everyone is still in possession of their wallets and understands.",
+            "question": "Is that all good?",
+            "next": "Nice. Show me the last steps."
+        },
+        "physicalsecurity": {
+            "intro": "One of the last things you might want to consider is physical security.              Think about a safe, weapons (if legal). This applies to all locations you (might have) put (parts of) your              secrets.",
+            "theend": "Sure!"
+        },
+        "opsec": {
+            "intro": "That's it. Hope this website was useful to you. If it was, please share              it.",
+            "info": "You can always change your strategy later, if amounts or risks change!",
+            "warning": "Keep in mind that talking about how you did your own security, might              not be safe and might make you a target.",
+            "question": "That's it! You are ready for the future.",
+            "start": "Great! (start again)",
+            "github": "Make suggestions on GitHub",
+            "telegram": "Join the conversation on Telegram"
+        }
+    }
+}
