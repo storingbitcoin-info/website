@@ -15,15 +15,18 @@
 }
 
 .reveal-viewport {
-  background-color: #E5E5E5;
+  background-color: #F8F5F1;
 }
-.slide{
+
+.slide {
   height: 90vh;
 }
-.progress{
+
+.progress {
   top: 0;
   color: #FF7A00!important;
 }
+
 nav {
   background-color: #fff;
   display: flex;
@@ -86,8 +89,6 @@ nav {
   color: #FF7A00;
 }
 
-
-
 .infoboxbutton-container {
   display: flex;
   align-items: center;
@@ -138,8 +139,13 @@ nav .langchooser {
   text-decoration: underline red solid;
 }
 
-.question{
+.question {
   font-size: 2.5rem;
+  background-color: #FFF;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
 }
 
 .site-header {
@@ -250,12 +256,14 @@ nav input[type=checkbox]:checked~.langchooser {
 }
 
 nav .nav-left {
-  display:flex;
+  display: flex;
   width: 25%;
 }
+
 nav .nav-left a {
   margin: 0 0.3em;
 }
+
 nav label {
   display: inline-block;
   text-align: center;
@@ -333,11 +341,11 @@ nav .langchooser [type=radio]:checked+span:before {
 }
 
 .button {
-  list-style: none!important;/* TODO: remove !important */
+  list-style: none!important;
+  /* TODO: remove !important */
   display: flex!important;
   justify-content: center;
   flex-wrap: wrap;
-  
 }
 
 .button li {
@@ -351,33 +359,43 @@ nav .langchooser [type=radio]:checked+span:before {
   padding: 10px;
   margin: 0 10px 10px 10px;
 }
+
 .button li.external {
   background-color: #00BFA4;
   border: 1px solid #017B6A;
 }
-.button li a{
+
+.button li a {
   color: #fff;
 }
-
-
 
 /* Modal */
 
 /* The Modal (background) */
+
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 99; /* Sit on top */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 99;
+  /* Sit on top */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
 }
 
 /* Modal Content */
+
 .modal-content {
   position: relative;
   background-color: #fefefe;
@@ -385,12 +403,11 @@ nav .langchooser [type=radio]:checked+span:before {
   padding: 0;
   border: 1px solid #888;
   width: 80%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   animation-name: animatetop;
   animation-duration: 0.4s;
   padding: 1em;
-  line-height: 1.3; 
-
+  line-height: 1.3;
   font-family: "Lato", sans-serif;
   font-size: 30px;
   font-weight: normal;
@@ -398,12 +415,20 @@ nav .langchooser [type=radio]:checked+span:before {
 }
 
 /* Add Animation */
+
 @keyframes animatetop {
-  from {top: -300px; opacity: 0}
-  to {top: 0; opacity: 1}
+  from {
+    top: -300px;
+    opacity: 0
+  }
+  to {
+    top: 0;
+    opacity: 1
+  }
 }
 
 /* The Close Button */
+
 .close {
   color: #aaa;
   float: right;
@@ -412,18 +437,20 @@ nav .langchooser [type=radio]:checked+span:before {
   margin: 0.3em;
 }
 
-.close:hover,
-.close:focus {
+.close:hover, .close:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
 }
 
 /* Button to open infobox */
+
 #infoboxbutton {
-  display: none; /* Hidden by default */
+  display: none;
+  /* Hidden by default */
 }
 
 section .infobox {
-  display: none; /* Hidden by default */
+  display: none;
+  /* Hidden by default */
 }
