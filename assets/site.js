@@ -11,3 +11,45 @@ document.querySelector(".dropdown .langchooser").addEventListener("click", funct
 document.querySelector(".reveal").addEventListener("click", function(){
     document.querySelector("#checkbox_toggle").checked = false;
 });
+
+
+// Modal stuff
+var modal = document.getElementById("infobox")
+var modalInner = document.getElementById("modalInner");
+var infoboxbutton = document.getElementById("infoboxbutton");
+var backbutton  = document.getElementById("back-button");
+var span = document.getElementsByClassName("close")[0];
+infoboxbutton.onclick = function() {
+  event.preventDefault();
+  modal.style.display = "flex";
+  console.log("clickie")
+}
+span.onclick = function() {
+  modal.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+} 
+
+
+Reveal.on( 'slidechanged', event => {
+  // event.previousSlide, event.currentSlide, event.indexh, event.indexv
+  if (typeof event.previousSlide !== 'undefined') {
+    // there is a previous slide
+    backbutton.style.display="flex"
+  }else{
+    // there is no prev slide
+    backbutton.style.display="none"
+  }
+
+  if ( event.currentSlide.getElementsByClassName("infobox").length  ) {
+    console.log("slide has infobox")
+    infoboxbutton.style.display="flex"
+    modalInner.innerHTML=event.currentSlide.getElementsByClassName("infobox")[0].innerHTML
+  }else{
+    console.log("slide has NO infobox")
+    infoboxbutton.style.display="none"
+  }
+} );
