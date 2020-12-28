@@ -1,8 +1,5 @@
 Starting a new language? Cool!
 
- - Fork this repo
- - Get a translation file: https://storingbitcoin.info/?makejson
- - Start translating the strings
- - Open a PR with your new file in there
+ - Help at transifex: https://www.transifex.com/signup/?join_project=storingbitcoininfo
 
 If you need help: Open an Issue or visit Telegram https://t.me/joinchat/AIww6hl0RpaGrLEO6EVWCQ

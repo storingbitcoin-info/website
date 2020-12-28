@@ -9,5 +9,11 @@ If you find a problem, or feel something has to change, open an issue (menubar a
 ## Developing
 Know html+css? Look at the issue list and help out. PRs welcome!
 
+## Translating
+Join the team at: https://www.transifex.com/signup/?join_project=storingbitcoininfo
+
+# Community
+Telegram at https://t.me/joinchat/AIww6hl0RpaGrLEO6EVWCQ
+
 # Overview
 ![Graph showing steps](https://raw.githubusercontent.com/storingbitcoin-info/website/main/graph.png "Graph")
