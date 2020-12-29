@@ -133,7 +133,7 @@ nav .langchooser {
 /* Different kinds of text blocks */
 
 .intro {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .info {
@@ -141,7 +141,17 @@ nav .langchooser {
 }
 
 .warning {
-  text-decoration: underline red solid;
+  font-size: 1.5rem;
+  border: 1px solid #FF7A00;
+  background-color: rgb(255, 122, 0, 5%);
+  color: #FF7A00;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.warning img{
+  margin-right: 1em;
 }
 
 .question {
@@ -222,6 +232,9 @@ body:not(.hide-menubar) .reveal.ready .menubar {
   pointer-events: none;
   opacity: 1;
   border: 4px solid white;
+}
+.reveal p{
+  margin: 20px 10px;
 }
 
 /* EXAMPLE DROPDOWN WITH LANGUAGE CHOOSER 
