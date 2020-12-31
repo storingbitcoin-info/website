@@ -182,7 +182,8 @@
       "custodialparty":{
          "intro":"Een derde partij kan een goede optie zijn. Onthoud wel: je moet wel enig vertrouwen hebben in deze partijen. Informeer je van te voren goed.",
          "backupwalletcustodial":"Ik stop een tweede wallet in een safe, bij een notaris of een custodial. Vertel me hoe.",
-         "multisigpartij":"Vertel me over partijen die multisignature-oplossingen bieden.",
+         "seedcopycustodial":"Ik leg een kopie van mijn seed bij een custodial.",
+         "multisigparty":"Vertel me over partijen die multisignature-oplossingen bieden.",
          "fundlike": "Vertel me over (exchange traded) fondsen die ik kan kopen op gewone beurzen.",
          "ssss":"Misschien vind ik de optie van een custodial toch niet zo fijn, wat is de technische optie?"
       },
