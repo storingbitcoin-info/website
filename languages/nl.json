@@ -51,11 +51,12 @@
          "theend":"Sure!"
       },
       "fundlike": {
-            "intro": "There are funds (ETNs) you can buy on regular exchanges, the same type of exchange you can but stocks.",
+            "intro": "Er zijn producten die je bij reguliere brokers kan kopen, zegmaar de brokers waar je ook aandelen kan kopen",
             "warning": "If you use these products, you can never be technically sure the fund really holds your bitcoin.",
             "question": "How does that sound?",
             "reconsider": "Don't like that. I want to self-custody.",
-            "theend": "Sure! I will buy fund-like products on a regular exchange."
+            "theend": "Sure! I will buy fund-like products on a regular exchange.",
+            "infobox-header":"Voorbeelden van fondsen zijn:"
       },
       "multisigparty": {
             "intro": "There are parties who help you set up a multisig solution. They are one of the parties in your multisig setup.",
