@@ -12,6 +12,12 @@ document.querySelector(".reveal").addEventListener("click", function(){
     document.querySelector("#checkbox_toggle").checked = false;
 });
 
+function updateInfoboxContent(){
+  // update infobox content if it has an infobox
+  if ( currentSlide.getElementsByClassName("infobox").length) {
+    document.getElementById("modalInner").innerHTML = currentSlide.getElementsByClassName("infobox")[0].innerHTML
+  }
+}
 
 // Modal stuff
 var modal = document.getElementById("infobox")
@@ -22,7 +28,7 @@ var span = document.getElementsByClassName("close")[0];
 infoboxbutton.onclick = function() {
   event.preventDefault();
   modal.style.display = "flex";
-  console.log("clickie")
+  updateInfoboxContent();
 }
 span.onclick = function() {
   modal.style.display = "none";
@@ -43,13 +49,18 @@ Reveal.on( 'slidechanged', event => {
     // there is no prev slide
     backbutton.style.display="none"
   }
-
+  
   if ( event.currentSlide.getElementsByClassName("infobox").length  ) {
-    console.log("slide has infobox")
     infoboxbutton.style.display="flex"
     modalInner.innerHTML=event.currentSlide.getElementsByClassName("infobox")[0].innerHTML
   }else{
-    console.log("slide has NO infobox")
     infoboxbutton.style.display="none"
   }
 } );
+
+//set current slide 
+Reveal.on('ready', event =>{
+  currentSlide = event.currentSlide;
+})
+
+let currentSlide;
