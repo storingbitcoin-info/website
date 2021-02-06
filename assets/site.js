@@ -58,9 +58,20 @@ Reveal.on( 'slidechanged', event => {
   }
 } );
 
+
+Reveal.on( 'ready', event => {
+  if ( event.currentSlide.getElementsByClassName("infobox").length  ) {
+    infoboxbutton.style.display="flex"
+    modalInner.innerHTML=event.currentSlide.getElementsByClassName("infobox")[0].innerHTML
+  }else{
+    infoboxbutton.style.display="none"
+  }
+} );
+
 //set current slide 
 Reveal.on('ready', event =>{
   currentSlide = event.currentSlide;
 })
 
 let currentSlide;
+
