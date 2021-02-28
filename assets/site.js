@@ -56,6 +56,7 @@ Reveal.on( 'slidechanged', event => {
   }else{
     infoboxbutton.style.display="none"
   }
+  updateInfoboxContent();
 } );
 
 
