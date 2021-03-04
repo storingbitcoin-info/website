@@ -202,7 +202,7 @@
             "intro": "So you have your seed in multiple parts now, great! You can place these              parts at your friends' houses, or put (some of) them at a trusted third party",
             "warning": "Forgetting how to use the parts is one of bigger risks here. Make              sure you have instructions on how to access your coins (use the parts) 10 years from now. Also consider              scheduling a yearly verification, checking everyone still has your secrets.",
             "physicalsecurity": "I will distribute these parts to houses of                  my friends",
-            "seedcopycustodial": "I want tu put these copies at a (trusted)                  custodial party"
+            "seedcopycustodial": "I want to put these copies at a (trusted)                  custodial party"
         },
         "backupwalletcustodial": {
             "intro": "You can have multiple hardware wallets using the same secrets. You are              considering putting a backup wallet at a custodial",
