@@ -198,7 +198,7 @@
          "multisigparty": "Vertel me over partijen die multisignature-oplossingen bieden."
       },
       "distributeparts":{
-         "intro":"Je hebt je seed opgedeeld in meerdere stukjes. Heel goed! Nu kukn je die stukjes in de huizen van vrienden opslaan of (een deel) bij een vertrouwde derde partij opslaan.",
+         "intro":"Je hebt je seed opgedeeld in meerdere stukjes. Heel goed! Nu kun je die stukjes in de huizen van vrienden opslaan of (een deel) bij een vertrouwde derde partij opslaan.",
          "warning":"Vergeten hoe je de losse stukken te gebruiken, is een van de grotere risico's. Verzeker jezelf ervan dat je duidelijke instructies hebt hoe je bitcoins te bereiken (gebruik de delen) over tien jaar. Overweeg ook een jaarlijkse test te doen om te checken dat iedereen de stukken van de seed nog heeft.",
          "physicalsecurity":"Ik verdeel de seed-delen over huizen van vrienden.",
          "seedcopycustodial":"Ik plaats de kopieën bij een (vertrouwde) derde partij."
