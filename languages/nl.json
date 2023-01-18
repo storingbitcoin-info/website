@@ -166,7 +166,7 @@
       },
       "ssss":{
          "intro":"Technologie kan interessante dingen doen!",
-         "info":"<em>Shamir's Secret Sharing</em> is een algoritme dat je de seed in stukjes laat knippen op een veilige manier. Je kunt de seed in een 3-van-5-systeem stoppen bijvoorbeeld. Dit betekent dat je de seed in 5 delen kniopt, en 3 delen zijn nodig om bij je bitcoins te komen. Je kunt alle getallen kiezen (lees: x-van-n).",
+         "info":"<em>Shamir's Secret Sharing</em> is een algoritme dat je de seed in stukjes laat knippen op een veilige manier. Je kunt de seed in een 3-van-5-systeem stoppen bijvoorbeeld. Dit betekent dat je de seed in 5 delen knipt, en 3 delen zijn nodig om bij je bitcoins te komen. Je kunt alle getallen kiezen (lees: x-van-n).",
          "warning":"Dit is een zeer technische oplossing. Weet je zeker dat je deze manier nog weet te ontcijferen over 10 jaar?",
          "question":"Zoals dit?",
          "yes":"Cool. Ik knip mijn seed met Shamir's Secret Sharing in stukjes!",
