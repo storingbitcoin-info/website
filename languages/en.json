@@ -30,6 +30,7 @@
             "next": "Start choosing a wallet"
         },
         "exchange": {
+            "infobox-header": "When evaluating an exchange's security, consider:",
             "intro": "Exchanges are a great way to buy bitcoin. You can use market orders, or              do more advanced orders there. After buying, your bitcoin remain on the exchange.",
             "warning": "Exchanges can get hacked. Your account can get hacked. Exchanges can              go bankrupt and disappear.",
             "question": "Do you accept this risk?",
@@ -45,7 +46,8 @@
         },
         "storeexchange": {
             "intro": "You will keep your bitcoin on an exchange",
-            "warning": "Accounts without 2FA are insecure. Enable 2FA!",
+            "warning": "Accounts without 2FA are insecure. Enable proper 2FA using authentication apps, or email! SMS 2FA is not secure.",
+            "info": "For tax purposes, keep records of all your purchases, including dates, amounts, and prices. This will help you calculate your cost basis when you eventually sell or spend your bitcoin.",
             "question": "That's it! You will keep your bitcoin at a third party",
             "reconsider": "Actually. I might not like that after all",
             "theend": "Sure!"
@@ -66,6 +68,7 @@
             "theend": "Sure! I will look into this."
         },
         "softwarewallet": {
+            "infobox-header": "Popular Bitcoin Wallet Types:",
             "intro": "Let's look at Software Wallets, which are wallets on your phone or              computer.. They are often the easiest way to store (small amounts) of bitcoin. They allow you to spend              quickly and on the road, which is cool. Most often 3rd parties are informed of balances belonging to your              IP address.",
             "warning": "Be aware software wallets can get hacked and your info is not always              private",
             "question": "Are you OK with the risk of losing the amount you have on this              software wallet because of hacking, and your data not necessarily being private?",
@@ -73,12 +76,15 @@
             "no": "No, I want more security"
         },
         "softwarewallet2": {
-            "intro": "Via bitcoin.org, choose a wallet that meets your needs. Choose a              non-custodial wallet. Install it on your phone/computer",
+            "infobox-header": "Lightning Network Considerations:",
+            "intro": "Via bitcoin-only.com, choose an On-chain and/or Lightning wallet for your platform (Desktop, Android or iOS). Install it on your phone/computer",
             "warning": "Be aware that you will get a backup phrase. If your phone is              broken/stolen you cannot recover the coins without this backup phrase. So store it well, on paper (never              digitally), possibly in a safe?",
+            "info": "For tax purposes, consider using wallet software that can export transaction history. Keep records of all transactions, including dates, amounts, and purposes.",
             "question": "That's it! You are ready for the future.",
             "theend": "Final step"
         },
         "hardwarewallet": {
+            "infobox-header": "Types of Cold Storage Solutions:",
             "intro": "Hardware wallets are a great way to store secrets! Also there are a lot              of choices to be made, and we will help you.",
             "question": "Some wallets require you to get transaction info from a 3rd party.              Information will probably be right, but you need to trust them. Also they will get information about your              funds. Do you accept this risk?",
             "yes": "I trust 3rd parties to give me good information",
@@ -127,12 +133,14 @@
             "no": "No, I am not worried about that. I will put my seed in a safe                  place."
         },
         "fireprotection": {
+            "infobox-header": "Metal Backup Options:",
             "intro": "There are some solutions to protect your seed against fire",
             "steelplate": "You can buy a steel plate and hammer the words in",
             "safe": "You can put the seed in a fireproof safe",
             "next": "Cool, let's continue"
         },
         "otheraccess": {
+            "infobox-header": "Inheritance Planning for Bitcoin:",
             "intro": "Your bitcoin is now stored at one location (your home presumably). You              might not want your house to be a single point of failure.",
             "warning": "Also consider if you die, others might want access to your bitcoin!",
             "question": "Do you think others might need access to your bitcoin?",
@@ -156,7 +164,8 @@
             "intro": "Okay, we will not put complete trust in others. That makes sense.",
             "question": "Are you OK with spending some extra money for security?",
             "yes": "That's fine",
-            "no": "No, I have already spent money on my wallet, let's go for a simple                  solution"
+            "ssss": "No, I have already spent money on my wallet, let's go for a technical solution",
+            "cutseed": "No, I have already spent money on my wallet, let's go for a simple solution"
         },
         "willspendmoney": {
             "intro": "Security is worth money! We agree!",
@@ -175,6 +184,7 @@
         },
         "cutseed": {
             "intro": "Your seed is usually 24 words. You could cut these up into 2 parts of 12              words, or 3 parts of 8 words for example, and put these parts at different friends' locations",
+            "info": "Hint: you can also cut the list into 3 partial lists, as described here. Splitting a 24 word seed into 3 partial lists, any two of which can be recombined is likely to be sufficiently secure for most people and eliminates complexity.",
             "warning": "You need ALL the parts to get access to your bitcoin. Losing ANY of              these parts means you will forever lose access to your bitcoin!",
             "question": "Does that sound OK?",
             "yes": "Yeah that is fine (it's a backup anyway)",
@@ -182,6 +192,7 @@
             "custodialparty": "Maybe I'd like a 3rd party after all to arrange                  this for me"
         },
         "custodialparty": {
+            "infobox-header": "When evaluating custodial services:",
             "intro": "Third party could be a good solution. A notary or bank safe can act as your custodial, to store secrets. Or you can go to a party dedicated to buying/storing bitcoin.",
             "backupwalletcustodial": "Secure: I will put a 2nd wallet (possibly part of a multisig) at a custodial",
             "seedcopycustodial": "I will put a copy of my seed at a custodial, and understand I must trust the 3rd party",
@@ -213,6 +224,7 @@
             "intro": "You can put your secrets at a custodial party. Depending on the choices              you made, more or less trust is needed. For a multisig or Shamir's Secret Sharing-scheme, less trust is              needed than putting a copy of your seed at a 3rd party",
             "warning": "A <em>copy</em> of your seed will give full access to the 3rd party, make sure              you trust them",
             "theend": "I understand and I am OK with the risks / I will use multisig or                  Shamir's Secret Sharing",
+            "multisig": "Tell me about multisig",
             "ssss": "Tell me about Shamir's Secret Sharing"
         },
         "multisighow": {
@@ -232,13 +244,15 @@
             "theend": "Sure!"
         },
         "opsec": {
+            "infobox-header": "Privacy Best Practices:",
             "intro": "That's it. Hope this website was useful to you. If it was, please share              it.",
             "info": "You can always change your strategy later, if amounts or risks change!",
             "warning": "Keep in mind that talking about how you did your own security, might              not be safe and might make you a target.",
             "question": "That's it! You are ready for the future.",
             "start": "Great! (start again)",
             "github": "Make suggestions on GitHub",
-            "telegram": "Join the conversation on Telegram"
+            "telegram": "Join the conversation on Telegram",
+            "translate": "Help translating"
         }
     }
 }

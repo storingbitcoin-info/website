@@ -126,6 +126,16 @@
           </section>
 
           <section id="exchange">
+            <div class="infobox">
+              <p class="header" data-i18n="infobox-header">When evaluating an exchange's security, consider:</p>
+              <ul>
+                <li>Proof-of-reserves audits - Does the exchange regularly prove they hold customer funds?</li>
+                <li>Insurance - Does the exchange have insurance for customer funds?</li>
+                <li>Security history - Has the exchange been hacked before? How did they respond?</li>
+                <li>Regulatory compliance - Is the exchange properly licensed in your jurisdiction?</li>
+                <li>Cold storage practices - What percentage of funds are kept in cold storage?</li>
+              </ul>
+            </div><!--/infobox-->
             <p class="intro" data-i18n="intro">Exchanges are a great way to buy bitcoin. You can use market orders, or
               do more advanced orders there. After buying, your bitcoin remain on the exchange.</p>
             <p class="warning" data-i18n="warning"><img src="assets/img/Warning.svg">Exchanges can get hacked. Your account can get hacked. Exchanges can
@@ -155,6 +165,7 @@
           <!-- STOREEXCHANGE -->
           <p class="intro" data-i18n="intro">You will keep your bitcoin on an exchange</p>
           <p class="warning" data-i18n="warning"><img src="assets/img/Warning.svg">Accounts without 2FA are insecure. Enable proper 2FA using authentication apps, or email! SMS 2FA is not secure.</p>
+          <p class="info" data-i18n="info"><img src="assets/img/info-circle-solid.svg">For tax purposes, keep records of all your purchases, including dates, amounts, and prices. This will help you calculate your cost basis when you eventually sell or spend your bitcoin.</p>
           <p class="question" data-i18n="question">That's it! You will keep your bitcoin at a third party</p>
           <ul class="button">
             <li><a href="#/amount" data-i18n="reconsider">Actually. I might not like that after all</a></li>
@@ -170,6 +181,14 @@
             <ul>
               <li><a href="https://grayscale.co/bitcoin-trust/" rel="noopener noreferrer" target="_blank">Grayscale Bitcoin Trust</a></li>
               <li><a href="https://www.vaneck.com/nl/en/etf/digital-assets/vbtc/fact-sheet/" rel="noopener noreferrer" target="_blank">VanEck Vectors Bitcoin ETN</a></li>
+              <li><a href="https://www.ishares.com/us/products/239726/" rel="noopener noreferrer" target="_blank">Bitcoin ETFs (various providers)</a></li>
+            </ul>
+            <p>When evaluating funds, consider:</p>
+            <ul>
+              <li>Management fees - Higher fees reduce your returns over time</li>
+              <li>Tracking error - How closely does the fund follow Bitcoin's price?</li>
+              <li>Premium/discount - Some funds trade at prices different from their net asset value</li>
+              <li>Custody arrangements - How are the underlying bitcoins secured?</li>
             </ul>
           </div><!--/infobox-->
           <p class="intro" data-i18n="intro">There are funds (ETNs) you can buy on regular exchanges, the same type of exchange you can but stocks. Click the i-icon above for more info.</p>
@@ -197,6 +216,20 @@
         <section id="software" class="mastersection">
           <!-- SOFTWARE -->
           <section id="softwarewallet">
+            <div class="infobox">
+              <p class="header" data-i18n="infobox-header">Popular Bitcoin Wallet Types:</p>
+              <ul>
+                <li><strong>On-chain wallets</strong> - For regular Bitcoin transactions</li>
+                <li><strong>Lightning wallets</strong> - For fast, low-fee transactions</li>
+                <li><strong>Hybrid wallets</strong> - Support both on-chain and Lightning</li>
+              </ul>
+              <p>Recommended non-custodial wallets:</p>
+              <ul>
+                <li><strong>Mobile:</strong> BlueWallet, Muun, Phoenix, Breez</li>
+                <li><strong>Desktop:</strong> Electrum, Sparrow, Bitcoin Core</li>
+              </ul>
+              <p>For privacy-focused options, consider wallets with coin control features and CoinJoin support like Samourai (Android) or Sparrow (Desktop).</p>
+            </div><!--/infobox-->
             <p class="intro" data-i18n="intro">Let's look at Software Wallets, which are wallets on your phone or
               computer.. They are often the easiest way to store (small amounts) of bitcoin. They allow you to spend
               quickly and on the road, which is cool. Most often 3rd parties are informed of balances belonging to your
@@ -212,11 +245,23 @@
           </section>
 
           <section id="softwarewallet2"> 
+            <div class="infobox">
+              <p class="header" data-i18n="infobox-header">Lightning Network Considerations:</p>
+              <p>Lightning Network wallets allow for fast, low-fee Bitcoin transactions, but have some unique considerations:</p>
+              <ul>
+                <li><strong>Channel management</strong> - Some wallets handle this automatically, others require manual management</li>
+                <li><strong>Liquidity</strong> - Your ability to send/receive depends on your channel capacity</li>
+                <li><strong>Online requirement</strong> - Most Lightning wallets need to be online to receive payments</li>
+                <li><strong>Backup complexity</strong> - Lightning requires backing up channel states, not just seed words</li>
+              </ul>
+              <p>For beginners, consider custodial or hybrid solutions like Phoenix or Breez that simplify the experience.</p>
+            </div><!--/infobox-->
             <p class="intro" data-i18n="intro">Via <a href="https://bitcoin-only.com/wallets" rel="noopener noreferrer" target="_blank">bitcoin-only.com</a>, choose an On-chain and/or 
             Lightning wallet for your platform (Desktop, Android or iOS). Install it on your phone/computer</p>
             <p class="warning" data-i18n="warning"><img src="assets/img/Warning.svg">Be aware that you will get a backup phrase. If your phone is
               broken/stolen you cannot recover the coins without this backup phrase. So store it well, on paper (never
               digitally), possibly in a safe?</p>
+            <p class="info" data-i18n="info"><img src="assets/img/info-circle-solid.svg">For tax purposes, consider using wallet software that can export transaction history. Keep records of all transactions, including dates, amounts, and purposes.</p>
             <p class="question" data-i18n="question">That's it! You are ready for the future.</p>
             <ul class="button">
               <li><a href="#/opsec" data-i18n="theend">Final step</a></li>
@@ -228,6 +273,21 @@
         <section id="hardware" class="mastersection">
           <!-- HARDWARE -->
           <section id="hardwarewallet">
+            <div class="infobox">
+              <p class="header" data-i18n="infobox-header">Types of Cold Storage Solutions:</p>
+              <ul>
+                <li><strong>Hardware wallets</strong> - Purpose-built devices for secure key storage</li>
+                <li><strong>Air-gapped devices</strong> - Computers/devices that never connect to the internet</li>
+                <li><strong>Paper wallets</strong> - Physical documents containing private keys (not recommended for beginners)</li>
+                <li><strong>Steel backups</strong> - Metal plates with seed words for fire/water resistance</li>
+              </ul>
+              <p>Popular air-gapped solutions include:</p>
+              <ul>
+                <li>Passport by Foundation Devices</li>
+                <li>Jade by Blockstream</li>
+                <li>COLDCARD (which can be used air-gapped)</li>
+              </ul>
+            </div><!--/infobox-->
             <p class="intro" data-i18n="intro">Hardware wallets are a great way to store secrets! Also there are a lot
               of choices to be made, and we will help you.</p>
             <p class="question" data-i18n="question">Some wallets require you to get transaction info from a 3rd party.
@@ -244,6 +304,16 @@
               <p class="header" data-i18n="infobox-header">Below links to Node software. Before you buy a hardware wallet, make sure your wallet supports connecting to the software you have chosen. Bitcoin Core is the most widely used node software.</p>
               <ul>
                 <li><a href="https://bitcoincore.org/" rel="noopener noreferrer" target="_blank">Bitcoin Core</a></li>
+                <li><a href="https://umbrel.com/" rel="noopener noreferrer" target="_blank">Umbrel</a></li>
+                <li><a href="https://getmynode.com/" rel="noopener noreferrer" target="_blank">myNode</a></li>
+                <li><a href="https://raspiblitz.org/" rel="noopener noreferrer" target="_blank">RaspiBlitz</a></li>
+              </ul>
+              <p>Running your own node provides these benefits:</p>
+              <ul>
+                <li>Verify transactions without trusting third parties</li>
+                <li>Enhance privacy by not leaking transaction data to third parties</li>
+                <li>Support the Bitcoin network's decentralization</li>
+                <li>Access to advanced features like coin selection and RBF</li>
               </ul>
             </div><!--/infobox-->
             <p class="intro" data-i18n="intro">Having your own Bitcoin node will let you keep track of transactions
@@ -290,6 +360,17 @@
             <ul>
               <li><a href="https://coldcardwallet.com/" rel="noopener noreferrer" target="_blank">ColdCard (CoinKite)</a></li>
               <li><a href="https://trezor.io/" rel="noopener noreferrer" target="_blank">Trezor</a></li>
+              <li><a href="https://www.ledger.com/" rel="noopener noreferrer" target="_blank">Ledger</a></li>
+              <li><a href="https://foundationdevices.com/" rel="noopener noreferrer" target="_blank">Passport</a></li>
+              <li><a href="https://blockstream.com/jade/" rel="noopener noreferrer" target="_blank">Blockstream Jade</a></li>
+            </ul>
+            <p>When selecting a hardware wallet, consider:</p>
+            <ul>
+              <li>Open source vs. closed source firmware</li>
+              <li>Security features (secure element, air-gap capability)</li>
+              <li>Multisig support if needed</li>
+              <li>User interface and ease of use</li>
+              <li>Company reputation and longevity</li>
             </ul>
           </div><!--/infobox-->
             <p class="intro" data-i18n="intro">All right! Time to buy a wallet.</p>
@@ -326,6 +407,20 @@
           </section>
 
           <section id="fireprotection">
+            <div class="infobox">
+              <p class="header" data-i18n="infobox-header">Metal Backup Options:</p>
+              <ul>
+                <li><strong>Steel plates</strong> - Engrave or stamp your seed words into steel</li>
+                <li><strong>Premade solutions</strong> - Products like Cryptosteel, Billfodl, or Coldbit</li>
+                <li><strong>DIY options</strong> - Washers on a bolt, metal dog tags, etc.</li>
+              </ul>
+              <p>When creating a metal backup:</p>
+              <ul>
+                <li>Test fire resistance before trusting it with your seed</li>
+                <li>Consider storing multiple copies in different locations</li>
+                <li>Remember that the first 4 letters of each word are usually sufficient for recovery</li>
+              </ul>
+            </div><!--/infobox-->
             <p class="intro" data-i18n="intro">There are some solutions to protect your seed against fire</p>
             <ul>
               <li data-i18n="steelplate">You can buy a steel plate and hammer the words in</li>
@@ -337,6 +432,23 @@
           </section>
 
           <section id="otheraccess">
+            <div class="infobox">
+              <p class="header" data-i18n="infobox-header">Inheritance Planning for Bitcoin:</p>
+              <p>Consider creating an "inheritance packet" that includes:</p>
+              <ul>
+                <li>Instructions for accessing your bitcoin</li>
+                <li>Location of hardware wallets and seed backups</li>
+                <li>Basic explanation of how Bitcoin works</li>
+                <li>Contact information for a trusted Bitcoin-knowledgeable person</li>
+              </ul>
+              <p>Options for inheritance planning:</p>
+              <ul>
+                <li><strong>Dead man's switch</strong> - Automated system that requires periodic check-ins</li>
+                <li><strong>Multisig with trusted parties</strong> - Requires multiple people to access funds</li>
+                <li><strong>Time-locked transactions</strong> - Set up transactions that only become valid after a certain time</li>
+                <li><strong>Legal arrangements</strong> - Work with an attorney to include Bitcoin in your will/trust</li>
+              </ul>
+            </div><!--/infobox-->
             <p class="intro" data-i18n="intro">Your bitcoin is now stored at one location (your home presumably). You
               might not want your house to be a single point of failure.</p>
             <p class="warning" data-i18n="warning"><img src="assets/img/Warning.svg">Also consider if you die, others might want access to your bitcoin!
@@ -435,6 +547,24 @@
           </section>
 
           <section id="custodialparty">
+            <div class="infobox">
+              <p class="header" data-i18n="infobox-header">When evaluating custodial services:</p>
+              <ul>
+                <li><strong>Security practices</strong> - How do they secure customer funds?</li>
+                <li><strong>Insurance</strong> - Are deposits insured against theft or loss?</li>
+                <li><strong>Regulatory compliance</strong> - Are they properly licensed?</li>
+                <li><strong>Reputation</strong> - How long have they been in business? Any security incidents?</li>
+                <li><strong>Withdrawal process</strong> - How quickly can you access your funds?</li>
+                <li><strong>Fees</strong> - What are the costs for storage and withdrawals?</li>
+              </ul>
+              <p>Popular Bitcoin custody options include:</p>
+              <ul>
+                <li>Unchained Capital (collaborative custody)</li>
+                <li>Casa (key management service)</li>
+                <li>Coinbase Custody (institutional)</li>
+                <li>Kingdom Trust (retirement accounts)</li>
+              </ul>
+            </div><!--/infobox-->
             <p class="intro" data-i18n="intro">Third party could be a good solution. A notary or bank safe can act as your custodial, to store secrets. Or you can go to a party dedicated to buying/storing bitcoin.</p>
             <ul class="button">
               <li><a href="#/backupwalletcustodial" data-i18n="backupwalletcustodial">Secure: I will put a 2nd wallet (possibly part of a multisig) at a custodial</a></li>
@@ -538,6 +668,18 @@
         <section id="theend" class="mastersection">
           <!-- END -->
           <section id="opsec">
+            <div class="infobox">
+              <p class="header" data-i18n="infobox-header">Privacy Best Practices:</p>
+              <ul>
+                <li><strong>Avoid address reuse</strong> - Use a new address for each transaction</li>
+                <li><strong>Use coin control</strong> - Manually select which UTXOs to spend</li>
+                <li><strong>Consider CoinJoin</strong> - Mix your coins to break transaction history</li>
+                <li><strong>Use Tor/VPN</strong> - Hide your IP address when using Bitcoin</li>
+                <li><strong>Avoid KYC when possible</strong> - Consider P2P exchanges for privacy</li>
+                <li><strong>Separate identities</strong> - Don't link all your Bitcoin activity</li>
+              </ul>
+              <p>Remember that Bitcoin's blockchain is public and permanent. Once privacy is lost, it's very difficult to regain.</p>
+            </div><!--/infobox-->
             <p class="intro" data-i18n="intro">That's it. Hope this website was useful to you. If it was, please share
               it.</p>
             <p class="info" data-i18n="info"><img src="assets/img/info-circle-solid.svg">You can always change your strategy later, if amounts or risks change!
