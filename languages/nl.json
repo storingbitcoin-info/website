@@ -59,7 +59,15 @@
             "etf": "Vertel me over spot-bitcoin-ETF's (VS en Europa).",
             "reconsider": "Dat vind ik niet fijn. Ik wil zelf mijn bitcoin beheren.",
             "theend": "Prima! Ik zal fondsen kopen op een reguliere beurs.",
-            "infobox-header": "Er zijn verschillende soorten fonds-achtige producten:"
+            "infobox-header": "Er zijn verschillende soorten fonds-achtige producten:",
+            "fund-spot": "<strong>Spot-bitcoin-ETF's / ETP's</strong> - houden echte bitcoin aan bij een bewaarder (bijv. iShares IBIT, Fidelity FBTC, CoinShares, WisdomTree)",
+            "fund-etn": "<strong>ETN's (exchange-traded notes)</strong> - een schuldinstrument dat de bitcoinprijs volgt (bijv. VanEck Bitcoin ETN)",
+            "fund-trust": "<strong>Trusts</strong> - oudere, gesloten structuren (bijv. Grayscale Bitcoin Trust)",
+            "consider-header": "Let bij het beoordelen van deze producten op het volgende:",
+            "consider-fees": "Beheerkosten - Hogere kosten verlagen je rendement op de lange termijn",
+            "consider-tracking": "Tracking error - Hoe nauwkeurig volgt het product de bitcoinprijs?",
+            "consider-premium": "Premie/korting - Sommige producten worden verhandeld tegen een prijs die afwijkt van hun intrinsieke waarde",
+            "consider-custody": "Bewaring - Hoe worden de onderliggende bitcoins beveiligd, en is het product fysiek gedekt?"
         },
         "etf": {
             "infobox-header": "Voorbeelden van spot-bitcoin-beursproducten:",
