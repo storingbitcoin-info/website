@@ -59,7 +59,15 @@
             "question": "How does that sound?",
             "etf": "Tell me about spot Bitcoin ETFs (US and Europe).",
             "reconsider": "Don't like that. I want to self-custody.",
-            "theend": "Sure! I will buy fund-like products on a regular exchange."
+            "theend": "Sure! I will buy fund-like products on a regular exchange.",
+            "fund-spot": "<strong>Spot Bitcoin ETFs / ETPs</strong> - hold actual bitcoin with a custodian (e.g. iShares IBIT, Fidelity FBTC, CoinShares, WisdomTree)",
+            "fund-etn": "<strong>ETNs (exchange-traded notes)</strong> - a debt instrument tracking bitcoin's price (e.g. VanEck Bitcoin ETN)",
+            "fund-trust": "<strong>Trusts</strong> - older closed structures (e.g. Grayscale Bitcoin Trust)",
+            "consider-header": "When evaluating any of these, consider:",
+            "consider-fees": "Management fees - Higher fees reduce your returns over time",
+            "consider-tracking": "Tracking error - How closely does the product follow Bitcoin's price?",
+            "consider-premium": "Premium/discount - Some products trade at prices different from their net asset value",
+            "consider-custody": "Custody arrangements - How are the underlying bitcoins secured, and is the product physically backed?"
         },
         "etf": {
             "infobox-header": "Examples of spot Bitcoin exchange-traded products:",
