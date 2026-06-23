@@ -53,12 +53,22 @@
             "theend": "Sure!"
         },
         "fundlike": {
-            "infobox-header": "Samples of funds are:",
-            "intro": "There are funds (ETNs) you can buy on regular exchanges, the same type of exchange you can but stocks. Click the i-icon above for more info.",
-            "warning": "If you use these products, you can never be technically sure the fund really holds your bitcoin.",
+            "infobox-header": "There are several kinds of fund-like products:",
+            "intro": "There are exchange-traded products - ETFs, ETPs, ETNs and trusts - that you can buy on the same regular exchanges where you buy stocks. Click the i-icon above for more info.",
+            "warning": "If you use these products, you do not control the bitcoin yourself, and with some products you can never be technically sure the fund really holds your bitcoin.",
             "question": "How does that sound?",
+            "etf": "Tell me about spot Bitcoin ETFs (US and Europe).",
             "reconsider": "Don't like that. I want to self-custody.",
             "theend": "Sure! I will buy fund-like products on a regular exchange."
+        },
+        "etf": {
+            "infobox-header": "Examples of spot Bitcoin exchange-traded products:",
+            "intro": "A spot Bitcoin ETF (in Europe usually called an ETP or ETN) is a regulated product that actually holds bitcoin for you. You own shares that you can buy and sell on a normal stock exchange, inside the same broker or pension account you already use. The US approved spot Bitcoin ETFs in January 2024; Europe has had physically-backed Bitcoin ETPs for several years.",
+            "warning": "You do not control the private keys. \"Not your keys, not your coins\" - you cannot withdraw actual bitcoin, you rely on the issuer and its custodian, and you can only trade during market hours.",
+            "info": "ETFs can be convenient for tax-sheltered or retirement accounts and remove the burden of self-custody, but they reintroduce third-party and counterparty risk.",
+            "question": "How does that sound?",
+            "reconsider": "I'd rather hold the actual bitcoin myself (self-custody).",
+            "theend": "Sounds good! I'll buy a spot Bitcoin ETF on a regular exchange."
         },
         "multisigparty": {
             "intro": "There are parties who help you set up a multisig solution. They are one of the parties in your multisig setup.",

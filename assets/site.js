@@ -25,7 +25,7 @@ var modalInner = document.getElementById("modalInner");
 var infoboxbutton = document.getElementById("infoboxbutton");
 var backbutton  = document.getElementById("back-button");
 var span = document.getElementsByClassName("close")[0];
-infoboxbutton.onclick = function() {
+infoboxbutton.onclick = function(event) {
   event.preventDefault();
   modal.style.display = "flex";
   updateInfoboxContent();
@@ -42,6 +42,7 @@ window.onclick = function(event) {
 
 Reveal.on( 'slidechanged', event => {
   // event.previousSlide, event.currentSlide, event.indexh, event.indexv
+  currentSlide = event.currentSlide;
   if (typeof event.previousSlide !== 'undefined') {
     // there is a previous slide
     backbutton.style.display="flex"

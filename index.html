@@ -177,28 +177,69 @@
         <section id="fundlike">
           <!-- FUNDLIKE -->
           <div class="infobox">
-            <p class="header" data-i18n="infobox-header">Samples of funds are:</p>
+            <p class="header" data-i18n="infobox-header">There are several kinds of fund-like products:</p>
             <ul>
-              <li><a href="https://grayscale.co/bitcoin-trust/" rel="noopener noreferrer" target="_blank">Grayscale Bitcoin Trust</a></li>
-              <li><a href="https://www.vaneck.com/nl/en/etf/digital-assets/vbtc/fact-sheet/" rel="noopener noreferrer" target="_blank">VanEck Vectors Bitcoin ETN</a></li>
-              <li><a href="https://www.ishares.com/us/products/239726/" rel="noopener noreferrer" target="_blank">Bitcoin ETFs (various providers)</a></li>
+              <li><strong>Spot Bitcoin ETFs / ETPs</strong> - hold actual bitcoin with a custodian (e.g. iShares IBIT, Fidelity FBTC, CoinShares, WisdomTree)</li>
+              <li><strong>ETNs (exchange-traded notes)</strong> - a debt instrument tracking bitcoin's price (e.g. VanEck Bitcoin ETN)</li>
+              <li><strong>Trusts</strong> - older closed structures (e.g. Grayscale Bitcoin Trust)</li>
             </ul>
-            <p>When evaluating funds, consider:</p>
+            <p>When evaluating any of these, consider:</p>
             <ul>
               <li>Management fees - Higher fees reduce your returns over time</li>
-              <li>Tracking error - How closely does the fund follow Bitcoin's price?</li>
-              <li>Premium/discount - Some funds trade at prices different from their net asset value</li>
-              <li>Custody arrangements - How are the underlying bitcoins secured?</li>
+              <li>Tracking error - How closely does the product follow Bitcoin's price?</li>
+              <li>Premium/discount - Some products trade at prices different from their net asset value</li>
+              <li>Custody arrangements - How are the underlying bitcoins secured, and is the product physically backed?</li>
             </ul>
           </div><!--/infobox-->
-          <p class="intro" data-i18n="intro">There are funds (ETNs) you can buy on regular exchanges, the same type of exchange you can but stocks. Click the i-icon above for more info.</p>
-          <p class="warning" data-i18n="warning"><img src="assets/img/Warning.svg">If you use these products, you can never be technically sure the fund really holds your bitcoin.</p>
+          <p class="intro" data-i18n="intro">There are exchange-traded products - ETFs, ETPs, ETNs and trusts - that you can buy on the same regular exchanges where you buy stocks. Click the i-icon above for more info.</p>
+          <p class="warning" data-i18n="warning"><img src="assets/img/Warning.svg">If you use these products, you do not control the bitcoin yourself, and with some products you can never be technically sure the fund really holds your bitcoin.</p>
           <p class="question" data-i18n="question">How does that sound?</p>
           <ul class="button">
+            <li><a href="#/etf" data-i18n="etf">Tell me about spot Bitcoin ETFs (US and Europe).</a></li>
             <li><a href="#/amount" data-i18n="reconsider">Don't like that. I want to self-custody.</a></li>
             <li><a href="#/opsec" data-i18n="theend">Sure! I will buy fund-like products on a regular exchange.</a></li>
           </ul>
         </section><!-- /FUNDLIKE -->
+
+
+        <section id="etf">
+          <!-- ETF -->
+          <div class="infobox">
+            <p class="header" data-i18n="infobox-header">Examples of spot Bitcoin exchange-traded products:</p>
+            <p>United States (spot Bitcoin ETFs, trading since January 2024):</p>
+            <ul>
+              <li><a href="https://www.ishares.com" rel="noopener noreferrer" target="_blank">iShares Bitcoin Trust (IBIT) - BlackRock</a></li>
+              <li><a href="https://www.fidelity.com" rel="noopener noreferrer" target="_blank">Fidelity Wise Origin Bitcoin Fund (FBTC)</a></li>
+              <li><a href="https://www.ark-funds.com" rel="noopener noreferrer" target="_blank">ARK 21Shares Bitcoin ETF (ARKB)</a></li>
+              <li><a href="https://www.bitwiseinvestments.com" rel="noopener noreferrer" target="_blank">Bitwise Bitcoin ETF (BITB)</a></li>
+              <li><a href="https://www.grayscale.com" rel="noopener noreferrer" target="_blank">Grayscale Bitcoin Trust (GBTC) and Mini Trust (BTC)</a></li>
+            </ul>
+            <p>Europe (physically-backed Bitcoin ETPs / ETNs):</p>
+            <ul>
+              <li><a href="https://coinshares.com" rel="noopener noreferrer" target="_blank">CoinShares Physical Bitcoin (BITC)</a></li>
+              <li><a href="https://www.wisdomtree.eu" rel="noopener noreferrer" target="_blank">WisdomTree Physical Bitcoin (BTCW)</a></li>
+              <li><a href="https://www.21shares.com" rel="noopener noreferrer" target="_blank">21Shares Bitcoin Core ETP (CBTC)</a></li>
+              <li><a href="https://www.bitwiseinvestments.eu" rel="noopener noreferrer" target="_blank">Bitwise Physical Bitcoin ETP (BTCE)</a></li>
+              <li><a href="https://www.vaneck.com" rel="noopener noreferrer" target="_blank">VanEck Bitcoin ETN (VBTC)</a></li>
+            </ul>
+            <p>When choosing a spot Bitcoin ETF/ETP, compare:</p>
+            <ul>
+              <li>Expense ratio (TER) - fees are charged yearly and compound over time</li>
+              <li>Physically backed vs. synthetic - does it actually hold bitcoin, or only track the price?</li>
+              <li>Custodian - who holds the underlying bitcoin (e.g. Coinbase, Fidelity, Komainu)?</li>
+              <li>Liquidity and assets under management - larger products usually have tighter spreads</li>
+              <li>Availability in your country and inside your broker, ISA or pension account</li>
+            </ul>
+          </div><!--/infobox-->
+          <p class="intro" data-i18n="intro">A spot Bitcoin ETF (in Europe usually called an ETP or ETN) is a regulated product that actually holds bitcoin for you. You own shares that you can buy and sell on a normal stock exchange, inside the same broker or pension account you already use. The US approved spot Bitcoin ETFs in January 2024; Europe has had physically-backed Bitcoin ETPs for several years.</p>
+          <p class="warning" data-i18n="warning"><img src="assets/img/Warning.svg">You do not control the private keys. "Not your keys, not your coins" - you cannot withdraw actual bitcoin, you rely on the issuer and its custodian, and you can only trade during market hours.</p>
+          <p class="info" data-i18n="info"><img src="assets/img/info-circle-solid.svg">ETFs can be convenient for tax-sheltered or retirement accounts and remove the burden of self-custody, but they reintroduce third-party and counterparty risk.</p>
+          <p class="question" data-i18n="question">How does that sound?</p>
+          <ul class="button">
+            <li><a href="#/amount" data-i18n="reconsider">I'd rather hold the actual bitcoin myself (self-custody).</a></li>
+            <li><a href="#/opsec" data-i18n="theend">Sounds good! I'll buy a spot Bitcoin ETF on a regular exchange.</a></li>
+          </ul>
+        </section><!-- /ETF -->
 
 
         <section id="multisigparty">

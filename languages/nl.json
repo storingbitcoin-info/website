@@ -1,258 +1,268 @@
 {
-  "slides": {
-      "start":{
-         "header":"StoringBitcoin.info</h2>",
-         "sub":"Deze website helpt je een goede manier te vinden om je bitcoins op te slaan.",
-         "havebtc":"Heb je bitcoin?",
-         "no":"Nee, nog niet",
-         "yes":"Yeah!"
-      },
-      "ihavebtc":{
-         "intro":"Welkom mede-bitcoiner!",
-         "question":"Hoe sla je je bitcoins nu op?",
-         "exchange":"Op de exchange waar ik ze kocht",
-         "hardwarewallet":"Ik gebruik een hardwarewallet",
-         "softwarewallet":"Ik gebruik een softwarewallet om ze op te slaan (op telefoon of computer)",
-         "fundlike": "Vertel me over (exchange traded) fondsen."
-      },
-      "nobtc":{
-         "intro":"Ah, een precoiner! Voordat je bitcoins koopt, zorg ervoor dat je bitcoin begrijpt.",
-         "warning":"Koop nooit voor meer geld dan je kunt verliezen.",
-         "question":"Hoe wil je bitcoin kopen?",
-         "spot":"Simpel, door een spot-site te gebruiken",
-         "exchange":"Geavanceerd door een <em>exchange</em> of handelshuis te gebruiken",
-         "friends":"Ik koop van vrienden of gebruik een peer-to-peer-platform",
-         "fundlike": "Ik wil dat wel, maar op een gewone beurs"         
-      },
-      "spot":{
-         "intro":"Zogenaamde <em>spot</em>-sites laten je simpelweg bitcoin kopen. Je zegt hoeveel bitcoins je wilt of hoeveel euro's je uit wil geven.",
-         "question":"Na het kopen, moet je de bitcoins naar een <em>wallet</em> sturen",
-         "next":"Begin met het kiezen van een wallet."
-      },
-      "exchange":{
-         "infobox-header":"Bij het evalueren van de beveiliging van een exchange, overweeg:",
-         "intro":"Exchanges zijn een goede manier om bitcoin te kopen. Je kunt gebruikmaken van marktorders of van meer geavanceerde orders. Na het kopen, blijven je bitcoins op de exchange staan.",
-         "warning":"Exchanges kunnen worden gehackt. Je account kan worden gehackt. Exchanges kunnen failliet gaan en verdwijnen.",
-         "question":"Accepteer je die risico's?",
-         "yes":"Ja, ik accepteer de risico's",
-         "no":"Dat klinkt niet goed, wat moet ik doen!"
-      },
-      "amount":{
-         "intro":"Je moet besluiten hoe je je bitcoins op wil slaan.",
-         "question":"Is het een grote hoeveelheid?",
-         "softwarewallet":"Nee, het is niet veel. Ik heb geen hoge mate van beveiliging nodig. Vertel me alles over software-wallets.",
-         "hardwarewallet":"Ja, ik wil dit niet verliezen. Vertel me hoe ik zelf deze bitcoins veilig kan opslaan.",
-         "custodialparty":"Ja, ik wil dit niet verliezen. Vertel me hoe een derde partij mij kan helpen mijn bitcoins veilig te houden."
-      },
-      "storeexchange":{
-         "intro":"Je houdt je bitcoins op een exchange",
-         "warning":"Accounts zonder 2FA zijn onveilig. Activeer 2FA met authenticatie-apps of e-mail! SMS 2FA is niet veilig.",
-         "info":"Voor belastingdoeleinden, houd records bij van al je aankopen, inclusief datums, bedragen en prijzen. Dit helpt je bij het berekenen van je kostenbasis wanneer je uiteindelijk je bitcoin verkoopt of uitgeeft.",
-         "question":"Je bent klaar! Een derde partij bewaart je bitcoins.",
-         "reconsider":"Eigenlijk vind ik dat maar niks.",
-         "theend":"Sure!"
-      },
-      "fundlike": {
-            "intro": "Er zijn producten die je bij reguliere brokers kan kopen, zegmaar de brokers waar je ook aandelen kan kopen",
-            "warning": "Als je deze producten gebruikt, kun je technisch gezien nooit zeker weten of het fonds echt je bitcoin bezit.",
+    "slides": {
+        "start": {
+            "header": "StoringBitcoin.info</h2>",
+            "sub": "Deze website helpt je een goede manier te vinden om je bitcoins op te slaan.",
+            "havebtc": "Heb je bitcoin?",
+            "no": "Nee, nog niet",
+            "yes": "Yeah!"
+        },
+        "ihavebtc": {
+            "intro": "Welkom mede-bitcoiner!",
+            "question": "Hoe sla je je bitcoins nu op?",
+            "exchange": "Op de exchange waar ik ze kocht",
+            "hardwarewallet": "Ik gebruik een hardwarewallet",
+            "softwarewallet": "Ik gebruik een softwarewallet om ze op te slaan (op telefoon of computer)",
+            "fundlike": "Vertel me over (exchange traded) fondsen."
+        },
+        "nobtc": {
+            "intro": "Ah, een precoiner! Voordat je bitcoins koopt, zorg ervoor dat je bitcoin begrijpt.",
+            "warning": "Koop nooit voor meer geld dan je kunt verliezen.",
+            "question": "Hoe wil je bitcoin kopen?",
+            "spot": "Simpel, door een spot-site te gebruiken",
+            "exchange": "Geavanceerd door een <em>exchange</em> of handelshuis te gebruiken",
+            "friends": "Ik koop van vrienden of gebruik een peer-to-peer-platform",
+            "fundlike": "Ik wil dat wel, maar op een gewone beurs"
+        },
+        "spot": {
+            "intro": "Zogenaamde <em>spot</em>-sites laten je simpelweg bitcoin kopen. Je zegt hoeveel bitcoins je wilt of hoeveel euro's je uit wil geven.",
+            "question": "Na het kopen, moet je de bitcoins naar een <em>wallet</em> sturen",
+            "next": "Begin met het kiezen van een wallet."
+        },
+        "exchange": {
+            "infobox-header": "Bij het evalueren van de beveiliging van een exchange, overweeg:",
+            "intro": "Exchanges zijn een goede manier om bitcoin te kopen. Je kunt gebruikmaken van marktorders of van meer geavanceerde orders. Na het kopen, blijven je bitcoins op de exchange staan.",
+            "warning": "Exchanges kunnen worden gehackt. Je account kan worden gehackt. Exchanges kunnen failliet gaan en verdwijnen.",
+            "question": "Accepteer je die risico's?",
+            "yes": "Ja, ik accepteer de risico's",
+            "no": "Dat klinkt niet goed, wat moet ik doen!"
+        },
+        "amount": {
+            "intro": "Je moet besluiten hoe je je bitcoins op wil slaan.",
+            "question": "Is het een grote hoeveelheid?",
+            "softwarewallet": "Nee, het is niet veel. Ik heb geen hoge mate van beveiliging nodig. Vertel me alles over software-wallets.",
+            "hardwarewallet": "Ja, ik wil dit niet verliezen. Vertel me hoe ik zelf deze bitcoins veilig kan opslaan.",
+            "custodialparty": "Ja, ik wil dit niet verliezen. Vertel me hoe een derde partij mij kan helpen mijn bitcoins veilig te houden."
+        },
+        "storeexchange": {
+            "intro": "Je houdt je bitcoins op een exchange",
+            "warning": "Accounts zonder 2FA zijn onveilig. Activeer 2FA met authenticatie-apps of e-mail! SMS 2FA is niet veilig.",
+            "info": "Voor belastingdoeleinden, houd records bij van al je aankopen, inclusief datums, bedragen en prijzen. Dit helpt je bij het berekenen van je kostenbasis wanneer je uiteindelijk je bitcoin verkoopt of uitgeeft.",
+            "question": "Je bent klaar! Een derde partij bewaart je bitcoins.",
+            "reconsider": "Eigenlijk vind ik dat maar niks.",
+            "theend": "Sure!"
+        },
+        "fundlike": {
+            "intro": "Er zijn beursverhandelde producten - ETF's, ETP's, ETN's en trusts - die je kunt kopen op dezelfde reguliere beurzen waar je ook aandelen koopt. Klik op het i-icoon hierboven voor meer info.",
+            "warning": "Als je deze producten gebruikt, beheer je de bitcoin niet zelf, en bij sommige producten kun je technisch gezien nooit zeker weten of het fonds echt je bitcoin bezit.",
             "question": "Hoe klinkt dat?",
+            "etf": "Vertel me over spot-bitcoin-ETF's (VS en Europa).",
             "reconsider": "Dat vind ik niet fijn. Ik wil zelf mijn bitcoin beheren.",
             "theend": "Prima! Ik zal fondsen kopen op een reguliere beurs.",
-            "infobox-header":"Voorbeelden van fondsen zijn:"
-      },
-      "multisigparty": {
+            "infobox-header": "Er zijn verschillende soorten fonds-achtige producten:"
+        },
+        "etf": {
+            "infobox-header": "Voorbeelden van spot-bitcoin-beursproducten:",
+            "intro": "Een spot-bitcoin-ETF (in Europa meestal een ETP of ETN genoemd) is een gereguleerd product dat daadwerkelijk bitcoin voor je aanhoudt. Jij bezit aandelen die je op een gewone beurs koopt en verkoopt, via dezelfde broker of pensioenrekening die je al gebruikt. De VS keurde spot-bitcoin-ETF's goed in januari 2024; Europa heeft al enkele jaren fysiek gedekte bitcoin-ETP's.",
+            "warning": "Je beheert de private keys niet. \"Not your keys, not your coins\" - je kunt geen echte bitcoin opnemen, je bent afhankelijk van de uitgever en zijn custodian, en je kunt alleen handelen tijdens beursuren.",
+            "info": "ETF's kunnen handig zijn voor pensioen- of belastingvriendelijke rekeningen en nemen het gedoe van zelfbeheer weg, maar ze introduceren wel tegenpartij- en derde-partijrisico.",
+            "question": "Hoe klinkt dat?",
+            "reconsider": "Ik beheer mijn bitcoin liever zelf (self-custody).",
+            "theend": "Klinkt goed! Ik koop een spot-bitcoin-ETF op een gewone beurs."
+        },
+        "multisigparty": {
             "intro": "Er zijn partijen die je helpen bij het opzetten van een multisig-oplossing. Zij zijn een van de partijen in je multisig-setup.",
             "info": "Deze bedrijven zijn vaak gespecialiseerd in cryptocurrencies. Ze kunnen een goede beveiligingslaag bieden voor je bitcoin-opslag, die je beschermt tegen hacking, inbeslagname en persoonlijke aanvallen.",
             "question": "Hoe klinkt dat?",
             "reconsider": "Dat vind ik niet fijn. Ik wil zelf mijn bitcoin beheren.",
             "theend": "Prima! Ik zal dit onderzoeken."
-      },
-      "softwarewallet":{
-         "infobox-header":"Populaire Bitcoin Wallet Types:",
-         "intro":"Laten we softwarewallets eens onder de loep nemen. Dat zijn wallets op je telefoon of computer. Dit is vaak de simpelste manier om (kleine hoeveelheden) bitcoin op te slaan. Je kunt snel en makkelijk bitcoins uitgeven, en dat is cool. Vaak geven wallets van derde partijen je balans door die behoren bij je IP-adres.",
-         "warning":"Wees je er bewust van dat softwarewallets gehackt kunnen worden en dat je gegevens niet altijd privé zijn.",
-         "question":"Ben je er oké mee dat je het bedrag wat op de softwarewallet staat, kwijt kunt raken door hacks? En ook dat je data mogelijk niet privé gehouden worden?",
-         "yes":"Ja, dat is acceptabel.",
-         "no":"Nee, ik wil meer veiligheid!"
-      },
-      "softwarewallet2":{
-         "infobox-header":"Lightning Network Overwegingen:",
-         "intro":"Via bitcoin-only.com, kies een On-chain en/of Lightning wallet voor je platform (Desktop, Android of iOS). Installeer de wallet op je telefoon/computer",
-         "warning":"Let op: je krijgt een backup-zin, meestal 12 of 24 woorden. Als je telefoon kapot gaat of gestolen wordt, dan kun je je munten niet terugkrijgen zonder die zin. Sla die zin goed op! Het liefst op papier of metaal en nooit digitaal (dus ook geen digitale foto), wellicht in een kluis?",
-         "info":"Voor belastingdoeleinden, overweeg het gebruik van wallet-software die transactiegeschiedenis kan exporteren. Houd records bij van alle transacties, inclusief datums, bedragen en doeleinden.",
-         "question":"That's it! Je bent klaar voor de toekomst.",
-         "theend":"De laatste stap"
-      },
-      "hardwarewallet":{
-         "infobox-header":"Soorten Cold Storage Oplossingen:",
-         "intro":"Hardwarewallets zijn een heel goede manier om geheimen op te slaan! Ook daar krijg je veel verschillende keuzes voor je kiezen. Ook daar helpen we je mee.",
-         "question":"Sommige wallets hebben transactiedata nodig van derde partijen. Die informatie is over het algemeen juist, maar je moet ze alsnog vertrouwen. Ook kunnen ze informatie over je fondsen verkrijgen. Ben je bereid dat risico te lopen?",
-         "yes":"Dat vind ik prima, ik ga voor de makkelijke weg.",
-         "no":"Dat klinkt helemaal niet goed! Ik vertrouw geen derde partij."
-      },
-      "node":{
-         "infobox-header":"Hieronder links naar Node-software. Voordat je een hardware wallet koopt, zorg ervoor dat je wallet verbinding kan maken met de software die je hebt gekozen. Bitcoin Core is de meest gebruikte node-software.",
-         "intro":"Als je je eigen Bitcoin-node hebt, kun je zelf de transacties bijhouden. Geen noodzaak om een derde partije te vertrouwen. :)",
-         "requirement":"Onthoud dat je de mogelijkheid wil om met je eigen node te verbinden, niet alle wallets ondersteunen dat.",
-         "next":"Ik begrijp dat het hebben van een eigen node de enige manier is om niet te hoeven vertrouwen op derde partijen en ik ga er een installeren."
-      },
-      "robbery":{
-         "intro":"Zo, dus je hebt je eigen hardwarewallet, je houdt je eigen bitcoin. Heel tof. Nu nog iets om te overwegen...",
-         "warning":"Er is een kans dat je overvallen wordt (thuis?) en je gedwongen wordt je bitcoins op te geven...",
-         "question":"Wil je hier rekening mee houden?",
-         "yes":"Ja! Wat moet ik doen?",
-         "no":"Klinkt niet heel plausibel. Sla maar over!"
-      },
-      "robberysolutions":{
-         "intro":"Een overval kan altijd gebeuren, gelukkig zijn er wat oplossingen:",
-         "unlocktimeout":"Je kunt een hardwarewallet kopen waarbij de mogelijkheid is een timeout voor ontgrendelen in te stellen is. Dan moet je 1/2/4/8/24/... uur wachten voordat je kunt versturen.",
-         "distractionwallet":"Je kunt een tweede wallet kopen, een <i>distraction wallet</i>",
-         "secondaccount":"Je kunt een wallet kopen waarbij het mogelijk is een tweede balans op te zetten, een soort van afledingsmanoeuvre. Dit lagere bedrag ziet er dan uit als \"alles wat er te stelen is\"",
-         "warning":"Als het mogelijk is, stuur je wallet niet naar je huisadres. Als de verkoopdatabase van de verkopende partij gehackt wordt, dan weten de dieven waar je woont.",
-         "next":"Ik neem het mee, ga door!"
-      },
-      "buywallet":{
-         "infobox-header":"Hieronder staan enkele voorbeelden van vertrouwde bitcoin wallets. Het is aan jou om er een te vinden die de functies heeft die je nodig hebt.",
-         "intro":"Tijd om een wallet te kopen.",
-         "info":"Klik op het i-icoon bovenaan de pagina voor enkele wallet-suggesties",
-         "question":"Heb je een wallet gekocht?",
-         "linknode":"Ja, en mijn eigen node!",
-         "boughtwallet":"Ja, en ik wil geen eigen node.",
-         "node":"Ja, maar waarom wil ik een eigen node?"
-      },
-      "linknode":{
-         "intro":"Je neemt de moeilijke weg. Gaaf. Wees je eigen bank!",
-         "question":"Nu is het tijd je wallet-software te verbinden met je node",
-         "next":"Cool, gedaan!"
-      },
-      "boughtwallet":{
-         "intro":"Gefeliciteerd met je wallet! Een belangrijke stap in het veilig houden van je eigen bitcoin.",
-         "warning":"Nu je je hardwarewallet hebt, vraag de winkel je data te vernietigen. Niet-bestaande data kunnen niet gestolen worden! Bij de installatie van je wallet krijg je je zogenaamde 'seed', een set woorden. Die woorden moet je veilig offline opslaan. Dus niet, nooit opslaan op een computer, in de cloud (Dropbox en dergelijke) of op een foto. Je seed MOET offline blijven.",
-         "question":"Wil je de seed tegen vuur beschermen?",
-         "yes":"Ja, mijn bitcoins moeten tegen vuur bestand zijn!",
-         "no":"Nee joh, ik stop mijn seed in een brandkast of ergens anders waar het veilig is."
-      },
-      "fireprotection":{
-         "infobox-header":"Metalen Backup Opties:",
-         "intro":"Er bestaan verschillende opties om je seed tegen vuur te beschermen.",
-         "steelplate":"Je kunt een stalen plaatje kopen en de woorden daarin graveren",
-         "safe":"Je kunt de seed in een brandkast stoppen",
-         "next":"Ga door."
-      },
-      "otheraccess":{
-         "infobox-header":"Erfplanningsoverwegingen voor Bitcoin:",
-         "intro":"Je bitcoins zijn nu op één locatie opgeslagen (waarschijnlijk je huis). Wellicht is dat net iets te spannend dat je huis je <em>single point of failure</em> is.",
-         "warning":"Bedenk ook dat als je komt te overlijden, dat anderen (misschien) bij je bitcoins moeten kunnen!",
-         "question":"Denk je dat anderen bij je bitcoins moeten kunnen?",
-         "yes":"Ja, anderen hebben mogelijk toegang nodig / Ik wil niet dat mijn huis de enige plek is waar mijn bitcoins bestaan / Ik wil restricties instellen voor het uitgeven van mijn bitcoins.",
-         "no":"Nee, ik vind het allemaal best. Laten we hier aan voorbijgaan."
-      },
-      "trustpeople":{
-         "intro":"Je wilt een backup over meerdere locaties verspreiden.",
-         "question":"Vertrouw je bepaalde mensen 100%?",
-         "yes":"Ja, ik vertrouw bepaalde mensen met mijn geld, en ze wonen op andere plekken.",
-         "no":"Ik vertouw niemand helemaal honderd procent."
-      },
-      "havetrustedpeople":{
-         "intro":"Fijn dat er mensen zijn die je vertrouwt. Je kunt bij deze mensen in huis een kopie van je seed opslaan.",
-         "warning":"Wees gewaarschuwd! Er zijn nu meerdere plekken waar je seed, en dus je bitcoins, gestolen kunnen worden!",
-         "question":"Is dat ok?",
-         "yes":"Ja, ik geef deze mensen een kopie van mijn seed.",
-         "no":"Nee, vertel me over betere opties."
-      },
-      "spendmoney":{
-         "intro":"We vertrouwen anderen niet volledig. Dat is helemaal te begrijpen.",
-         "question":"Wil je wat extra geld uitgeven voor veiligheid?",
-         "yes":"Dat is goed.",
-         "ssss":"Nee, ik heb al geld aan een hardwarewallet uitgegeven, laten we voor een technische oplossing gaan.",
-         "cutseed":"Nee, ik heb al geld aan een hardwarewallet uitgegeven, laten we voor een simpele oplossing gaan."
-      },
-      "willspendmoney":{
-         "intro":"Veiligheid is geld waard!",
-         "info":"<ul><li>Je kunt naar de notaris</li><li>Je kunt je seed (of een tweede backup-wallet) in een (bank) kluis opslaan</li><li>Je kunt een derde partij gespecialiseerd in het opslaan van bitcoins vertrouwen</li></ul>",
-         "question":"Hoe klinkt dat?",
-         "yes":"Ik vind (een van) de oplossingen prettig klinken. Ik sla mijn seed (of 2de backup-wallet) op bij een van deze partijen.",
-         "no":"Ik heb liever een andere oplossing waar ik geen derde partij hoef te vertrouwen."
-      },
-      "ssss":{
-         "intro":"Technologie kan interessante dingen doen!",
-         "info":"<em>Shamir's Secret Sharing</em> is een algoritme dat je de seed in stukjes laat knippen op een veilige manier. Je kunt de seed in een 3-van-5-systeem stoppen bijvoorbeeld. Dit betekent dat je de seed in 5 delen knipt, en 3 delen zijn nodig om bij je bitcoins te komen. Je kunt alle getallen kiezen (lees: x-van-n).",
-         "warning":"Dit is een zeer technische oplossing. Weet je zeker dat je deze manier nog weet te ontcijferen over 10 jaar?",
-         "question":"Zoals dit?",
-         "yes":"Cool. Ik knip mijn seed met Shamir's Secret Sharing in stukjes!",
-         "simple":"Dat klinkt (te) lastig. Is er niet iets simpelers?"
-      },
-      "cutseed":{
-         "intro":"Je seed bestaat meestal uit 12 of 24 woorden. Die kun je opknippen in twee delen. Stel, je hebt een seed van 24 woorden, dan knip je die in twee delen van 12 woorden. of 3 delen van 8 woorden. Al die woorden leg je op verschillende locaties bij verschillende vrienden of familie.",
-         "info":"Tip: je kunt de lijst ook in 3 gedeeltelijke lijsten knippen, zoals hier beschreven. Het splitsen van een seed van 24 woorden in 3 gedeeltelijke lijsten, waarvan er twee kunnen worden gecombineerd, is waarschijnlijk voldoende veilig voor de meeste mensen en elimineert complexiteit.",
-         "warning":"Je hebt wel ALLE delen nodig om de seed samen te kunnen stellen!",
-         "question":"Klinkt dat goed?",
-         "yes":"Jaja, het is toch een backup?",
-         "ssss":"Hmmm. Leg toch maar uit hoe Shamir's Secret Sharing werkt.",
-         "custodialparty":"Misschien wil ik toch een derde partij die het voor me regelt."
-      },
-      "custodialparty":{
-         "infobox-header":"Bij het evalueren van bewaarservices:",
-         "intro":"Een derde partij kan een goede optie zijn. Onthoud wel: je moet wel enig vertrouwen hebben in deze partijen. Informeer je van te voren goed.",
-         "backupwalletcustodial":"Ik stop een tweede wallet in een safe, bij een notaris of een custodial. Vertel me hoe.",
-         "seedcopycustodial":"Ik leg een kopie van mijn seed bij een custodial.",
-         "multisigparty":"Vertel me over partijen die multisignature-oplossingen bieden.",
-         "fundlike": "Vertel me over (exchange traded) fondsen die ik kan kopen op gewone beurzen.",
-         "ssss":"Misschien vind ik de optie van een custodial toch niet zo fijn, wat is de technische optie?"
-      },
-      "multisig":{
-         "intro":"Een multisig bestaat uit verschillende (hardware)-wallets en X-van-N transacties. Je kunt bijvoorbeeld 5 wallets hebben, waarvan je er drie nodig hebt om je transactie te ondertekenen (met andere woorden: om je bitcoin te versturen heb je minimaal 3 wallets nodig) Het aantal maakt niet uit. Hoe  hoger het aantal, hoe meer acties er nodig zijn. Multisig wordt vaak gezien als de heilige graal van zelfbewaring. Het wordt ook gebruikt door grote bedrijven en exchanges om ervoor te zorgen dat niet één enkel persoon toegang heeft tot de bitcoins. Bijvoorbeeld drie wallets zijn nodig, de CEO, DFO en iemand genaamd Ben (ze heten altijd Ben, nooit Bob).",
-         "warning":"Je hebt meer partijen nodig voor het succesvol uitvoeren van een multisig-transactie. Dat kost meer tijd en moeite!",
-         "question":"Klinkt dat goed?",
-         "yes":"Ja, vertel me hoe ik deze hoge graad van beveiliging bereik!",
-         "custodialparty":"Misschien wil ik toch een derde partij om de boel veilig te houden.",
-         "ssss":"Vertel me over de technische oplossingen om dit op te lossen.",
-         "multisigparty": "Vertel me over partijen die multisignature-oplossingen bieden."
-      },
-      "distributeparts":{
-         "intro":"Je hebt je seed opgedeeld in meerdere stukjes. Heel goed! Nu kun je die stukjes in de huizen van vrienden opslaan of (een deel) bij een vertrouwde derde partij opslaan.",
-         "warning":"Vergeten hoe je de losse stukken te gebruiken, is een van de grotere risico's. Verzeker jezelf ervan dat je duidelijke instructies hebt hoe je bitcoins te bereiken (gebruik de delen) over tien jaar. Overweeg ook een jaarlijkse test te doen om te checken dat iedereen de stukken van de seed nog heeft.",
-         "physicalsecurity":"Ik verdeel de seed-delen over huizen van vrienden.",
-         "seedcopycustodial":"Ik plaats de kopieën bij een (vertrouwde) derde partij."
-      },
-      "backupwalletcustodial":{
-         "intro":"Je kunt meerdere hardwarewallets hebben die dezelfde seed gebruiken. Je overweegt een backuphardwarewallet bij een derde partij te plaatsen.",
-         "info":"Koop een tweede hardwarewallet en stel deze in met dezelfde seed als bij de andere. Nu kunnen beide wallets gebruikt worden om bij dezelfde bitcoins te komen.",
-         "theend":"Gaaf!"
-      },
-      "seedcopycustodial":{
-         "intro":"Je kunt je seed bij een derde partij opslaan. Afhankelijk van je keuzes kun je die meer of minder vertrouwen. Voor een multisig of Shamir's Sectret Sharing-schema heb je minder vertrouwen nodig in de derde partij dan als je je volledige seed daar achter laat.",
-         "warning":"Een kopie van je seed geeft een derde partij volledig toegang tot je bitcoins. Je moet de partij echt vertrouwen.",
-         "theend":"Ik begrijp de risico's en ik ben er oké mee / Ik ga multisig of Shamir's Secret gebruiken",
-         "multisig":"Vertel meer over multisig",
-         "ssss":"Vertel meer over Shamir's Secret Sharing."
-      },
-      "multisighow":{
-         "intro":"Multisigs zijn cool",
-         "step1":"Besluit hoeveel partijen (mensen) je in totaal mee wilt laten doen. Dit is je variabele <em>N</em>",
-         "step2":"Besluit met hoeveel van deze partijen je minimaal een transactie wil kunnen ondertekenen (bitcoins versturen). Dit is variabele <em>X</em>",
-         "step3":"Zoek een hardwarewallet die multisig-schema's ondersteunt. Koop bijvorbeeld <em>N</em> een van deze wallets",
-         "step4":"Stel je X-van-N multisig in met de wallets",
-         "step5":"Distribueer de wallets over meerdere partijen",
-         "step6":"Documenteer de benodigde stappen goed! Over 10 jaar moet je nog steeds begrijpen hoe je multisig te gebruiken.",
-         "warning":"Als je te veel delen van je multisig verliest of vergeet hoe je multisig te gebruiken, dan kun je nooit meer bij je bitcoins. Dat is een groot risico! Verzeker de mensen die je hier deelgenoot van maakt dat ze begrijpen hoe belangrijk hun deelname is en wat het betekent. Leg dit goed vast. Check elk jaar of iedereen nog in bezit is van hun wallets en begrijpt waarom je dat doet.",
-         "question":"Is dat allemaal klaar?",
-         "next":"Toon me de laatste stappen."
-      },
-      "physicalsecurity":{
-         "intro":"Het laatste dat je kunt overwegen, is fysieke beveiliging. Denk aan een kluis, wapens (alleen legaal). Dit geldt voor alle plekken waar je (delen van) je seeds of geheimen bewaart.",
-         "theend":"Check!"
-      },
-      "opsec":{
-         "infobox-header":"Privacy Best Practices:",
-         "intro":"Dat was het! We hopen dat deze website nuttig voor je was. Zo ja, deel!",
-         "info":"Je kan je strategie natuurlijk altijd aanpassen, als de bedragen of je risico's veranderen",
-         "warning":"Onthoud dat praten over hoe je je eigen veiligheid geregeld hebt, mogelijk niet veilig is en je mogelijk een doel (voor diefstal) maakt.",
-         "question":"Dat is het! Je bent klaar voor de toekomst!",
-         "start":"Begin opnieuw.",
-         "github": "Doe suggesties op GitHub",
-         "telegram": "Praat mee op Telegram",
-         "translate": "Help met vertalen"
+        },
+        "softwarewallet": {
+            "infobox-header": "Populaire Bitcoin Wallet Types:",
+            "intro": "Laten we softwarewallets eens onder de loep nemen. Dat zijn wallets op je telefoon of computer. Dit is vaak de simpelste manier om (kleine hoeveelheden) bitcoin op te slaan. Je kunt snel en makkelijk bitcoins uitgeven, en dat is cool. Vaak geven wallets van derde partijen je balans door die behoren bij je IP-adres.",
+            "warning": "Wees je er bewust van dat softwarewallets gehackt kunnen worden en dat je gegevens niet altijd privé zijn.",
+            "question": "Ben je er oké mee dat je het bedrag wat op de softwarewallet staat, kwijt kunt raken door hacks? En ook dat je data mogelijk niet privé gehouden worden?",
+            "yes": "Ja, dat is acceptabel.",
+            "no": "Nee, ik wil meer veiligheid!"
+        },
+        "softwarewallet2": {
+            "infobox-header": "Lightning Network Overwegingen:",
+            "intro": "Via bitcoin-only.com, kies een On-chain en/of Lightning wallet voor je platform (Desktop, Android of iOS). Installeer de wallet op je telefoon/computer",
+            "warning": "Let op: je krijgt een backup-zin, meestal 12 of 24 woorden. Als je telefoon kapot gaat of gestolen wordt, dan kun je je munten niet terugkrijgen zonder die zin. Sla die zin goed op! Het liefst op papier of metaal en nooit digitaal (dus ook geen digitale foto), wellicht in een kluis?",
+            "info": "Voor belastingdoeleinden, overweeg het gebruik van wallet-software die transactiegeschiedenis kan exporteren. Houd records bij van alle transacties, inclusief datums, bedragen en doeleinden.",
+            "question": "That's it! Je bent klaar voor de toekomst.",
+            "theend": "De laatste stap"
+        },
+        "hardwarewallet": {
+            "infobox-header": "Soorten Cold Storage Oplossingen:",
+            "intro": "Hardwarewallets zijn een heel goede manier om geheimen op te slaan! Ook daar krijg je veel verschillende keuzes voor je kiezen. Ook daar helpen we je mee.",
+            "question": "Sommige wallets hebben transactiedata nodig van derde partijen. Die informatie is over het algemeen juist, maar je moet ze alsnog vertrouwen. Ook kunnen ze informatie over je fondsen verkrijgen. Ben je bereid dat risico te lopen?",
+            "yes": "Dat vind ik prima, ik ga voor de makkelijke weg.",
+            "no": "Dat klinkt helemaal niet goed! Ik vertrouw geen derde partij."
+        },
+        "node": {
+            "infobox-header": "Hieronder links naar Node-software. Voordat je een hardware wallet koopt, zorg ervoor dat je wallet verbinding kan maken met de software die je hebt gekozen. Bitcoin Core is de meest gebruikte node-software.",
+            "intro": "Als je je eigen Bitcoin-node hebt, kun je zelf de transacties bijhouden. Geen noodzaak om een derde partije te vertrouwen. :)",
+            "requirement": "Onthoud dat je de mogelijkheid wil om met je eigen node te verbinden, niet alle wallets ondersteunen dat.",
+            "next": "Ik begrijp dat het hebben van een eigen node de enige manier is om niet te hoeven vertrouwen op derde partijen en ik ga er een installeren."
+        },
+        "robbery": {
+            "intro": "Zo, dus je hebt je eigen hardwarewallet, je houdt je eigen bitcoin. Heel tof. Nu nog iets om te overwegen...",
+            "warning": "Er is een kans dat je overvallen wordt (thuis?) en je gedwongen wordt je bitcoins op te geven...",
+            "question": "Wil je hier rekening mee houden?",
+            "yes": "Ja! Wat moet ik doen?",
+            "no": "Klinkt niet heel plausibel. Sla maar over!"
+        },
+        "robberysolutions": {
+            "intro": "Een overval kan altijd gebeuren, gelukkig zijn er wat oplossingen:",
+            "unlocktimeout": "Je kunt een hardwarewallet kopen waarbij de mogelijkheid is een timeout voor ontgrendelen in te stellen is. Dan moet je 1/2/4/8/24/... uur wachten voordat je kunt versturen.",
+            "distractionwallet": "Je kunt een tweede wallet kopen, een <i>distraction wallet</i>",
+            "secondaccount": "Je kunt een wallet kopen waarbij het mogelijk is een tweede balans op te zetten, een soort van afledingsmanoeuvre. Dit lagere bedrag ziet er dan uit als \"alles wat er te stelen is\"",
+            "warning": "Als het mogelijk is, stuur je wallet niet naar je huisadres. Als de verkoopdatabase van de verkopende partij gehackt wordt, dan weten de dieven waar je woont.",
+            "next": "Ik neem het mee, ga door!"
+        },
+        "buywallet": {
+            "infobox-header": "Hieronder staan enkele voorbeelden van vertrouwde bitcoin wallets. Het is aan jou om er een te vinden die de functies heeft die je nodig hebt.",
+            "intro": "Tijd om een wallet te kopen.",
+            "info": "Klik op het i-icoon bovenaan de pagina voor enkele wallet-suggesties",
+            "question": "Heb je een wallet gekocht?",
+            "linknode": "Ja, en mijn eigen node!",
+            "boughtwallet": "Ja, en ik wil geen eigen node.",
+            "node": "Ja, maar waarom wil ik een eigen node?"
+        },
+        "linknode": {
+            "intro": "Je neemt de moeilijke weg. Gaaf. Wees je eigen bank!",
+            "question": "Nu is het tijd je wallet-software te verbinden met je node",
+            "next": "Cool, gedaan!"
+        },
+        "boughtwallet": {
+            "intro": "Gefeliciteerd met je wallet! Een belangrijke stap in het veilig houden van je eigen bitcoin.",
+            "warning": "Nu je je hardwarewallet hebt, vraag de winkel je data te vernietigen. Niet-bestaande data kunnen niet gestolen worden! Bij de installatie van je wallet krijg je je zogenaamde 'seed', een set woorden. Die woorden moet je veilig offline opslaan. Dus niet, nooit opslaan op een computer, in de cloud (Dropbox en dergelijke) of op een foto. Je seed MOET offline blijven.",
+            "question": "Wil je de seed tegen vuur beschermen?",
+            "yes": "Ja, mijn bitcoins moeten tegen vuur bestand zijn!",
+            "no": "Nee joh, ik stop mijn seed in een brandkast of ergens anders waar het veilig is."
+        },
+        "fireprotection": {
+            "infobox-header": "Metalen Backup Opties:",
+            "intro": "Er bestaan verschillende opties om je seed tegen vuur te beschermen.",
+            "steelplate": "Je kunt een stalen plaatje kopen en de woorden daarin graveren",
+            "safe": "Je kunt de seed in een brandkast stoppen",
+            "next": "Ga door."
+        },
+        "otheraccess": {
+            "infobox-header": "Erfplanningsoverwegingen voor Bitcoin:",
+            "intro": "Je bitcoins zijn nu op één locatie opgeslagen (waarschijnlijk je huis). Wellicht is dat net iets te spannend dat je huis je <em>single point of failure</em> is.",
+            "warning": "Bedenk ook dat als je komt te overlijden, dat anderen (misschien) bij je bitcoins moeten kunnen!",
+            "question": "Denk je dat anderen bij je bitcoins moeten kunnen?",
+            "yes": "Ja, anderen hebben mogelijk toegang nodig / Ik wil niet dat mijn huis de enige plek is waar mijn bitcoins bestaan / Ik wil restricties instellen voor het uitgeven van mijn bitcoins.",
+            "no": "Nee, ik vind het allemaal best. Laten we hier aan voorbijgaan."
+        },
+        "trustpeople": {
+            "intro": "Je wilt een backup over meerdere locaties verspreiden.",
+            "question": "Vertrouw je bepaalde mensen 100%?",
+            "yes": "Ja, ik vertrouw bepaalde mensen met mijn geld, en ze wonen op andere plekken.",
+            "no": "Ik vertouw niemand helemaal honderd procent."
+        },
+        "havetrustedpeople": {
+            "intro": "Fijn dat er mensen zijn die je vertrouwt. Je kunt bij deze mensen in huis een kopie van je seed opslaan.",
+            "warning": "Wees gewaarschuwd! Er zijn nu meerdere plekken waar je seed, en dus je bitcoins, gestolen kunnen worden!",
+            "question": "Is dat ok?",
+            "yes": "Ja, ik geef deze mensen een kopie van mijn seed.",
+            "no": "Nee, vertel me over betere opties."
+        },
+        "spendmoney": {
+            "intro": "We vertrouwen anderen niet volledig. Dat is helemaal te begrijpen.",
+            "question": "Wil je wat extra geld uitgeven voor veiligheid?",
+            "yes": "Dat is goed.",
+            "ssss": "Nee, ik heb al geld aan een hardwarewallet uitgegeven, laten we voor een technische oplossing gaan.",
+            "cutseed": "Nee, ik heb al geld aan een hardwarewallet uitgegeven, laten we voor een simpele oplossing gaan."
+        },
+        "willspendmoney": {
+            "intro": "Veiligheid is geld waard!",
+            "info": "<ul><li>Je kunt naar de notaris</li><li>Je kunt je seed (of een tweede backup-wallet) in een (bank) kluis opslaan</li><li>Je kunt een derde partij gespecialiseerd in het opslaan van bitcoins vertrouwen</li></ul>",
+            "question": "Hoe klinkt dat?",
+            "yes": "Ik vind (een van) de oplossingen prettig klinken. Ik sla mijn seed (of 2de backup-wallet) op bij een van deze partijen.",
+            "no": "Ik heb liever een andere oplossing waar ik geen derde partij hoef te vertrouwen."
+        },
+        "ssss": {
+            "intro": "Technologie kan interessante dingen doen!",
+            "info": "<em>Shamir's Secret Sharing</em> is een algoritme dat je de seed in stukjes laat knippen op een veilige manier. Je kunt de seed in een 3-van-5-systeem stoppen bijvoorbeeld. Dit betekent dat je de seed in 5 delen knipt, en 3 delen zijn nodig om bij je bitcoins te komen. Je kunt alle getallen kiezen (lees: x-van-n).",
+            "warning": "Dit is een zeer technische oplossing. Weet je zeker dat je deze manier nog weet te ontcijferen over 10 jaar?",
+            "question": "Zoals dit?",
+            "yes": "Cool. Ik knip mijn seed met Shamir's Secret Sharing in stukjes!",
+            "simple": "Dat klinkt (te) lastig. Is er niet iets simpelers?"
+        },
+        "cutseed": {
+            "intro": "Je seed bestaat meestal uit 12 of 24 woorden. Die kun je opknippen in twee delen. Stel, je hebt een seed van 24 woorden, dan knip je die in twee delen van 12 woorden. of 3 delen van 8 woorden. Al die woorden leg je op verschillende locaties bij verschillende vrienden of familie.",
+            "info": "Tip: je kunt de lijst ook in 3 gedeeltelijke lijsten knippen, zoals hier beschreven. Het splitsen van een seed van 24 woorden in 3 gedeeltelijke lijsten, waarvan er twee kunnen worden gecombineerd, is waarschijnlijk voldoende veilig voor de meeste mensen en elimineert complexiteit.",
+            "warning": "Je hebt wel ALLE delen nodig om de seed samen te kunnen stellen!",
+            "question": "Klinkt dat goed?",
+            "yes": "Jaja, het is toch een backup?",
+            "ssss": "Hmmm. Leg toch maar uit hoe Shamir's Secret Sharing werkt.",
+            "custodialparty": "Misschien wil ik toch een derde partij die het voor me regelt."
+        },
+        "custodialparty": {
+            "infobox-header": "Bij het evalueren van bewaarservices:",
+            "intro": "Een derde partij kan een goede optie zijn. Onthoud wel: je moet wel enig vertrouwen hebben in deze partijen. Informeer je van te voren goed.",
+            "backupwalletcustodial": "Ik stop een tweede wallet in een safe, bij een notaris of een custodial. Vertel me hoe.",
+            "seedcopycustodial": "Ik leg een kopie van mijn seed bij een custodial.",
+            "multisigparty": "Vertel me over partijen die multisignature-oplossingen bieden.",
+            "fundlike": "Vertel me over (exchange traded) fondsen die ik kan kopen op gewone beurzen.",
+            "ssss": "Misschien vind ik de optie van een custodial toch niet zo fijn, wat is de technische optie?"
+        },
+        "multisig": {
+            "intro": "Een multisig bestaat uit verschillende (hardware)-wallets en X-van-N transacties. Je kunt bijvoorbeeld 5 wallets hebben, waarvan je er drie nodig hebt om je transactie te ondertekenen (met andere woorden: om je bitcoin te versturen heb je minimaal 3 wallets nodig) Het aantal maakt niet uit. Hoe  hoger het aantal, hoe meer acties er nodig zijn. Multisig wordt vaak gezien als de heilige graal van zelfbewaring. Het wordt ook gebruikt door grote bedrijven en exchanges om ervoor te zorgen dat niet één enkel persoon toegang heeft tot de bitcoins. Bijvoorbeeld drie wallets zijn nodig, de CEO, DFO en iemand genaamd Ben (ze heten altijd Ben, nooit Bob).",
+            "warning": "Je hebt meer partijen nodig voor het succesvol uitvoeren van een multisig-transactie. Dat kost meer tijd en moeite!",
+            "question": "Klinkt dat goed?",
+            "yes": "Ja, vertel me hoe ik deze hoge graad van beveiliging bereik!",
+            "custodialparty": "Misschien wil ik toch een derde partij om de boel veilig te houden.",
+            "ssss": "Vertel me over de technische oplossingen om dit op te lossen.",
+            "multisigparty": "Vertel me over partijen die multisignature-oplossingen bieden."
+        },
+        "distributeparts": {
+            "intro": "Je hebt je seed opgedeeld in meerdere stukjes. Heel goed! Nu kun je die stukjes in de huizen van vrienden opslaan of (een deel) bij een vertrouwde derde partij opslaan.",
+            "warning": "Vergeten hoe je de losse stukken te gebruiken, is een van de grotere risico's. Verzeker jezelf ervan dat je duidelijke instructies hebt hoe je bitcoins te bereiken (gebruik de delen) over tien jaar. Overweeg ook een jaarlijkse test te doen om te checken dat iedereen de stukken van de seed nog heeft.",
+            "physicalsecurity": "Ik verdeel de seed-delen over huizen van vrienden.",
+            "seedcopycustodial": "Ik plaats de kopieën bij een (vertrouwde) derde partij."
+        },
+        "backupwalletcustodial": {
+            "intro": "Je kunt meerdere hardwarewallets hebben die dezelfde seed gebruiken. Je overweegt een backuphardwarewallet bij een derde partij te plaatsen.",
+            "info": "Koop een tweede hardwarewallet en stel deze in met dezelfde seed als bij de andere. Nu kunnen beide wallets gebruikt worden om bij dezelfde bitcoins te komen.",
+            "theend": "Gaaf!"
+        },
+        "seedcopycustodial": {
+            "intro": "Je kunt je seed bij een derde partij opslaan. Afhankelijk van je keuzes kun je die meer of minder vertrouwen. Voor een multisig of Shamir's Sectret Sharing-schema heb je minder vertrouwen nodig in de derde partij dan als je je volledige seed daar achter laat.",
+            "warning": "Een kopie van je seed geeft een derde partij volledig toegang tot je bitcoins. Je moet de partij echt vertrouwen.",
+            "theend": "Ik begrijp de risico's en ik ben er oké mee / Ik ga multisig of Shamir's Secret gebruiken",
+            "multisig": "Vertel meer over multisig",
+            "ssss": "Vertel meer over Shamir's Secret Sharing."
+        },
+        "multisighow": {
+            "intro": "Multisigs zijn cool",
+            "step1": "Besluit hoeveel partijen (mensen) je in totaal mee wilt laten doen. Dit is je variabele <em>N</em>",
+            "step2": "Besluit met hoeveel van deze partijen je minimaal een transactie wil kunnen ondertekenen (bitcoins versturen). Dit is variabele <em>X</em>",
+            "step3": "Zoek een hardwarewallet die multisig-schema's ondersteunt. Koop bijvorbeeld <em>N</em> een van deze wallets",
+            "step4": "Stel je X-van-N multisig in met de wallets",
+            "step5": "Distribueer de wallets over meerdere partijen",
+            "step6": "Documenteer de benodigde stappen goed! Over 10 jaar moet je nog steeds begrijpen hoe je multisig te gebruiken.",
+            "warning": "Als je te veel delen van je multisig verliest of vergeet hoe je multisig te gebruiken, dan kun je nooit meer bij je bitcoins. Dat is een groot risico! Verzeker de mensen die je hier deelgenoot van maakt dat ze begrijpen hoe belangrijk hun deelname is en wat het betekent. Leg dit goed vast. Check elk jaar of iedereen nog in bezit is van hun wallets en begrijpt waarom je dat doet.",
+            "question": "Is dat allemaal klaar?",
+            "next": "Toon me de laatste stappen."
+        },
+        "physicalsecurity": {
+            "intro": "Het laatste dat je kunt overwegen, is fysieke beveiliging. Denk aan een kluis, wapens (alleen legaal). Dit geldt voor alle plekken waar je (delen van) je seeds of geheimen bewaart.",
+            "theend": "Check!"
+        },
+        "opsec": {
+            "infobox-header": "Privacy Best Practices:",
+            "intro": "Dat was het! We hopen dat deze website nuttig voor je was. Zo ja, deel!",
+            "info": "Je kan je strategie natuurlijk altijd aanpassen, als de bedragen of je risico's veranderen",
+            "warning": "Onthoud dat praten over hoe je je eigen veiligheid geregeld hebt, mogelijk niet veilig is en je mogelijk een doel (voor diefstal) maakt.",
+            "question": "Dat is het! Je bent klaar voor de toekomst!",
+            "start": "Begin opnieuw.",
+            "github": "Doe suggesties op GitHub",
+            "telegram": "Praat mee op Telegram",
+            "translate": "Help met vertalen"
+        }
     }
-  }
 }
