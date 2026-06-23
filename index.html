@@ -305,9 +305,58 @@
             <p class="info" data-i18n="info"><img src="assets/img/info-circle-solid.svg">For tax purposes, consider using wallet software that can export transaction history. Keep records of all transactions, including dates, amounts, and purposes.</p>
             <p class="question" data-i18n="question">That's it! You are ready for the future.</p>
             <ul class="button">
+              <li><a href="#/lightning" data-i18n="lightning">I want to use Lightning for fast, cheap payments - show me the steps.</a></li>
               <li><a href="#/opsec" data-i18n="theend">Final step</a></li>
             </ul>
           </section>
+
+          <section id="lightning">
+            <!-- LIGHTNING -->
+            <div class="infobox">
+              <p class="header" data-i18n="infobox-header">On-chain vs Lightning:</p>
+              <ul>
+                <li><strong>On-chain</strong> - best for savings and larger amounts; slower and higher fees per transaction</li>
+                <li><strong>Lightning</strong> - best for fast, low-fee, everyday spending and small amounts</li>
+              </ul>
+              <p>Use Lightning for spending money, and keep your long-term savings on-chain in a hardware wallet.</p>
+            </div><!--/infobox-->
+            <p class="intro" data-i18n="intro">Lightning is a second layer on top of Bitcoin for fast, low-fee payments. It is great for spending and small amounts, but it is not meant for cold storage of large savings - keep large amounts on-chain in a hardware wallet.</p>
+            <p class="question" data-i18n="question">How do you want to use Lightning?</p>
+            <ul class="button">
+              <li><a href="#/lightningcustodial" data-i18n="custodial">Keep it simple - a custodial Lightning wallet (someone else runs the node).</a></li>
+              <li><a href="#/lightningselfcustody" data-i18n="selfcustody">Self-custodial - I want to control my own channels and keys.</a></li>
+              <li><a href="#/softwarewallet2" data-i18n="skip">Actually, skip Lightning for now.</a></li>
+            </ul>
+          </section><!-- /LIGHTNING -->
+
+          <section id="lightningcustodial">
+            <!-- LIGHTNINGCUSTODIAL -->
+            <p class="intro" data-i18n="intro">Custodial Lightning wallets (e.g. Wallet of Satoshi, Blink) are the easiest way to start. The provider runs the node and manages channels for you, so there is nothing to configure.</p>
+            <p class="warning" data-i18n="warning"><img src="assets/img/Warning.svg">Not your keys: the provider holds your funds. Only keep amounts you are willing to lose, and treat it like cash in your pocket.</p>
+            <p class="info" data-i18n="info"><img src="assets/img/info-circle-solid.svg">Great for tips, small daily spending and learning how Lightning works.</p>
+            <p class="question" data-i18n="question">That's it for custodial Lightning!</p>
+            <ul class="button">
+              <li><a href="#/lightningselfcustody" data-i18n="selfcustody">Tell me about the self-custodial option instead.</a></li>
+              <li><a href="#/opsec" data-i18n="theend">Sounds good!</a></li>
+            </ul>
+          </section><!-- /LIGHTNINGCUSTODIAL -->
+
+          <section id="lightningselfcustody">
+            <!-- LIGHTNINGSELFCUSTODY -->
+            <p class="intro" data-i18n="intro">Self-custodial Lightning gives you control, with a bit more responsibility. Here are the steps:</p>
+            <ol>
+              <li data-i18n="step1">Choose a self-custodial Lightning wallet (e.g. Phoenix, Breez or Zeus), or run your own node (Umbrel, myNode) and connect a wallet to it.</li>
+              <li data-i18n="step2">Open and fund a channel - your wallet opens a channel on-chain, which needs an on-chain transaction and fee.</li>
+              <li data-i18n="step3">Keep some on-chain balance in reserve for fees and channel management.</li>
+              <li data-i18n="step4">Back up your channel state, not just your seed words - confirm your wallet does static channel backups.</li>
+              <li data-i18n="step5">Stay reachable - to receive payments your wallet or node generally needs to be online periodically.</li>
+            </ol>
+            <p class="warning" data-i18n="warning"><img src="assets/img/Warning.svg">Lightning backups differ from on-chain: losing channel state can mean losing the funds in your channels. Verify backup and recovery before storing meaningful amounts.</p>
+            <p class="question" data-i18n="question">Ready to spend over Lightning?</p>
+            <ul class="button">
+              <li><a href="#/opsec" data-i18n="theend">Yes, let's finish!</a></li>
+            </ul>
+          </section><!-- /LIGHTNINGSELFCUSTODY -->
         </section><!-- /SOFTWARE -->
 
 

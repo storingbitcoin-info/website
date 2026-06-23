@@ -91,7 +91,35 @@
             "warning": "Be aware that you will get a backup phrase. If your phone is              broken/stolen you cannot recover the coins without this backup phrase. So store it well, on paper (never              digitally), possibly in a safe?",
             "info": "For tax purposes, consider using wallet software that can export transaction history. Keep records of all transactions, including dates, amounts, and purposes.",
             "question": "That's it! You are ready for the future.",
+            "lightning": "I want to use Lightning for fast, cheap payments - show me the steps.",
             "theend": "Final step"
+        },
+        "lightning": {
+            "infobox-header": "On-chain vs Lightning:",
+            "intro": "Lightning is a second layer on top of Bitcoin for fast, low-fee payments. It is great for spending and small amounts, but it is not meant for cold storage of large savings - keep large amounts on-chain in a hardware wallet.",
+            "question": "How do you want to use Lightning?",
+            "custodial": "Keep it simple - a custodial Lightning wallet (someone else runs the node).",
+            "selfcustody": "Self-custodial - I want to control my own channels and keys.",
+            "skip": "Actually, skip Lightning for now."
+        },
+        "lightningcustodial": {
+            "intro": "Custodial Lightning wallets (e.g. Wallet of Satoshi, Blink) are the easiest way to start. The provider runs the node and manages channels for you, so there is nothing to configure.",
+            "warning": "Not your keys: the provider holds your funds. Only keep amounts you are willing to lose, and treat it like cash in your pocket.",
+            "info": "Great for tips, small daily spending and learning how Lightning works.",
+            "question": "That's it for custodial Lightning!",
+            "selfcustody": "Tell me about the self-custodial option instead.",
+            "theend": "Sounds good!"
+        },
+        "lightningselfcustody": {
+            "intro": "Self-custodial Lightning gives you control, with a bit more responsibility. Here are the steps:",
+            "step1": "Choose a self-custodial Lightning wallet (e.g. Phoenix, Breez or Zeus), or run your own node (Umbrel, myNode) and connect a wallet to it.",
+            "step2": "Open and fund a channel - your wallet opens a channel on-chain, which needs an on-chain transaction and fee.",
+            "step3": "Keep some on-chain balance in reserve for fees and channel management.",
+            "step4": "Back up your channel state, not just your seed words - confirm your wallet does static channel backups.",
+            "step5": "Stay reachable - to receive payments your wallet or node generally needs to be online periodically.",
+            "warning": "Lightning backups differ from on-chain: losing channel state can mean losing the funds in your channels. Verify backup and recovery before storing meaningful amounts.",
+            "question": "Ready to spend over Lightning?",
+            "theend": "Yes, let's finish!"
         },
         "hardwarewallet": {
             "infobox-header": "Types of Cold Storage Solutions:",

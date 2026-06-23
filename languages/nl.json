@@ -91,7 +91,35 @@
             "warning": "Let op: je krijgt een backup-zin, meestal 12 of 24 woorden. Als je telefoon kapot gaat of gestolen wordt, dan kun je je munten niet terugkrijgen zonder die zin. Sla die zin goed op! Het liefst op papier of metaal en nooit digitaal (dus ook geen digitale foto), wellicht in een kluis?",
             "info": "Voor belastingdoeleinden, overweeg het gebruik van wallet-software die transactiegeschiedenis kan exporteren. Houd records bij van alle transacties, inclusief datums, bedragen en doeleinden.",
             "question": "That's it! Je bent klaar voor de toekomst.",
+            "lightning": "Ik wil Lightning gebruiken voor snelle, goedkope betalingen - laat me de stappen zien.",
             "theend": "De laatste stap"
+        },
+        "lightning": {
+            "infobox-header": "On-chain versus Lightning:",
+            "intro": "Lightning is een tweede laag boven op Bitcoin voor snelle, goedkope betalingen. Het is ideaal om uit te geven en voor kleine bedragen, maar het is niet bedoeld voor het koud opslaan van grote spaartegoeden - houd grote bedragen on-chain in een hardwarewallet.",
+            "question": "Hoe wil je Lightning gebruiken?",
+            "custodial": "Houd het simpel - een custodial Lightning-wallet (iemand anders draait de node).",
+            "selfcustody": "Self-custodial - ik wil mijn eigen kanalen en keys beheren.",
+            "skip": "Toch maar niet, sla Lightning voorlopig over."
+        },
+        "lightningcustodial": {
+            "intro": "Custodial Lightning-wallets (bijv. Wallet of Satoshi, Blink) zijn de makkelijkste manier om te beginnen. De aanbieder draait de node en beheert de kanalen voor je, dus je hoeft niets in te stellen.",
+            "warning": "Not your keys: de aanbieder beheert je geld. Houd alleen bedragen aan die je kunt missen, en behandel het als contant geld in je broekzak.",
+            "info": "Ideaal voor fooien, kleine dagelijkse uitgaven en om te leren hoe Lightning werkt.",
+            "question": "Dat was het voor custodial Lightning!",
+            "selfcustody": "Vertel me liever over de self-custodial optie.",
+            "theend": "Klinkt goed!"
+        },
+        "lightningselfcustody": {
+            "intro": "Self-custodial Lightning geeft je controle, met iets meer verantwoordelijkheid. Dit zijn de stappen:",
+            "step1": "Kies een self-custodial Lightning-wallet (bijv. Phoenix, Breez of Zeus), of draai je eigen node (Umbrel, myNode) en koppel daar een wallet aan.",
+            "step2": "Open en financier een kanaal - je wallet opent on-chain een kanaal, wat een on-chain transactie en fee kost.",
+            "step3": "Houd wat on-chain saldo achter de hand voor fees en kanaalbeheer.",
+            "step4": "Maak een back-up van je channel state, niet alleen van je seed-woorden - controleer of je wallet automatische (static) channel backups maakt.",
+            "step5": "Blijf bereikbaar - om betalingen te ontvangen moet je wallet of node doorgaans regelmatig online zijn.",
+            "warning": "Lightning-back-ups werken anders dan on-chain: het verliezen van je channel state kan betekenen dat je het geld in je kanalen kwijtraakt. Controleer back-up en herstel voordat je er noemenswaardige bedragen op zet.",
+            "question": "Klaar om met Lightning te betalen?",
+            "theend": "Ja, laten we afronden!"
         },
         "hardwarewallet": {
             "infobox-header": "Soorten Cold Storage Oplossingen:",
